@@ -1,0 +1,96 @@
+
+## Introduction
+
+Within CBRAIN, the model files for Userfiles and CbrainTasks are not stored in the traditional Rails location, the app/models directory. Instead, a 'plugin' structure has been designed where those Userfiles and CbrainTasks are stored. The advantage of this approach is that the main CBRAIN framework can be updated and maintained separately from these models.
+
+
+## Table of Contents
+
+1. [Specification of a plugin package](#def)
+2. [Structure of a Userfile plugin](#uplug)
+3. [Structure of a CbrainTask plugin](#tplug)
+4. [Plugin package installation](#inst)
+
+
+
+<a name="def" />
+## 1. Specification of a plugin package
+
+Within the CBRAIN code branch, the plugins are deployed in:
+
+    /path/to/BrainPortal/cbrain_plugins
+
+Two subdirectories located within that subdirectory contain the default distribution:
+
+    /path/to/BrainPortal/cbrain_plugins/installed-plugins
+    /path/to/BrainPortal/cbrain_plugins/cbrain-plugins-base
+
+#### "installed-plugins"
+
+The first of these subdirectories, 'installed-plugins', is an administrative 
+subdirectory where plugins are 'installed' by *rake* tasks 
+(more on that [later](#inst)). Basically, its content is populated by a set of UNIX 
+symbolic links with relative paths to the real files of the plugins. Usually, there
+would be no reason for programmers or administrators to change anything there. It 
+can usually be left alone.
+
+#### "your-plugin-package-name" (e.g. "cbrain-plugins-base")
+
+The second of these subdirectories, 'cbrain-plugins-base', is a complete example 
+of a 'plugin package', and contains the default set of Userfiles and 
+CbrainTasks that come with the default installation. A quick inspection of its
+content show that a 'plugin package' contains two subdirectories, one for 
+Userfiles and one for CbrainTasks:
+
+    cbrain-plugins-base/userfiles
+    cbrain-plugins-base/cbrain_task    # singular, for historical reasons :-(
+
+Again, within each of these two subdirectories will be another level
+of subdirectories, one per Userfiles (under userfiles/) and one per
+CbrainTask (under cbraintask/).
+
+This structure allows a scientific programmer to distribute, as a
+complete 'plugin package', a full set of Userfiles and CbrainTask
+that logically go together. As an example, assume a programmer wants
+to add the Montreal Neurological Institute's CBRAIN plugin for its
+tools and userfiles. This one is stored on GitHub as
+"aces/cbrain-plugins-mni", so the programmer could simply issue
+these commands:
+
+```bash
+    cd /path/to/BrainPortal/cbrain_plugins
+    git clone https://github.com/aces/cbrain-plugins-mni.git   # will create 'cbrain-plugins-mni/' here
+```
+
+
+
+
+<a name="uplug" />
+## 2. Structure of a Userfile plugin
+
+
+
+
+<a name="tplug" />
+## 3. Structure of a CbrainTask plugin
+
+
+
+#### Rails Generator for CbrainTask
+
+CBRAIN comes with a Rails generator to help programmers create new
+CbrainTasks. A separate [[document|Rails CbrainTask Generator]]
+explains how to use it.
+
+
+
+
+<a name="inst" />
+## 4. Plugin package installation
+
+    rake cbrain:plugins:install:all
+
+The [administrator guide](https://github.com/aces/cbrain-doc-temp/wiki/Administrator-Guides) has a page [LINK] explaining the rake task and what it does.  
+            
+              
+**Note**: Original author of this document is Pierre Rioux

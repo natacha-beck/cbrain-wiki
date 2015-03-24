@@ -1,0 +1,72 @@
+
+## Table Of Contents
+
+1. [Installation Issues](#inst)
+  1. Installing the database with "rake db:setup"
+  2. Installing Ruby on a server without root access
+2. [Runtime Issues](#run)
+
+
+
+<a name="inst" />
+## 1. Installation Issues
+
+#### i. Installing the database with "rake db:setup"
+
+The [[Common Setup]] guide suggest running the two rake tasks
+`db:load` and `db:seed`. A typical Rails installation also comes with
+a rake task named `db:setup` which is supposed to do both, includig
+creating the MySQL database for you. However, please note that
+you might have to comment out all the other environments defined
+in `database.yml` while running this task, to leave only the one environment
+you are working on. It seems sometimes `db:setup` gets confused and will read
+the usernames and password fields of entries other than the one specified
+by RAILS_ENV.
+
+#### ii. Installing Ruby on a server without root access
+
+When installing Ruby, *rvm* will sometimes attempt to execute the commands
+on your system to install system packages (such as libyaml-devel, etc).
+If you're the owner of the system it will prompt you to enter an
+administrative password for 'yum' or 'apt-get'. However, if you're
+on a computer where you only have user access, you can't install
+these packages yourself. You may have to can ask the syadmins to do it.
+
+Sometimes, like on supercomputer clusters, the packages that *rvm* wants
+to install are detected as 'missing' by *rvm*, but their files are still
+perfectly installed and available to you using a command such as `module`.
+In that case, if you know quite well that all the file can be found
+with module, issue the appropriate `module load` commands then you can
+trick *rvm* into not checking the packaging system for missing packages.
+Before compiling Ruby, edit the file `$HOME/.rvm/scripts/functions/build_config`
+and find an excerpt that looks like this:
+
+```bash
+  rvm_log "Checking requirements for ${rvm_autolibs_flag_runner}."
+  if
+    __rvm_requirements_run ${rvm_autolibs_flag_runner} "$@"
+  then
+    rvm_log "Requirements installation successful."
+  else
+```
+
+Change the `if` condition so that it doesn't invoke the check command at all:
+
+```bash
+  rvm_log "Checking requirements for ${rvm_autolibs_flag_runner}."
+  if
+    true
+    #__rvm_requirements_run ${rvm_autolibs_flag_runner} "$@"
+  then
+    rvm_log "Requirements installation successful."
+  else
+```
+
+That way, *rvm* will always think your system has all the necessary package
+requirements to proceed. Make sure to undo this change after you've successfully
+compiled Ruby. 
+
+<a name="run" />
+## 2. Runtime Issues
+
+Nothing here for the moment.
