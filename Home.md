@@ -1,9 +1,13 @@
 
 ## What is CBRAIN?
 
-CBRAIN is a platform for storing files and running
-tasks on them. It consists of a web-based interface for users, and
-a distributed back end for managing these files and tasks.
+CBRAIN is a web-enabled grid platform that facilitates collaborative
+research on large, distributed data by creating an interface between 
+a user (or a group of collaborating users) and high-performance computing 
+centres (HPCs). Behind the web-portal, CBRAIN manages data access, transfer, 
+caching and provenance, as well as data processing and reporting. CBRAIN is 
+generic and modular, it can easily be extended with new data models and tools
+for a broad range of research disciplines.
 
 It has several important capabilities:
 
