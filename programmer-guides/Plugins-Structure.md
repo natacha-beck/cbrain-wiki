@@ -68,13 +68,13 @@ these commands:
 <a name="uplug" />
 ## 2. Structure of a Userfile plugin
 
-
+To write.
 
 
 <a name="tplug" />
 ## 3. Structure of a CbrainTask plugin
 
-
+To write.
 
 #### Rails Generator for CbrainTask
 
