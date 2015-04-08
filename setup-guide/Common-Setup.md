@@ -299,13 +299,13 @@ to use the following procedure:
 * Find out where the gem has been installed by the bundler.
 * Go to that directory.
 * Run the command 'rake install' (which modifies or copies a file,
-  but may also give error messages, which can be safely ignored):  
-  ```bash
+  but may also give error messages, which can be safely ignored):
+```bash
   bundle show sys-proctable
   (copy the directory shown)
   cd /to/that/directory
   rake install
-  ```
+```
 
 <a name="plugins" />
 #### v. Plugins installation
