@@ -1,4 +1,3 @@
-
 ## Introduction
 
 This page is the top level of the many programming guides
@@ -6,6 +5,17 @@ for the CBRAIN platform. Here you will find general information
 about setting up a work environment, and information on how 
 you can contribute to CBRAIN.
 
+Bellow the diagram model of CBRAIN: 
+
+[[programmer-guides/images/Diagram_models.png]]
+
+**Note**: Some models of CBRAIN are not represented in this simplified diagram.
+This is the case for:
+* All subclasses of DataProviders (VaultSmartDataProvider, SshDataProvider, LocalDataProvider, etc.)
+* All subclasses of Users (AdminUser, SiteManager, NormalUser)
+* Some isolated subclasses (ActiveRecordLog, MetaDataStore, SanityCheck)
+
+A complete diagram can be generated using [RailRoady](https://github.com/preston/railroady).
 ## Table of Contents
 
 1. [Setting up a development environment](#setup)
