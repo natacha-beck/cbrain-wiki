@@ -7,7 +7,7 @@ you can contribute to CBRAIN.
 
 Bellow the diagram model of CBRAIN: 
 
-[[programmer-guides/images/Diagram_models.png]]
+[[/programmer-guides/images/Diagram_models.png]]
 
 **Note**: Some models of CBRAIN are not represented in this simplified diagram.
 This is the case for:
