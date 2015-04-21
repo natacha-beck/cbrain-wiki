@@ -6,4 +6,5 @@
 * [[Recovery And Restart|CbrainTask Recovery And Restart]]
 * [[Task Dependencies|CbrainTask Prerequisites]]
 * [[Sharing A Work Directory|CbrainTask SharedWorkDir]]
+* [[Task Helpers]]
 

@@ -1,11 +1,14 @@
 
 ## Introduction
 
-This document is a step by step example of how to create a new CbrainTask in CBRAIN.
+This document is a step by step example of how to create a new
+CbrainTask in CBRAIN.
 
-Although the task has a very basic function (computing a checksum), the example
-still uses many different features of CBRAIN's framework to illustrate them. These features include
-task version support, input fields, task form refresh, data provenance logging and static assets.
+Although the task has a very basic function (computing a checksum),
+the example still uses many different features of CBRAIN's framework
+to illustrate them. These features include task version support,
+input fields, task form refresh, data provenance logging and static
+assets.
 
 ## List of steps
 
@@ -40,18 +43,22 @@ task version support, input fields, task form refresh, data provenance logging a
 <a name="prereqs" />
 ## 1. Prerequisites
 
-To run this tutorial, you need to install and configure a local, personal copy of a CBRAIN BrainPortal
-Rails application, make sure it is working in 'development' mode, and install and
-configure a Bourreau Rails application. The instructions on how to do this are provided in the [[Setup Guide]].
+To run this tutorial, you need to install and configure a local,
+personal copy of a CBRAIN BrainPortal Rails application, make sure
+it is working in 'development' mode, and install and configure a
+Bourreau Rails application. The instructions on how to do this are
+provided in the [[Setup Guide]].
 
 <a name="what" />
 ## 2. What the task does
 
-We create a task to run a UNIX checksum program on a file. The exact command
-that we run is the old, classic "cksum" program. It is installed by default on
-both Linux and Mac OS operating systems and works the same way on both.
+We create a task to run a UNIX checksum program on a file. The exact
+command that we run is the old, classic "cksum" program. It is
+installed by default on both Linux and Mac OS operating systems and
+works the same way on both.
 
-However, to make the example more interesting and show some of CBRAIN's capabilities, the following additional features are included:
+However, to make the example more interesting and show some of
+CBRAIN's capabilities, the following additional features are included:
 
 * Multiple 'versions' of the program are supported (even though there is actually only one version
   of 'cksum'), each with their own special incompatible parameters. This shows that a CbrainTask
@@ -65,9 +72,10 @@ However, to make the example more interesting and show some of CBRAIN's capabili
 <a name="generator" />
 ## 3. Running the generator
 
-There are about a dozen files that are created and installed for this single example of a
-CbrainTask. Although these files can be created manually at the correct locations in the
-CBRAIN source tree, it is better to run the [[Rails CbrainTask Generator]], which creates
+There are about a dozen files that are created and installed for
+this single example of a CbrainTask. Although these files can be
+created manually at the correct locations in the CBRAIN source tree,
+it is better to run the [[Rails CbrainTask Generator]], which creates
 templates for most of them:
 
 ```bash
@@ -77,25 +85,29 @@ rake cbrain:plugins:clean:all
 rake cbrain:plugins:install:all
 ```
 
-The files that are created contain information about the kind of code they
-should contain, but in this tutorial we will ignore this and only show the minimum amount
-of code necessary to accomplish our goals.
+The files that are created contain information about the kind of
+code they should contain, but in this tutorial we will ignore this
+and only show the minimum amount of code necessary to accomplish
+our goals.
 
-If you rename the task's files, or even just the directory where they are contained, remember
-to rerun the two rake tasks listed above. This is necessary to adjust the symbolic links that
-configure the task as 'installed'.
+If you rename the task's files, or even just the directory where
+they are contained, remember to rerun the two rake tasks listed
+above. This is necessary to adjust the symbolic links that configure
+the task as 'installed'.
 
 <a name="portal" />
 ## 4. Editing the portal-side model
 
-After you run the generator above, you should now have a file called '.../MyCksum/portal/my_cksum.rb'.
-Let's add the methods needed to implement its web interface within the body of the class.
+After you run the generator above, you should now have a file called
+'.../MyCksum/portal/my_cksum.rb'.  Let's add the methods needed to
+implement its web interface within the body of the class.
 
 <a name="default" />
 #### i. The default params
 
-A task has a params hash where its parameters are stored. We can provide a default value for all
-the params by creating a class method named 'default_launch_args'.
+A task has a params hash where its parameters are stored. We can
+provide a default value for all the params by creating a class
+method named 'default_launch_args'.
 
 ```ruby
     def self.default_launch_args
@@ -111,8 +123,8 @@ the params by creating a class method named 'default_launch_args'.
     end
 ```
 
-Note that the input file(s) on which we run the cksum program are not stored there.  We have
-only created three parameters:
+Note that the input file(s) on which we run the cksum program are
+not stored there.  We have only created three parameters:
 
 * :output_file_prefix is a prefix added to the filenames of the output reports.
 * :an_odd_number is a number that must be odd and is only needed with version 2.0.0
@@ -123,10 +135,13 @@ only created three parameters:
 <a name="pretty" />
 #### ii. Pretty names for the parameters
 
-Whenever we edit or create a new task, we have the option of adding a "pretty name" to any parameter that appears on the web page. It is used when Rails presents a validation
-error message. Pretty names are provided by a method returning a hash with the names. The keys
-are encoded using the Rails convention for parameters; for instance, compare this to
-the default_launch_args() above and see how we represent the :struct_with_day_and_month.
+Whenever we edit or create a new task, we have the option of adding
+a "pretty name" to any parameter that appears on the web page. It
+is used when Rails presents a validation error message. Pretty names
+are provided by a method returning a hash with the names. The keys
+are encoded using the Rails convention for parameters; for instance,
+compare this to the default_launch_args() above and see how we
+represent the :struct_with_day_and_month.
 
 ```ruby
     def self.pretty_params_name
@@ -142,11 +157,13 @@ the default_launch_args() above and see how we represent the :struct_with_day_an
 <a name="before" />
 #### iii. before_form()
 
-This is the main callback method that most programmers want to fill. It is invoked
-before the form is rendered and shown to the user (thus the method's name). This
-can be used to validate the list of files that the user has selected. In our example, we
-simply make sure that all the files are "SingleFile"s (i.e. that they are simple files, not
-directories, which are instead registered as subclasses of "FileCollection").
+This is the main callback method that most programmers want to fill.
+It is invoked before the form is rendered and shown to the user
+(thus the method's name). This can be used to validate the list of
+files that the user has selected. In our example, we simply make
+sure that all the files are "SingleFile"s (i.e. that they are simple
+files, not directories, which are instead registered as subclasses
+of "FileCollection").
 
 ```ruby
     def before_form
@@ -157,15 +174,19 @@ directories, which are instead registered as subclasses of "FileCollection").
     end
 ```
 
-The method can optionally return a string with a message (which does not prevent the form from rendering,
-but the message itself is shown). In our example, the empty string is returned, which means everything is okay.
+The method can optionally return a string with a message (which
+does not prevent the form from rendering, but the message itself
+is shown). In our example, the empty string is returned, which means
+everything is okay.
 
 <a name="refresh" />
 #### iv. refresh_form()
 
-We allow the user to perform several cycles of refreshing the form. Control returns to the model
-by way of the refresh_form() method, where the month name is reset to a random month.
-This illustrates a particular capability of the framework, though it may be not very useful for simple tasks.
+We allow the user to perform several cycles of refreshing the form.
+Control returns to the model by way of the refresh_form() method,
+where the month name is reset to a random month.  This illustrates
+a particular capability of the framework, though it may be not very
+useful for simple tasks.
 
 ```ruby
     def refresh_form
@@ -175,31 +196,37 @@ This illustrates a particular capability of the framework, though it may be not 
     end
 ```
 
-This refresh mechanism is invoked whenever the user clicks on a "submit" button that
-contains the keyword "refresh" (case insensitive) in its label. These types of buttons are
-not normally shown in the CBRAIN task interface, but here one is added once the view
-partials are written (see below).
+This refresh mechanism is invoked whenever the user clicks on a
+"submit" button that contains the keyword "refresh" (case insensitive)
+in its label. These types of buttons are not normally shown in the
+CBRAIN task interface, but here one is added once the view partials
+are written (see below).
 
 <a name="after" />
 #### v. after_form()
 
-This method is invoked after the user clicks the "Submit Task" button at the
-bottom of the form.
+This method is invoked after the user clicks the "Submit Task"
+button at the bottom of the form.
 
-This is the perfect time to make sure all parameters for the task are appropriate and
-valid. Validation of parameters can be performed in the same way as the validation
-of ActiveRecord attributes, with callbacks to custom validation methods, but it can also be
-performed at this point. If a parameter has a wrong value, adding an error message to the special
-error handler for params called params_errors() prevents the task from being submitted and
-the form is shown again to the user to allow him to fix the problem.
+This is the perfect time to make sure all parameters for the task
+are appropriate and valid. Validation of parameters can be performed
+in the same way as the validation of ActiveRecord attributes, with
+callbacks to custom validation methods, but it can also be performed
+at this point. If a parameter has a wrong value, adding an error
+message to the special error handler for params called params_errors()
+prevents the task from being submitted and the form is shown again
+to the user to allow him to fix the problem.
 
-In our example, we make sure that the number entered in the input field for the parameter
-:an_odd_number is really an odd number. You can check that this validation occurs correctly by entering
-an even number and making sure that the form returns with the field highlighted in red.
+In our example, we make sure that the number entered in the input
+field for the parameter :an_odd_number is really an odd number. You
+can check that this validation occurs correctly by entering an even
+number and making sure that the form returns with the field highlighted
+in red.
 
-Note that, as a demonstration of how code can be made conditional on a particular version
-of a tool, this validation is made only if the version of 'cksum' is at least "2.0.0"
-(later, two dummy versions, 1.0.0 and 2.0.0, are configured as an example - see below).
+Note that, as a demonstration of how code can be made conditional
+on a particular version of a tool, this validation is made only if
+the version of 'cksum' is at least "2.0.0" (later, two dummy versions,
+1.0.0 and 2.0.0, are configured as an example - see below).
 
 ```ruby
     def after_form
@@ -214,25 +241,29 @@ of a tool, this validation is made only if the version of 'cksum' is at least "2
     end
 ```
 
-For more information about the validation and error mechanism provided by CBRAIN for parameters,
-see the description for the class CbrainTaskFormBuilder
+For more information about the validation and error mechanism
+provided by CBRAIN for parameters, see the description for the class
+CbrainTaskFormBuilder
 
 <a name="final" />
 #### vi. final_task_list()
 
-Once a task's parameters have been submitted, the programmer can use the information
-to launch not just one task, but an entire array of similar tasks. This is the method
-that returns an array of the real tasks that are launched.
+Once a task's parameters have been submitted, the programmer can
+use the information to launch not just one task, but an entire array
+of similar tasks. This is the method that returns an array of the
+real tasks that are launched.
 
-Invoked on the task object, it should return an array of clones (or in fact,
-duplicates) of the object, differing in one or a few parameters. The default behavior is
-a method in PortalTask that returns simply an array with a single element, the object itself,
+Invoked on the task object, it should return an array of clones (or
+in fact, duplicates) of the object, differing in one or a few
+parameters. The default behavior is a method in PortalTask that
+returns simply an array with a single element, the object itself,
 which means that normally no arrays of tasks are ever created.
 
-For our example, however, a new task is created for each input file selected
-by the user; each of the new task objects is identical to the original task object,
-except the list of Userfile IDs contains a single ID. If the user selects 50 files,
-the end result is to create 50 distinct tasks.
+For our example, however, a new task is created for each input file
+selected by the user; each of the new task objects is identical to
+the original task object, except the list of Userfile IDs contains
+a single ID. If the user selects 50 files, the end result is to
+create 50 distinct tasks.
 
 ```ruby
     def final_task_list
@@ -250,13 +281,16 @@ the end result is to create 50 distinct tasks.
 <a name="common" />
 ## 5. Editing the common model
 
-The file '.../MyCksum/common/my_cksum.rb' is a place where you can put code that is common to both
-the BrainPortal side and Bourreau side of CBRAIN. In our example, we simply create a version comparison
-method. This method makes it possible to invoke some methods on the task's 'tool_config'
-association, and to quickly check if the particular version of the task selected by the user
-has support for a particular feature. In our example, we pretend that if we are runnning version
-"1.0.0" of CkSum, we do not need the odd number in the params page and if we are running version "2.0.0"
-we need it.
+The file '.../MyCksum/common/my_cksum.rb' is a place where you can
+put code that is common to both the BrainPortal side and Bourreau
+side of CBRAIN. In our example, we simply create a version comparison
+method. This method makes it possible to invoke some methods on the
+task's 'tool_config' association, and to quickly check if the
+particular version of the task selected by the user has support for
+a particular feature. In our example, we pretend that if we are
+runnning version "1.0.0" of CkSum, we do not need the odd number
+in the params page and if we are running version "2.0.0" we need
+it.
 
 ```ruby
     def compare_versions(v1,v2)
@@ -264,8 +298,9 @@ we need it.
     end
 ```
 
-A proper implementation for a real task would, of course, compare the version strings based on
-the conventions used by the tool developer (e.g. "1.2.3", "A123", or "17.4-gamma").
+A proper implementation for a real task would, of course, compare
+the version strings based on the conventions used by the tool's
+developer (e.g. "1.2.3", "A123", or "17.4-gamma").
 
 
 <a name="views" />
@@ -276,13 +311,18 @@ We have two view files to create; these are pretty standard Rails partials.
 <a name="task" />
 #### i. _task_params.html.erb
 
-This partial contains the body of the form where the task's parameters are entered. While writing
-it, we have access to @task to represent the task object, @tool_config to represent the tool
-version selected by the user and 'form' which is the Rails form handler for the object.
+This partial contains the body of the form where the task's parameters
+are entered. While writing it, we have access to @task to represent
+the task object, @tool_config to represent the tool version selected
+by the user and 'form' which is the Rails form handler for the
+object.
 
-We do not create input elements for the basic attributes of the ActiveRecord CbrainTask, but
-instead for the parameters of the task, which are stored as a hash table 'params' (however, this is a true real attribute of CbrainTask). To help design the form, Cbrain provides a set of helper methods
-to create the input elements. See the class CbrainTaskFormBuilder for more information.
+We do not create input elements for the basic attributes of the
+ActiveRecord CbrainTask, but instead for the parameters of the task,
+which are stored as a hash table 'params' (however, this is a true
+real attribute of CbrainTask). To help design the form, Cbrain
+provides a set of helper methods to create the input elements. See
+the class CbrainTaskFormBuilder for more information.
 
 ```erb
     <%= stylesheet_link_tag @task.public_path("cksum.css") %>
@@ -301,7 +341,8 @@ to create the input elements. See the class CbrainTaskFormBuilder for more infor
     </div>
 ```
 
-Note that this view code demonstrates several other special features of the CBRAIN framework:
+Note that this view code demonstrates several other special features
+of the CBRAIN framework:
 
 * It shows how to refer to some static assets that the task parameter page needs (in
   our example, a stylesheet which is used to style the div element at the bottom).
@@ -314,10 +355,11 @@ Note that this view code demonstrates several other special features of the CBRA
 <a name="show" />
 #### ii. _show_params.html.erb
 
-Normally, this file is used to show the user a summary of the parameters for the task,
-once it has been created. In our example, it just echoes back all the values in a very
-simple manner, including a link to the input file, and a link to the output report
-(which is stored as an ID by the Bourreau side, as will be shown later).
+Normally, this file is used to show the user a summary of the
+parameters for the task, once it has been created. In our example,
+it just echoes back all the values in a very simple manner, including
+a link to the input file, and a link to the output report (which
+is stored as an ID by the Bourreau side, as will be shown later).
 
 ```erb
     Input: <%= link_to_userfile_if_accessible params[:interface_userfile_ids][0] %>
@@ -334,9 +376,10 @@ simple manner, including a link to the input file, and a link to the output repo
 <a name="opt" />
 #### iii. The optional stylesheet
 
-As explained above, some static assets are installed just to demonstrate how they can
-be packaged with the task. In our example, it is necessary to create a file 'cksum.css' under
-'views/public', containing this simple CSS code.
+As explained above, some static assets are installed just to
+demonstrate how they can be packaged with the task. In our example,
+it is necessary to create a file 'cksum.css' under 'views/public',
+containing this simple CSS code.
 
 ```css
     #cksum_fancy {
@@ -360,17 +403,19 @@ We do not edit these files in this tutorial.
 <a name="intview" />
 ## 7. Trying the interface
 
-At this point, we have all the code necessary to implement the task's life cycle on the frontend.
-In order to test it, though, we have to configure it within CBRAIN.
+At this point, we have all the code necessary to implement the
+task's life cycle on the frontend.  In order to test it, though,
+we have to configure it within CBRAIN.
 
-The full documentation for creating tool versions is in [[Tools]], but for the moment we will only
-use the minimum code necessary to create versions "1.0.0" and "2.0.0" of the tool.
+The full documentation for creating tool versions is in [[Tools]],
+but for the moment we will only use the minimum code necessary to
+create versions "1.0.0" and "2.0.0" of the tool.
 
 <a name="creating" />
 #### i. Creating a Tool for CkSum
 
-A Tool represents an application in general, irrespective of where it is deployed
-and which versions exist.
+A Tool represents an application in general, irrespective of where
+it is deployed and which versions exist.
 
 * Using the CBRAIN interface as an administrator, go to the "Tools" index page.
 * Click "Create new tool"
@@ -382,7 +427,8 @@ and which versions exist.
 <a name="creatingTwo" />
 #### ii. Creating two ToolConfigs
 
-A tool config represents a particular installation of a tool. We create two versions.
+A tool config represents a particular installation of a tool. We
+create two versions.
 
 * Using the CBRAIN interface as an administrator, go to the "Tools" index page.
 * The 'CkSum' tool should be listed on that page - click on its name.
@@ -402,21 +448,26 @@ A tool config represents a particular installation of a tool. We create two vers
 <a name="examining" />
 #### iii. Examining the parameters form page
 
-Now, as any user, go to the File manager, select one or several files, then go the the "Launch Task"
-menu. The launch message should be configured above for the tool (e.g. 'Launch my CkSum'). When prompted to choose a version, select version 1.0.0.
+Now, as any user, go to the File manager, select one or several
+files, then go the the "Launch Task" menu. The launch message should
+be configured above for the tool (e.g. 'Launch my CkSum'). When
+prompted to choose a version, select version 1.0.0.
 
-At that point you are sent to the task params page, and you can try refreshing it with the refresh button,
-or entering invalid values for the output name prefix. Click 'Start MyCkSum' at
-the very bottom, and the task object is saved in the database in state 'New'.
+At that point you are sent to the task params page, and you can try
+refreshing it with the refresh button, or entering invalid values
+for the output name prefix. Click 'Start MyCkSum' at the very bottom,
+and the task object is saved in the database in state 'New'.
 
-Try with version "2.0.0", too, where the version-specific input field should contain an odd number.
+Try with version "2.0.0", too, where the version-specific input
+field should contain an odd number.
 
 <a name="bourreau" />
 ## 8. Editing the Bourreau-side model
 
-The Bourreau side is where the actual wrapping code for the tool resides. There is only
-one file to edit, fortunately: 'bourreau/my_cksum.rb'. There are three methods to
-fill on the Bourreau side:
+The Bourreau side is where the actual wrapping code for the tool
+resides. There is only one file to edit, fortunately:
+'bourreau/my_cksum.rb'. There are three methods to fill on the
+Bourreau side:
 
 * setup()
 * cluster_commands()
@@ -425,13 +476,14 @@ fill on the Bourreau side:
 <a name="setup" />
 #### i. setup()
 
-This purpose of this method is to validate once more its parameters, synchronize its
-input files, and otherwise prepare anything needed for running the tool (like creating
-directories or symlink). There are numerous helper methods available to automate many
-common operations, but few of them are used here. We simply make sure that
-the parameter :an_odd_number is odd if we're running version "2.0.0" and
-synchronize the single input file (that is, make a copy in the Bourreau local cache)
-and create a symbolic link to its data.
+This purpose of this method is to validate once more its parameters,
+synchronize its input files, and otherwise prepare anything needed
+for running the tool (like creating directories or symlink). There
+are numerous helper methods available to automate many common
+operations, but few of them are used here. We simply make sure that
+the parameter :an_odd_number is odd if we're running version "2.0.0"
+and synchronize the single input file (that is, make a copy in the
+Bourreau local cache) and create a symbolic link to its data.
 
 ```ruby
     def setup
@@ -445,7 +497,7 @@ and create a symbolic link to its data.
       filename = file.name
       cached_path = file.cache_full_path
       safe_symlink(cached_path,filename) # does not mind if it already exists
-      if self.tool_comfig.is_at_least_version('2.0.0')
+      if self.tool_config.is_at_least_version('2.0.0')
         cb_error "Oh no our number isn't odd!" if (params[:an_odd_number].to_i % 2) != 1
       end
       true # must return true if all OK
@@ -455,13 +507,15 @@ and create a symbolic link to its data.
 <a name="cluster" />
 #### ii. cluster_commands()
 
-This is where we build a bash script to encapsulate the execution of the tool.
-In the case of the 'cksum' program, we show how CBRAIN captures the output
-and error channels of the script by echoing some words on these channels. Also
-the script runs 'cksum' on the input file and sends its result to a local output file
-named 'PREFIXmyout-tttt-rrrr.txt', where prefix is one of the parameters,
-tttt is the task's ID and rrrr is a run number, which starts at 1 and increases by 1
-whenever the task is restarted. None of the other parameters are used.
+This is where we build a bash script to encapsulate the execution
+of the tool.  In the case of the 'cksum' program, we show how CBRAIN
+captures the output and error channels of the script by echoing
+some words on these channels. Also the script runs 'cksum' on the
+input file and sends its result to a local output file named
+'PREFIXmyout-tttt-rrrr.txt', where prefix is one of the parameters,
+tttt is the task's ID and rrrr is a run number, which starts at 1
+and increases by 1 whenever the task is restarted. None of the other
+parameters are used.
 
 ```ruby
     def cluster_commands
@@ -483,11 +537,13 @@ whenever the task is restarted. None of the other parameters are used.
 <a name="save" />
 #### iii. save_results()
 
-This method is invoked when the task has finished on the cluster side. Typically,
-the method should verify that the script has run properly and if so then create new
-userfiles to store the outputs of the tool.
+This method is invoked when the task has finished on the cluster
+side. Typically, the method should verify that the script has run
+properly and if so then create new userfiles to store the outputs
+of the tool.
 
-Carry out the following steps:
+Here we carry out the following steps:
+
 * Verify that the output file from the bash script exists.
 * Save its content in the database as a new TextFile.
 * Log information about this processing to both the input file and the output file.
@@ -518,18 +574,21 @@ Carry out the following steps:
 <a name="test" />
 ## 9. Trying the whole process
 
-If you edited 'bourreau/my_cksum.rb', then it is necessary to restart the execution server for it
-to be able to load the new code, even in development mode. Make sure to run at least once
-the rake task that installs the symlinks necessary for the plugin. Once that is done, it is possible
-to launch the task again, as explained above. This time, on the execution side, the bash script is run
-and the output file should be added to the file manager. If something goes wrong,
-inspect the content of the task's work directory and look at all the logs provided by CBRAIN.
+If you edited 'bourreau/my_cksum.rb', then it is necessary to restart
+the execution server for it to be able to load the new code, even
+in development mode. Make sure to run at least once the rake task
+that installs the symlinks necessary for the plugin. Once that is
+done, it is possible to launch the task again, as explained above.
+This time, on the execution side, the bash script is run and the
+output file should be added to the file manager. If something goes
+wrong, inspect the content of the task's work directory and look
+at all the logs provided by CBRAIN.
 
 <a name="forward" />
 ## 10. Moving forward
 
-There are many features of the CbrainTask framework that are not covered in
-this tutorial:
+There are many features of the CbrainTask framework that are not
+covered in this tutorial:
 
 * There is a wide set of input fields helpers, described in the class CbrainTaskFormBuilder.
 * Tasks can be made to depend on other tasks, as explained in [[CbrainTask Prerequisites]].
@@ -543,3 +602,4 @@ this tutorial:
   perform cleanup), also explained in [[CbrainTask Recovery And Restart]].
 
 **Note**: Original author of this document is Pierre Rioux
+
