@@ -343,8 +343,8 @@ by the task's programmer).
 <a name="start" />
 ## 5. Getting started
 
-The simplest way to get started is to follow the steps of the [[New
-Task Tutorial]]. This will demonstrate many features of the CbrainTask
+The simplest way to get started is to follow the steps of the
+[[New Task Tutorial]]. This will demonstrate many features of the CbrainTask
 APIs in CBRAIN. For larger, more complex projects, you can then
 investigate the [Advanced features](#adv) section below.
 
