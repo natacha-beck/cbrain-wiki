@@ -5,7 +5,7 @@ for the CBRAIN platform. Here you will find general information
 about setting up a work environment, and information on how 
 you can contribute to CBRAIN.
 
-Bellow the diagram model of CBRAIN: 
+Here is a simplified diagram of the main ActiveRecord models of CBRAIN:
 
 [[/programmer-guides/images/Diagram_models.png]]
 
