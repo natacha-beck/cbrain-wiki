@@ -5,7 +5,7 @@ This document contains several lists of helper methods
 for writing CBRAIN tasks, with some notes.
 Full descriptions of the methods with examples can be
 obtained by generating the code documentation, as explained
-at the begining of the [[Programmer Guide]].
+at the begining of the [[Programmer Guides]].
 
 Methods listed in the following tables use this convention:
 
@@ -14,11 +14,11 @@ Methods listed in the following tables use this convention:
 
 ## Table Of Contents
 
-1. [[CbrainTask Model Helpers]](#common)
-2. [[PortalTask Model Helpers]](#portal)
-3. [[ClusterTask Model Helper]](#bourreau)
-4. [[Task View Helpers]](#views)
-5. [[See Also]](#also)
+1. [CbrainTask Model Helpers](#common)
+2. [PortalTask Model Helpers](#portal)
+3. [ClusterTask Model Helper](#bourreau)
+4. [Task View Helpers](#views)
+5. [See Also](#also)
 
 
 
