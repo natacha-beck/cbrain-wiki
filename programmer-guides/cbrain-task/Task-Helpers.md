@@ -18,7 +18,6 @@ Methods listed in the following tables use this convention:
 2. [PortalTask Model Helpers](#portal)
 3. [ClusterTask Model Helper](#bourreau)
 4. [Task View Helpers](#views)
-5. [See Also](#also)
 
 
 
@@ -203,12 +202,10 @@ These methods are helpers for writing the task's interface. They
 are usually invoked from within the Rails partials and template files
 located in the `views` subdirectory of the task's codebase.
 
-TODO
+| Method Name                             | Notes              |
+|-----------------------------------------|--------------------|
+| #task_partial                           | For tasks with complex interfaces stored in multiple files |
+| #output_renaming_fieldset               | Utility, to use in conjunction with `#output_renaming_add_numbered_keywords` on the Bourreau side |
 
 
-
-<a name="also" />
-## 5. See Also
-
-TODO
 
