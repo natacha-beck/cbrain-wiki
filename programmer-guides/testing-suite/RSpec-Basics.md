@@ -135,6 +135,14 @@ Factories allows us to create and save models with reasonable attributes. To use
   factory :normal_user, parent: :user, class: NormalUser do
     sequence(:login)      { |n| "normal_user_#{n}" }
   end
+
+  #################
+  # Group         #
+  #################
+
+  factory :group do
+    sequence(:name) { |n| "group_#{n}" }
+  end
 ```
 
 And then, we can simplify our spec code as follows:
