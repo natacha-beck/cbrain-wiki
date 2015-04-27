@@ -1,4 +1,3 @@
-
 ## Introduction
 
 This document starts by describing how to create tests for existing, functional code.  Then, the approach
@@ -51,7 +50,7 @@ are fairly straightforward to write.
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
 
     describe "#is_alive?" do
       it "should return false when is_alive? is called on offline provider" do
@@ -82,7 +81,7 @@ effectively testing things outside the scope of the spec. The best method is to 
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
 
     describe "#is_alive?" do
       it "should return false when is_alive? is called on offline provider" do
@@ -126,7 +125,7 @@ a few stubbed methods that we need:
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { double("userfile", :name => "userfile_double", :id => 123) }
 
     describe "#is_alive?" do
@@ -156,7 +155,7 @@ For our purposes, we will use ``mock_model`` avoid having to define an id:
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { mock_model(Userfile, :name => "userfile_double") }
 
     describe "#is_alive?" do
@@ -184,7 +183,7 @@ should be approached with care.
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { mock_model(Userfile, :name => "userfile_double") }
 
     describe "#is_alive?" do
@@ -208,7 +207,7 @@ and do not have any preconditions, so we can just fill their examples in:
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { mock_model(Userfile, :name => "userfile_double") }
 
     describe "#is_alive?" do
@@ -241,7 +240,7 @@ and using a ``before(:each)`` for the stubbing:
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { mock_model(Userfile, :name => "userfile_double") }
 
     describe "#is_alive?" do
@@ -279,7 +278,7 @@ methods are being called:
 
 ```ruby
   describe DataProvider do
-    let(:provider) { Factory.create(:data_provider) }
+    let(:provider) { create(:data_provider) }
     let(:userfile) { mock_model(Userfile, :name => "userfile_double") }
 
     describe "#is_alive?" do
