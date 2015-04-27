@@ -139,8 +139,8 @@ And then, we can simplify our spec code as follows:
 
 ```ruby
   describe Group do
-    let(:group) { Factory.create(:group) }
-    let(:user)  { Factory.create(:user) }
+    let(:group) { create(:group) }
+    let(:user)  { create(:user) }
 
     describe "#pretty_category_name" do
       it "should convert the suffix 'Group' of a class name to 'Project'" do
@@ -165,8 +165,8 @@ to block them or fix their return values. We can do so in the following way to s
 
 ```ruby
   describe Group do
-    let(:group) { Factory.create(:group) }
-    let(:user)  { Factory.create(:user) }
+    let(:group) { create(:group) }
+    let(:user)  { create(:user) }
 
     describe "#pretty_category_name" do
       it "should convert the suffix 'Group' of a class name to 'Project'" do
@@ -194,7 +194,7 @@ double method.
 
 ```ruby
   describe Group do
-    let(:group) { Factory.create(:group) }
+    let(:group) { create(:group) }
     let(:user)  { double("user") }
 
     describe "#pretty_category_name" do
@@ -246,7 +246,7 @@ the expectation. Another example would be:
 
 ```ruby
   it "should start out with no users" do
-    expect(Factory.create(:group).users).to be_empty
+    expect(create(:group).users).to be_empty
   end
 ```
 
