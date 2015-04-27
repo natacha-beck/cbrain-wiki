@@ -120,18 +120,20 @@ code with the definition of attributes we're not even testing, we can use factor
 Factories allows us to create and save models with reasonable attributes. To use them, we define them in the file: "spec/factories/portal_factories.rb". We can add the factories we need in the following way:
 
 ```ruby
-  Factory.define :group do |group|
-    group.name { Factory.next :group_name }
+  #################
+  # User          #
+  #################
+
+  factory :user, class: NormalUser do
+    sequence(:login)      { |n| "user#{n}" }
+    sequence(:full_name)  { |n| "Bob #{n}" }
+    sequence(:email)      { |n| "user#{n}@example.com" }
+    password              "Password!"
+    password_confirmation "Password!"
   end
 
-  Factory.define :user do |user|
-    user.full_name             "Bob Brainiac"
-    user.sequence(:login)      { |n| "user#{n}" }
-    user.sequence(:email)      { |n| "user#{n}@example.com" }
-    user.password              "password"
-    user.password_confirmation "password"
-    user.role                  "user"
-    user.association           :site
+  factory :normal_user, parent: :user, class: NormalUser do
+    sequence(:login)      { |n| "normal_user_#{n}" }
   end
 ```
 
