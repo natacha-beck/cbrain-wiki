@@ -66,9 +66,10 @@ There are more detailed guides and documents under each of these sections.
 If you publish results from deploying a CBRAIN instance, please cite the following
 reference:
 
-   [Sherif T, Rioux P, Rousseau M-E, Kassis N, Beck N, Adalat R, Das S, Glatard T and
-Evans AC (2014) CBRAIN: a web-based, distributed computing platform for collaborative
-neuroimaging research. Front. Neuroinform. 8:54. doi: 10.3389/fninf.2014.00054](http://journal.frontiersin.org/article/10.3389/fninf.2014.00054/abstract)
+   Sherif T, Rioux P, Rousseau M-E, Kassis N, Beck N, Adalat R, Das S, Glatard T and
+Evans AC (2014)  
+   _CBRAIN: a web-based, distributed computing platform for collaborative neuroimaging research._  
+   [Front. Neuroinform. 8:54. doi: 10.3389/fninf.2014.00054](http://journal.frontiersin.org/article/10.3389/fninf.2014.00054/abstract)
 
 ## Need help ?
 
