@@ -1,4 +1,3 @@
-
 ## Introduction
 
 The following is a basic introduction to some of the basic constructs
@@ -118,7 +117,7 @@ the object isn't instantiated until the variable is used:
 
 Note that the ``@`` marker is no longer used. Now to avoid having to clutter our
 code with the definition of attributes we're not even testing, we can use factories.
-Factories allows us to create and save models with reasonable attributes. To use them, we define them in the file: "spec/support/portal_factories.rb". We can add the factories we need in the following way:
+Factories allows us to create and save models with reasonable attributes. To use them, we define them in the file: "spec/factories/portal_factories.rb". We can add the factories we need in the following way:
 
 ```ruby
   Factory.define :group do |group|
