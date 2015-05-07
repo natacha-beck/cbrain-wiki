@@ -243,7 +243,7 @@ the version of 'cksum' is at least "2.0.0" (later, two dummy versions,
 
 For more information about the validation and error mechanism
 provided by CBRAIN for parameters, see the description for the class
-CbrainTaskFormBuilder
+CbrainTaskFormBuilder (in the CBRAIN code documentation).
 
 <a name="final" />
 #### vi. final_task_list()
