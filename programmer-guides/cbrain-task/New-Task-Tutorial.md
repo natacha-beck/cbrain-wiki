@@ -284,7 +284,7 @@ create 50 distinct tasks.
 The file '.../MyCksum/common/my_cksum.rb' is a place where you can
 put code that is common to both the BrainPortal side and Bourreau
 side of CBRAIN. In our example, we simply create a version comparison
-method. This method makes it possible to invoke some methods on the
+class method. This method makes it possible to invoke some methods on the
 task's 'tool_config' association, and to quickly check if the
 particular version of the task selected by the user has support for
 a particular feature. In our example, we pretend that if we are
@@ -293,7 +293,7 @@ in the params page and if we are running version "2.0.0" we need
 it.
 
 ```ruby
-    def compare_versions(v1,v2)
+    def self.compare_versions(v1,v2)
       v1.to_s <=> v2.to_s  # very dummy: we just compare the strings
     end
 ```
