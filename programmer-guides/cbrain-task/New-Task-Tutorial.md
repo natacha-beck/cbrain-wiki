@@ -144,7 +144,7 @@ compare this to the default_launch_args() above and see how we
 represent the :struct_with_day_and_month.
 
 ```ruby
-    def self.pretty_params_name
+    def self.pretty_params_names
       {
         :output_file_prefix                => 'prefix for the reports',
         :an_odd_number                     => 'odd number',
