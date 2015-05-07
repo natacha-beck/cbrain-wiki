@@ -233,7 +233,7 @@ the version of 'cksum' is at least "2.0.0" (later, two dummy versions,
       return "" unless self.tool_config.is_at_least_version("2.0.0")
       odd_num = params[:an_odd_number].presence
       if odd_num.blank? || (odd_num.to_i % 2 != 1)
-        params_errors.add(:an_odd_number, "is not odd, please enter an odd number."
+        params_errors.add(:an_odd_number, "is not odd, please enter an odd number.")
       end
       params_error.add(:output_file_prefix, "must be a simple prefix with no spaces") unless
           params[:output_file_prefix] =~ /^\w+$/
