@@ -237,7 +237,7 @@ the version of 'cksum' is at least "2.0.0" (later, two dummy versions,
       end
       params_error.add(:output_file_prefix, "must be a simple prefix with no spaces") unless
           params[:output_file_prefix] =~ /^\w+$/
-      "" all ok
+      "" # all ok
     end
 ```
 
