@@ -325,7 +325,7 @@ provides a set of helper methods to create the input elements. See
 the class CbrainTaskFormBuilder for more information.
 
 ```erb
-    <%= stylesheet_link_tag @task.public_path("cksum.css") %>
+    <%= stylesheet_link_tag @task.public_path("cksum.css").to_s, :media => "all" %>
     <%= form.params_label      :output_file_prefix, "Output file prefix:" %>
     <%= form.params_text_field :output_file_prefix %>
     <p>
