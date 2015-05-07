@@ -169,7 +169,7 @@ of "FileCollection").
     def before_form
       ids = self.params[:interface_userfile_ids].presence || [] # an array of IDs
       numfound = SingleFile.where(:id => ids).count # ActiveRecord makes sure the subclasses match
-      cb_error "All selected files must be simple files." if numfound != ids
+      cb_error "All selected files must be simple files." if numfound != ids.size
       return "" # all ok
     end
 ```
@@ -370,7 +370,7 @@ is stored as an ID by the Bourreau side, as will be shown later).
     Day: <%= params[:struct_with_day_and_month][:day] %>
     Month: <%= params[:struct_with_day_and_month][:month] %>
     <p>
-    Output: <%= link_to_userfile_if_accessible params[:report_id] $>
+    Output: <%= link_to_userfile_if_accessible params[:report_id] %>
 ```
 
 <a name="opt" />
