@@ -478,8 +478,8 @@ Bourreau side:
 
 This purpose of this method is to validate once more its parameters,
 synchronize its input files, and otherwise prepare anything needed
-for running the tool (like creating directories or symlink). There
-are numerous helper methods available to automate many common
+for running the tool (like creating directories or creating symbolic links to the input files).
+There are numerous helper methods available to automate many common
 operations, but few of them are used here. We simply make sure that
 the parameter :an_odd_number is odd if we're running version "2.0.0"
 and synchronize the single input file (that is, make a copy in the
@@ -557,7 +557,7 @@ Here we carry out the following steps:
       runid   = self.run_id # utility method, returns "#{task_id}-#{run_number}"
       prefix  = params[:output_file_prefix]
       outname = "#{prefix}myout-#{runid}.txt"
-      cb_error "Can't find my output file '#{outfile}' ?!?" unless File.exists?(outfile)
+      cb_error "Can't find my output file '#{outname}' ?!?" unless File.exists?(outname)
       outfile = safe_userfile_find_or_new(TextFile,  # utility of ClusterTask
                   { :name => outname,
                     :data_provider_id => self.result_data_provider_id.presence || infile.data_provider_id
