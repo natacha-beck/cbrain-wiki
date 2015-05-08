@@ -563,7 +563,7 @@ Here we carry out the following steps:
                     :data_provider_id => self.results_data_provider_id.presence || infile.data_provider_id
                   }
                 )
-      outfile.cache_copy_from_localfile(outname) # also saves to official data provider
+      outfile.cache_copy_from_local_file(outname) # also saves to official data provider
       outfile.move_to_child_of(infile)
       self.addlog_to_userfiles_these_created_these([infile],[outfile]) # utility of ClusterTask
       self.params[:report_id] = outfile.id  # so that the show page for the task shows it
