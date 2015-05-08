@@ -560,7 +560,7 @@ Here we carry out the following steps:
       cb_error "Can't find my output file '#{outname}' ?!?" unless File.exists?(outname)
       outfile = safe_userfile_find_or_new(TextFile,  # utility of ClusterTask
                   { :name => outname,
-                    :data_provider_id => self.result_data_provider_id.presence || infile.data_provider_id
+                    :data_provider_id => self.results_data_provider_id.presence || infile.data_provider_id
                   }
                 )
       outfile.cache_copy_from_localfile(outname) # also saves to official data provider
