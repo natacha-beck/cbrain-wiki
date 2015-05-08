@@ -362,13 +362,13 @@ a link to the input file, and a link to the output report (which
 is stored as an ID by the Bourreau side, as will be shown later).
 
 ```erb
-    Input: <%= link_to_userfile_if_accessible params[:interface_userfile_ids][0] %>
-    Output prefix: <%= params[:output_file_prefix] %>
+    Input: <%= link_to_userfile_if_accessible params[:interface_userfile_ids][0] %><br>
+    Output prefix: <%= params[:output_file_prefix] %><br>
     <% if @tool_config.is_at_least_version('2.0.0') %>
-      Odd number: <%= params[:an_odd_number] %>
+      Odd number: <%= params[:an_odd_number] %><br>
     <% end %>
-    Day: <%= params[:struct_with_day_and_month][:day] %>
-    Month: <%= params[:struct_with_day_and_month][:month] %>
+    Day: <%= params[:struct_with_day_and_month][:day] %><br>
+    Month: <%= params[:struct_with_day_and_month][:month] %><br>
     <p>
     Output: <%= link_to_userfile_if_accessible params[:report_id] %>
 ```
