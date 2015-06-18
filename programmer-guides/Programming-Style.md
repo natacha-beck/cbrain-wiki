@@ -8,13 +8,13 @@ other programming languages.
 
 ## Table of contents
 
-1. [Commonly acceptable rules](#acceptable_rules)
+1. [Commonly accepted rules](#acceptable_rules)
 2. [CBRAIN-specific rules](#CBRAIN_rules)
 
 
 
 <a name="acceptable_rules" />
-## 1. Commonly acceptable rules
+## 1. Commonly accepted rules
 
 Someone has already written a nice guide. Although it was
 written for people developing standalone Ruby applications, many
@@ -50,67 +50,86 @@ end
 
 The following are our internal rules:
 
-* DO NOT LEAVE TAB CHARACTERS INSIDE THE CODE. You can still use the
-  tab key, but make sure that you configure your editor such that the tab
-  characters themselves are replaced by normal spaces. All modern
-  editors have this option, so figure out how to set this preference
-  in your editor. In 'vim', this is done by adding the command "set
-  expandtab" in your .vimrc.
+#### No tab characters inside code.]
 
-* Annotate your classes and methods using the rdoc conventions.
-  This will allow you and other programmers to generate nice searchable
-  HTML pages for your code by calling the rake commands:
+Do not leave TAB (ASCII 0x09) characters inside the source code. You can still use the
+tab key, but make sure that you configure your editor such that the tab
+characters themselves are replaced by normal spaces. All modern
+editors have this option, so figure out how to set this preference
+in your editor. In 'vim', this is done by adding the command "set
+expandtab" in your .vimrc.
 
-  - ``rake doc:brainportal   (in the BrainPortal subdir)`` --> main index in Brainportal/doc/brainportal/index.html
-  - ``rake doc:bourreau      (in the Bourreau subdir)`` --> main index in Bourreau/doc/bourreau/index.html
+#### Comment your Ruby code with the RDOC conventions.
 
-  Open these with your browser. It may be helpful to bookmark them. Remember
-  to regenerate these documents from time to time, whenever the
-  code is updated.  An explanation of rdoc is available here:
-  [http://rdoc.sourceforge.net/doc/index.html](http://rdoc.sourceforge.net/doc/index.html)
-  (Look at the section entitled "Markup").
+Annotate your classes and methods using the rdoc conventions.
+This will allow you and other programmers to generate nice searchable
+HTML pages for your code by calling the rake commands:
 
-* Do not write lines that are too long and consistently fold over to
-  the other line in your editor. Once in a while it cannot be helped,
-  but often it is possible to split long lines into a more elegant
-  two line layout. Just be careful WHERE you split it, though,
-  as Ruby is particular about interpreting newlines characters as
-  statement terminators (unlike Perl and Java and C, which require
-  a semicolon). It is best to use a text editor window configured to
-  be between 90 and 100 characters wide.
+- ``rake doc:brainportal   (in the BrainPortal subdir)`` --> main index in Brainportal/doc/brainportal/index.html
+- ``rake doc:bourreau      (in the Bourreau subdir)`` --> main index in Bourreau/doc/bourreau/index.html
 
-  As examples, assume the following three lines are too long (they
-  are not all too long, in fact, it is just an example) and you would like
-  to split them a little:
+Open these with your browser. It may be helpful to bookmark them. Remember
+to regenerate these documents from time to time, whenever the
+code is updated.  An explanation of rdoc is available here:
+[http://rdoc.sourceforge.net/doc/index.html](http://rdoc.sourceforge.net/doc/index.html)
+(Look at the section entitled "Markup").
+
+#### Keep your lines relatively short, if possible
+
+Do not write lines that are too long and consistently fold over to
+the other line in your editor. Once in a while it cannot be helped,
+but often it is possible to split long lines into a more elegant
+two line layout. Just be careful WHERE you split it, though,
+as Ruby is particular about interpreting newlines characters as
+statement terminators (unlike Perl and Java and C, which require
+a semicolon). It is best to use a text editor window configured to
+be between 90 and 100 characters wide.
+
+As examples, assume the following three lines are too long (they
+are not all too long, in fact, but this is just an example) and you would like
+to split them a little:
 
 ```ruby
-  self.addlog("Using Scir for '#{drm}' version '#{version}'")
-  raise "Error: file does not exist: #{localpath}" unless File.exists?(localpath)
-  providers = self.find(:all, :conditions => { :online => true, :read_only => false })
+self.addlog("Using Scir for '#{drm}' version '#{version}'")
+raise "Error: file does not exist: #{localpath}" unless File.exists?(localpath)
+providers = self.find(:all, :conditions => { :online => true, :read_only => false })
 ```
 
-  This could be done this way:
+This could be done this way:
 
 ```ruby
-  self.addlog("Using Scir for '#{drm}' " +
-              "version '#{version}'")
-  raise "Error: file does not exist: #{localpath}" unless
-      File.exists?(localpath)
-  providers = self.find(:all, :conditions =>
+self.addlog("Using Scir for '#{drm}' " +
+            "version '#{version}'")
+raise "Error: file does not exist: #{localpath}" unless
+    File.exists?(localpath)
+providers = self.find(:all, :conditions =>
                             { :online => true, :read_only => false }
-                       )
+                     )
 ```
 
-  Note that the continuation line is indented compared to the beginning
-  of the statement; the indentation is chosen to be 'pretty'. Also note
-  that the 'unless' keyword MUST be left at the end of the first line
-  for the second example, otherwise Ruby would execute the ``raise``
-  statement unconditionally:
+Note that the continuation line is indented compared to the beginning
+of the statement; the indentation is chosen to be 'pretty'. Also note
+that the 'unless' keyword MUST be left at the end of the first line
+for the second example, otherwise Ruby would execute the ``raise``
+statement unconditionally:
 
 ```ruby
-  raise "Error: file does not exist: #{localpath}" # WRONG!
-    unless File.exists?(localpath)                 # WRONG!
+raise "Error: file does not exist: #{localpath}" # WRONG!
+  unless File.exists?(localpath)                 # WRONG!
 ```
 
-**Note**: Original author of this document is Pierre Rioux
+#### Configure your editor to remove trailing white spaces
+
+Please do not insert or leave trailing white spaces after your lines of code.
+Most editors can be configured to automatically strip such spaces, or at least
+highlight it for you. Committing files that have changed only in that new
+trailing white space is added is wrong.
+
+#### Configure your editor to make sure the last line of a file ends with a Newline
+
+Some editors, by default, strip the last newline character at the end of the last
+line of code (assuming it is not a blank line, obviously). Make sure your editor
+does NOT do that.
+
+**Note**: Original author of this document is Pierre Rioux, way back in 2009
 
