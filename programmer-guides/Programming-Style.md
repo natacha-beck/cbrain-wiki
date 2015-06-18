@@ -50,7 +50,7 @@ end
 
 The following are our internal rules:
 
-#### No tab characters inside code.]
+#### No tab characters inside code
 
 Do not leave TAB (ASCII 0x09) characters inside the source code. You can still use the
 tab key, but make sure that you configure your editor such that the tab
@@ -59,7 +59,7 @@ editors have this option, so figure out how to set this preference
 in your editor. In 'vim', this is done by adding the command "set
 expandtab" in your .vimrc.
 
-#### Comment your Ruby code with the RDOC conventions.
+#### Comment your Ruby code with the RDOC conventions
 
 Annotate your classes and methods using the rdoc conventions.
 This will allow you and other programmers to generate nice searchable
