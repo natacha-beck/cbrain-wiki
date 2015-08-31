@@ -52,16 +52,17 @@ CbrainTask (under cbraintask/).
 This structure allows a scientific programmer to distribute, as a
 complete 'plugin package', a full set of Userfiles and CbrainTask
 that logically go together. As an example, assume a programmer wants
-to add the Montreal Neurological Institute's CBRAIN plugin for its
-tools and userfiles. This one is stored on GitHub as
-"aces/cbrain-plugins-mni", so the programmer could simply issue
-these commands:
+to add a plugin package for a set of neurology tools and userfiles. 
+Assuming the package is on GitHub as "aces/cbrain-plugins-neuro", the
+programmer can simply issue these commands:
 
 ```bash
     cd /path/to/BrainPortal/cbrain_plugins
-    git clone https://github.com/aces/cbrain-plugins-mni.git   # will create 'cbrain-plugins-mni/' here
+    git clone https://github.com/aces/cbrain-plugins-neuro.git   # will create 'cbrain-plugins-neuro/' here
 ```
-
+The rest of the installation steps are outside the scope of this document, but
+suffice to say this simple `git clone` command has installed most of the files
+cleanly and efficiently.
 
 
 
