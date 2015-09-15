@@ -111,7 +111,6 @@ proper portal functionality of a CbrainTask.
 | #after_final_task_list_saved         |                    |
 | #untouchable_params_attributes       |                    |
 | #unpresetable_params_attributes      |                    |
-| #wrapper_after_final_task_list_saved |                    |
 
 #### Other methods
 
