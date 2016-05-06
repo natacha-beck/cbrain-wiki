@@ -197,9 +197,8 @@ then either you did not log out or RVM was not installed properly.
 #### ii. Ruby
 
 It is important to consider which version of Ruby to install. CBRAIN
-has been tested and deployed on many Ruby versions all the way
-up to and including Ruby 2.2.0. This is the version that is currently 
-recommended (minor upgrades to this version are fine too).
+has been tested and deployed on many Ruby versions including Ruby 2.2.0. This is the version that is currently 
+recommended (minor upgrades to this version are fine too). Ruby versions before 2.0 may not work well.
 
 In the following steps, RVM is used to install Ruby.
 
