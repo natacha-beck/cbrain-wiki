@@ -7,6 +7,8 @@ different types of Data Providers, for example `SshDataProvider`
 and `VaultSshDataProvider`; they differ in how they structure their
 files on their respective storage areas.
 
+[[/interface-guides/admin-guides/images/DataProviderClasses.png]]
+
 ## Table of contents
 
 1. [How to create a Data Provider](#how_to)
