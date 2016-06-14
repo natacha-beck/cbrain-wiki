@@ -7,8 +7,6 @@ different types of Data Providers, for example `SshDataProvider`
 and `VaultSshDataProvider`; they differ in how they structure their
 files on their respective storage areas.
 
-[[/interface-guides/admin-guides/images/DataProviderClasses.png]]
-
 ## Table of contents
 
 1. [How to create a Data Provider](#how_to)
@@ -93,6 +91,8 @@ in CBRAIN. Not all of them are useful. In production environments,
 the recommended types are EnCbrainSmartDataProvider for official
 data storage and SshDataProvider for user-specific personal storage.
 
+[[/interface-guides/admin-guides/images/DataProviderClasses.png]]
+
 <a name="local_dp" />
 #### i. LocalDataProvider
 This is an abstract class which represents Data Providers where the
@@ -103,7 +103,7 @@ accessing the real provider's files. All methods are adjusted so
 that their behavior is sensible.
 
 <a name="ssh_dp" />
-#### ii. SshDataProvider
+#### ii. FlatDirSshDataProvider (a.k.a. SshDataProvider)
 This class provides an implementation for a Data Provider where the
 remote files are accessed through ssh and rsync. The provider's
 files are stored in a flat directory, one level deep, directly
@@ -170,10 +170,9 @@ be used.
 #### ix. EnCbrain*DataProvider
 This class includes EnCbrainSshDataProvider, EnCbrainLocalDataProvider,
 and EnCbrainSmartDataProvider. These three providers are enhanced
-variations on the other three Cbrain\*DataProviders described above.
-They differ in how they store their files. The path to a file is
-no longer based on its owner or the filename, but instead uniquely
-determined by the file's ID. A file named "hello" with ID 41233
+variations of each other that differ in how they transport data.
+How they store their files is based on the IDs of those files. The path to
+a file is uniquely determined by the file's ID. A file named "hello" with ID 41233
 will be stored like this: `/root_dir/04/12/33/hello`. Such Data
 Providers have the advantage that files can be renamed and reassigned
 to new owners with minimal modifications on the filesystem's
