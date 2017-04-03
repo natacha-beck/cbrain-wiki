@@ -16,14 +16,14 @@ of a script or program to process them.
    1. [BrainPortal class hierarchy](#brainportal)
    2. [Bourreau class hierarchy](#bourreau)
 2. [Code organization](#org)
-   1. [portal/taskname.rb] (#por)
-   2. [bourreau/taskname.rb] (#bour)
-   3. [View partials] (#view)
+   1. [portal/taskname.rb](#por)
+   2. [bourreau/taskname.rb](#bour)
+   3. [View partials](#view)
 3. [CbrainTask attributes](#att)
 4. [Task life cycle](#lifecycle)
-   1. [Task creation] (#task)
-   2. [Task editing] (#tasked)
-   3. [Standard life cycle diagram] (#stand)
+   1. [Task creation](#task)
+   2. [Task editing](#tasked)
+   3. [Standard life cycle diagram](#stand)
 5. [Getting started](#start)
 6. [Advanced features](#adv)
    1. [Task restartability and recovery](#recov)
@@ -35,6 +35,7 @@ of a script or program to process them.
 
 
 <a name="arch" />
+
 ## 1. CBRAIN architecture
 
 As explained in the [[Setup Guide]], CBRAIN is organized as two
@@ -59,6 +60,7 @@ row of that table is loaded as an object, the type of the object will be
 determined by the value of the "type" column.
 
 <a name="brainportal" />
+
 #### i. BrainPortal class hierarchy
 
 On the BrainPortal Rails application, all task objects recreated
@@ -78,6 +80,7 @@ and helpers to provide for the task's life cycle as a web interface
 object.
 
 <a name="bourreau" />
+
 #### ii. Bourreau class hierarchy
 
 A similar situation happens on the Bourreau Rails application. This
@@ -95,6 +98,7 @@ being processed on the Execution Server.
 
 
 <a name="org" />
+
 ## 2. Code organization
 
 The files that comprise a single CBRAIN task are packaged in a
@@ -113,6 +117,7 @@ model files, one for the BrainPortal side and one for the Bourreau
 side, and two Rails view partials (under a subdirectory called
 views).
 <a name="por" />
+
 #### i. portal/taskname.rb
 
 The model file under the portal/ subdirectory is where the task
@@ -134,6 +139,7 @@ The class and instance methods that a programmer typically needs to provide are:
     untouchable_params_attributes()
     unpresetable_params_attributes()
 <a name="bour" />
+
 #### ii. bourreau/taskname.rb
 
 The model file under the bourreau/ subdirectory is where the task
@@ -154,6 +160,7 @@ The methods that a programmer typically needs to provide are:
     restart_at_post_processing()
 
 <a name="view" />
+
 #### iii. View partials
 
 The files views/_task_params.html.erb and views/_show_params.html.erb
@@ -168,6 +175,7 @@ about a task that already exists on the system.
 
 
 <a name="att" />
+
 ## 3. CbrainTask attributes
 
 Most of the ActiveRecord attributes are rather self-explanatory.
@@ -263,6 +271,7 @@ Here are a few that may need some explanation:
 
 
 <a name="lifecycle" />
+
 ## 4. Task life cycle
 
 CbrainTasks are standard Rails ActiveRecord objects. On the BrainPortal
@@ -270,6 +279,7 @@ side, they are created and edited using an almost standard Rails
 action sequence.
 
 <a name="task" />
+
 #### i. Task creation
 
 The following diagram shows the interactions between the controller
@@ -302,6 +312,7 @@ special [[CbrainTask::Parallelizer|CbrainTask Parallelization]]
 tasks to regroup them in batches that are going to be run in parallel.
 
 <a name="tasked" />
+
 #### ii. Task editing
 
 The following diagram shows what happens when tasks are edited.
@@ -320,6 +331,7 @@ are special controller actions implemented to allow a task to be
 restarted, terminated, etc.
 
 <a name="stand" />
+
 #### iii. Standard life cycle diagram
 
 The following diagram shows the standard state diagram of a CbrainTask.
@@ -341,6 +353,7 @@ by the task's programmer).
 
 
 <a name="start" />
+
 ## 5. Getting started
 
 The simplest way to get started is to follow the steps of the
@@ -350,6 +363,7 @@ investigate the [Advanced features](#adv) section below.
 
 
 <a name="adv" />
+
 ## 6. Advanced features
 
 CbrainTasks are usually designed with a very simple execution model:
@@ -360,6 +374,7 @@ or with a little bit of simple programming using these CBRAIN
 features:
 
 <a name="recov" />
+
 #### i.  Task restartability and recovery
 
   Task are not normally restartable once they have completed
@@ -377,6 +392,7 @@ features:
   document, [[CbrainTask Recovery And Restart]].
 
 <a name="paral" />
+
 #### ii. Automatic parallelization
 
   Several simple tasks can be automatically run in parallel by
@@ -391,6 +407,7 @@ features:
   [[CbrainTask Parallelization]].
 
 <a name="depend" />
+
 #### iii. Task dependencies
 
   Tasks can be made to depend on other tasks.
@@ -399,6 +416,7 @@ features:
   [[CbrainTask Prerequisites]].
 
 <a name="share" />
+
 #### iv.  Tasks sharing a work directory
 
   Each task has, by default, a private work directory created for it.
