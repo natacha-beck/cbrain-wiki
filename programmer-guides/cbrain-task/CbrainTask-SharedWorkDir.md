@@ -14,6 +14,7 @@ if a scientific job is launched on a cluster and a follow-up 'cleanup' or
 4. [Arbitrary sharing in ``final_task_list()``](#sharing)
 
 <a name="API_methods" />
+
 ## 1. API methods
 
 When a new task, 'mytask', is created, its work directory can be set to be that
@@ -42,6 +43,7 @@ For more information about prerequisites, see the following document:
 
 
 <a name="example" />
+
 ## 2. Example
 
 The following code can be run on the console:
@@ -74,6 +76,7 @@ and the prerequisites can be set in a single step by this utility method:
 ```
 
 <a name="caveats" />
+
 ## 3. Caveats to this approach
 
 There are some obvious caveats to this method:
@@ -91,6 +94,7 @@ There are some obvious caveats to this method:
   set up and it will fail with **"Failed To setup"**.
 
 <a name="sharing" />
+
 ## 4. Arbitrary sharing in final_task_list()
 
 Programmers who are planning to create arrays
