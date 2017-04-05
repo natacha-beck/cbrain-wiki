@@ -8,6 +8,7 @@ Information shown on the Exceptions tab can be useful to view and manage the Exc
 2. [View information about an exception](#content)
 
 <a name="tab" />
+
 ## 1. Exceptions tab
 
 All of the exceptions which occur in CBRAIN are shown on this tab. The following information is shown for each Exception:
@@ -22,6 +23,7 @@ All of the exceptions which occur in CBRAIN are shown on this tab. The following
 * **Raised at**: The time that the exception occurred.
 
 <a name="content" />
+
 ## 2. View information about an exception
 
 If you want more information about a particular exception you can click on it on the Exceptions tab. This can be useful for a programmer to replicate the exception and debug the CBRAIN code.
