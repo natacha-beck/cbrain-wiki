@@ -24,6 +24,7 @@ A complete diagram can be generated using [RailRoady](https://github.com/preston
 4. [Asking for help](#help)
 
 <a name="setup" />
+
 ## 1. Setting up a development environment
 
 * First, use a Mac or a Linux workstation for software development. 
@@ -53,6 +54,7 @@ A complete diagram can be generated using [RailRoady](https://github.com/preston
   for the APIs!
 
 <a name="guides" />
+
 ## 2. List of subguides
 
 #### a. Style
@@ -99,6 +101,7 @@ time to time. We plan to update and improve it continually.
 More information on this can be found in [[Testing Suite]].
 
 <a name="contrib" />
+
 ## 3. Contributing your code
 
 If you would like to contribute code to CBRAIN, then the procedure
@@ -120,6 +123,7 @@ to follow is very simple:
   The process is described at the GitHub website.
 
 <a name="help" />
+
 ## 4. Asking for help
 
 The CBRAIN team is fully aware that the documention is incomplete
