@@ -41,6 +41,7 @@ All commands shown in this guide use the _bash_ command-line interpreter.
 5. [Additional help](#help)
 
 <a name="about" />
+
 ## 1. About the platform
 
 CBRAIN is a Ruby on Rails application at its core. You can find out
@@ -82,12 +83,14 @@ word for an executioner (the profession) and its plural is _Bourreaux_
 (pronounced exactly the same way, since the "x" is silent).
 
 <a name="system_requirements" />
+
 ## 2. System requirements
 
 Before installing CBRAIN, make sure that the system meets the following
 basic requirements.
 
 <a name="supported_os" />
+
 #### i. Supported operating systems
 
 CBRAIN has been developed and deployed successfully on two major classes 
@@ -101,6 +104,7 @@ With a few adjustments to the following instructions, CBRAIN can likely
 be deployed on many other flavors of Linux or other UNIX operating systems.
 
 <a name="openssh" />
+
 #### ii. OpenSSH
 
 OpenSSH is normally installed on the aforementioned operating
@@ -108,6 +112,7 @@ systems. If you are using Linux and it has not been installed, use the local
 package manager to install it or ask the system administrator to do so.
 
 <a name="mysql" />
+
 #### iii. MySQL (or MariaDB)
 
 Access to a MySQL server is necessary. You can either install your own 
@@ -145,6 +150,7 @@ CBRAIN on MariaDB, but are quite confident that it would work
 perfectly well with it too.
 
 <a name="xcode" />
+
 #### iv. Xcode for Mac OS X
 
 If Mac OS X is used for development, then it is necessary to install 
@@ -153,12 +159,14 @@ tools and so they must be installed separately. Xcode is free and
 provided by Apple as a download.
 
 <a name="software_installation" />
+
 ## 3. Software installation
 
 CBRAIN is a complex piece of Ruby software, but its installation is
 made much simpler by the use of a few excellent external applications.
 
 <a name="rvm" />
+
 #### i. RVM
 
 [RVM](https://rvm.io/) (Ruby Version Manager) is an all-in-one
@@ -194,6 +202,7 @@ system information. If instead the message `rvm: command not found` is shown,
 then either you did not log out or RVM was not installed properly.
 
 <a name="ruby" />
+
 #### ii. Ruby
 
 It is important to consider which version of Ruby to install. CBRAIN
@@ -224,6 +233,7 @@ rvm --default 2.2
 You can run 'rvm info' again to make sure this version is selected.
 
 <a name="cbrain_code" />
+
 #### iii. CBRAIN code base
 
 Next extract the CBRAIN code base to the location where you 
@@ -240,6 +250,7 @@ for the two Rails applications, in subdirectories named `BrainPortal`
 and `Bourreau`.
 
 <a name="gems" />
+
 #### iv. Gems<a name="gems" />
 
 Ruby Gems are convenient packages for Ruby libraries and applications.
@@ -307,6 +318,7 @@ to use the following procedure:
 ```
 
 <a name="plugins" />
+
 #### v. Plugins installation
 
 Some components of CBRAIN can be installed separately. They
@@ -343,6 +355,7 @@ this package.
 This rake task can be run many times without causing any problems.
 
 <a name="next" />
+
 ## 4. Moving on
 
 At this point most of the basic files and programs needed to 
@@ -357,6 +370,7 @@ in place.
   BrainPortal), then follow the instructions in the [[Bourreau Setup]] document.
 
 <a name="help" />
+
 ## 5. Additional help
 
 Refer to the [[Troubleshooting]] and [[FAQ]] documents for general information
