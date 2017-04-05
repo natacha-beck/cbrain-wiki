@@ -34,6 +34,7 @@ have completed successfully.
 
 
 <a name="error_life_cycle" />
+
 ## 1. Error life cycle
 
 There are exactly five status keywords that are used to identify
@@ -98,6 +99,7 @@ script execution, not during post processing.
 
 
 <a name="error_recovery" />
+
 ## 2. Error recovery
 
 It's left to the user to look at the logs of a failed CbrainTask
@@ -152,6 +154,7 @@ The developer doesn't have to touch the task's status, this tracking
 is all performed by the CbrainTask base class.
 
 <a name="task_restart" />
+
 ## 3. Task restart
 
 This section describe a concept strongly related to error recovery.
@@ -227,6 +230,7 @@ that can be used for tracking the run number, see the documentation
 for the method `run_id()` for instance.
 
 <a name="naturally_restartable" />
+
 ## 4. Writing Code That Is Naturally Restartable
 
 Both the error recovery capabilities and the restart capabilities
@@ -320,6 +324,7 @@ utility instance methods have been added to the CbrainTask class:
 See the documentation in the class `CbrainTask` for more information.
 
 <a name="brainportal_bourreau" />
+
 ## 5. BrainPortal interface / Bourreau controller
 
 The BrainPortal interface has been enhanced to provide a way to
@@ -361,6 +366,7 @@ as **Recovering Setup**, while the methods are running.
 
 
 <a name="diags" />
+
 ## 6. State diagrams
 
 [[/programmer-guides/images/CbrainTaskStates.png]]
