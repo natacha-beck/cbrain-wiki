@@ -22,6 +22,7 @@ where a particular execution environment is needed.
 5. [For more help](#help)
 
 <a name="bourreau_app" />
+
 ## 1. Bourreau CBRAIN Application
 
 We assume that the code has been deployed and the files
@@ -31,6 +32,7 @@ server can mostly be performed from the within the BrainPortal interface,
 but there is one exception: the SSH connection between the two applications.
 
 <a name="ssh" />
+
 ## 2. SSH setup for the Bourreau
 
 The BrainPortal needs to be able to SSH to the host
@@ -106,6 +108,7 @@ Rails server using a SSH command is invoked within RVM with its gems
 and Ruby.
 
 <a name="bour" />
+
 ## 3. Bourreau configuration
 
 Assuming that you have properly installed the Bourreau application's
@@ -176,6 +179,7 @@ Bourreau server.
 After editing each section, click 'Update' to save the values.
 
 <name="next" />
+
 ## 4. Moving on
 
 At this point you can start and stop the Bourreau application
@@ -195,6 +199,7 @@ The Bourreau is ready to accept tasks once CBRAIN [[Tools]]
 are configured for it by the CBRAIN administrator.
 
 <a name="more_help" />
+
 ## 5. For more help
 
 Refer to the [[Troubleshooting]] and [[FAQ]] documents for hints
