@@ -24,6 +24,7 @@ and files specific to the `BrainPortal` Rails application.
 3. [For more help](#more_help)
 
 <a name="configuration" />
+
 ## 1. Files configuration
 
 We assume at this point that you have deployed all the files
@@ -36,6 +37,7 @@ do right now. Both of these steps are necessary before it is possible
 to launch the interface.
 
 <a name="db_connection" />
+
 #### i. Database connection
 
 The database connection is defined by a single file that
@@ -66,6 +68,7 @@ for `test`. For a full production setup, you can configure the
 `production` connection profile and remove the other two.
 
 <a name="app_name" />
+
 #### ii. Application name
 
 Each BrainPortal application has a *name* that it uses to find
@@ -87,6 +90,7 @@ in the database; both need to be kept in sync if you ever
 change the name.
 
 <a name="db_initialization" />
+
 #### iii. Database schema initialization
 
 Rails provides a mechanism to initialize your database. It
@@ -135,6 +139,7 @@ interface. However, if you do forget it, you can re-run the rake task later
 to reset the password.
 
 <a name="console" />
+
 #### iv. BrainPortal console checks
 
 The Rails console is a great tool to inspect the entire CBRAIN
@@ -243,6 +248,7 @@ Let's examine these items one by one.
   ```
 
 <a name="interface" />
+
 ## 2. Interface configuration
 
 At this point it is possible to configure everything else from within 
@@ -276,6 +282,7 @@ information page for the BrainPortal, where each section and input
 field can be edited.
 
 <a name="timezone" />
+
 #### i. Time zone configuration
 
 Click on the `(Edit)` link in the top `Info` section
@@ -306,6 +313,7 @@ managed by CBRAIN's BrainPortal and not shared with
 other Rails applications, even within the CBRAIN installation.
 
 <a name="next" />
+
 ## 3. Moving on
 
 At this point this is a functional BrainPortal application. It is possible 
@@ -325,6 +333,7 @@ and there are no execution servers to process them.
   document.
 
 <a name="more_help" />
+
 ## 4. For more help
 
 Refer to the [[Troubleshooting]] and [[FAQ]] documents for hints
