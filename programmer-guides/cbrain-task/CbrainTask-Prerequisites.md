@@ -16,6 +16,7 @@ for more information about this.
 3. [Example](#ex)
 
 <a name="lifecycle" />
+
 ## 1. Life cycle prerequisites
 
 The CBRAIN task objects have an attribute called 'prerequisites'. It is
@@ -85,6 +86,7 @@ other tasks involved, each specified with one of their three
 completion statuses (or a **Failed** state).
 
 <a name="meth" />
+
 ## 2. API methods
 
 The prerequisites API works to allow you to set up these rules easily.
@@ -95,6 +97,7 @@ your task:
 * `add_prerequisites_for_post_processing(other_task,other_state = 'Completed')`
 
 <a name="ex" />
+
 ## 3. Example
 
 Here is a complete example that you can run on the console.
