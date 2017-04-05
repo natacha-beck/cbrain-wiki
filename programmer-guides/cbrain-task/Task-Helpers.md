@@ -22,6 +22,7 @@ Methods listed in the following tables use this convention:
 
 
 <a name="common" />
+
 ## 1. CbrainTask Model Helpers
 
 These methods are usually defined in the file `models/cbrain_task.rb`
@@ -123,6 +124,7 @@ proper portal functionality of a CbrainTask.
 
 
 <a name="bourreau" />
+
 ## 3. ClusterTask Model Helper
 
 These methods are only available when tasks are instanciated on a
@@ -195,6 +197,7 @@ proper bourreau functionality of a CbrainTask.
 
 
 <a name="views" />
+
 ## 4. Task View Helpers
 
 These methods are helpers for writing the task's interface. They
