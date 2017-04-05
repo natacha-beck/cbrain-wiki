@@ -9,6 +9,7 @@ This class provides an asynchronous communication mechanism between any CBRAIN u
 2. [Filters](#fil)
 
 <a name="how"/>
+
 ## 1. How to create a Message
 
 * Go to the "Messages" section.
@@ -33,6 +34,7 @@ timestamp the successive **variable text** messages into it.
 
 
 <a name="fil"/>
+
 ## 2. Filters
 
 On the index page of the message you will find a "Filters" panel,
