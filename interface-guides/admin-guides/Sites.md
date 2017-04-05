@@ -13,6 +13,7 @@ the site. See the page about [[Users]].
 1. [How to create a Site](#how)
 
 <a name="how" />
+
 ## 1. How to create a Site
 
 * Go to the "Sites" tab.
