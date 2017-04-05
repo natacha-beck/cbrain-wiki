@@ -1,4 +1,5 @@
 <a name="intro" />
+
 ## Introduction
 
 A tool is a generic entry in CBRAIN, which contains a range of information to distinguish different 
@@ -24,6 +25,7 @@ There are three categories of tool config:
 5. [Reports](#reports)
 
 <a name="how_tc" />
+
 ## 1. Autoload Tools
 
 Once a new tool has been added to the code base of CBRAIN, the new tool should be registered by clicking the "Autoload Tools" button on the "Tools" tab.
@@ -40,6 +42,7 @@ The following information is shown for the tool:
 the [[CbrainTask Programmer Guide]].
 
 <a name="how"/>
+
 ## 2. How to create a tool
 
 * Go to the "Tools" tab.
@@ -64,6 +67,7 @@ the [[CbrainTask Programmer Guide]].
       user launches a task.
 
 <a name="how_tc" />
+
 ## 3. How to create a tool config
 
 As explained in the [Introduction](#introduction), there are three types of tool configuration.
@@ -72,6 +76,7 @@ This section describes how to create each of these and the purpose of each type.
 **Note**: When you edit or create a tool config, you can always use the **Merge configuration from another existing entry** to create a new entry. Sometimes it is easier to do it this way.
 
 <a name="exec" />
+
 #### i. Tool config associated with an execution server only
 
 This type of tool config represents the initialization for all tools on a particular execution server. 
@@ -85,6 +90,7 @@ To create or edit the tool config:
   * **BASH initialization prologue**: This is a multi line partial BASH script, which uses the environment variables defined above.
 
 <a name="tool" />
+
 #### ii. Tool config associated with a tool only
 
 This type of tool config represents the initialization for a particular tool on every execution server. 
@@ -97,6 +103,7 @@ To create or edit this tool config:
   * **BASH initialization prologue**: This is a multi line partial BASH script, which uses the environment variables defined above.
 
 <a name="exectool" />
+
 #### iii. Tool config associated with an execution server and a tool
 
 This type of tool config represents the initialization for a particular tool, on a particular execution server.
@@ -127,6 +134,7 @@ Fill in the form:
   * **BASH initialization prologue**: This is a multi line partial BASH script, which uses the environment variables defined above.
 
 <a name="show" />
+
 ## 4. How to view a tool config
 
 To view a particular tool config associated with a tool and execution server:
@@ -139,6 +147,7 @@ To view a particular tool config associated with a tool and execution server:
 This page lists the name of the tool config, the tool version and execution server that it applies to, as well as the availability to users and the number of suggested CPUs to be used.  The full BASH initialization prologue script for the configuration is also shown.
 
 <a name="reports" />
+
 ## 5. Reports
 
 The Tools index page shows links to the "Access Reports" and the "Access?" report by tool. Consult the [[Reports And Monitoring]] section of this guide for more information about the reports.
