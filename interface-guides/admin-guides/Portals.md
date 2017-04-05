@@ -9,12 +9,14 @@ information about an existing Portal.
 2. [View/Edit information about a Portal](#view_and_edit)
 
 <a name="setup" />
+
 ## 1. Portal setup
 
 In order to see how to setup a portal you should take a look to the
 [[BrainPortal Setup]] part of the documentation.
 
 <a name="view_and_edit" />
+
 ## 2. View/Edit information about a Portal
 
 In order to view and edit the information about a portal:
