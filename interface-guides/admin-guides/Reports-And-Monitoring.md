@@ -26,6 +26,7 @@ such reports. CBRAIN also has a comprehensive mechanism for tracking activity on
 7. [Log information](log)
 
 <a name="aut" />
+
 ## 1. Automatic tabular Report maker
 
 The "Report maker" can generate many different kinds of reports in a tabular
@@ -47,9 +48,11 @@ and regenerate it at any time.
 * Optional filters can be added in order to refine the report.
 
 <a name="tools" />
+
 ## 2. Tools report
 
 <a name="access_rep" />
+
 #### i. Access reports
 
 "Access reports" generates reports about the tools.
@@ -85,6 +88,7 @@ the following reports:
   execution server and/or a particular tool and/or a particular user.
 
 <a name="access" />
+
 #### ii. Access
 
 There is an "Access?" link on the index page, on the right of the table, which
@@ -92,9 +96,11 @@ can be clicked to find a link for a tool. Clicking on this latter link will
 redirect to the "Access Reports" by tool.
 
 <a name="dp_r" />
+
 ## 3. Data Provider reports
 
 <a name="user"/>
+
 #### i. User access reports
 
 To show "User access reports":
@@ -106,6 +112,7 @@ Each cell of the table is a green circle when the user has access to the
 Data Provider or a red cross otherwise.
 
 <a name="transfer"/>
+
 #### ii. Transfer restrictions
 
 To show the "Transfer restrictions" report:
@@ -134,6 +141,7 @@ and/or "portal has no access". If all three properties allow the file transfers,
 the second symbol will be a green circle; it will be a red cross otherwise.
 
 <a name="disk" />
+
 #### iii. Disk usage report
 
 To show the "Disk usage report":
@@ -148,9 +156,11 @@ entries that are requested. In each cell there is a color coded chip to
 represent the size of the data, from blue to red.
 
 <a name="ser_r" />
+
 ## 4. Server reports
 
 <a name="user_acc" />
+
 #### i. User access report
 
 To show the "User Access Reports":
@@ -162,6 +172,7 @@ the table is a green circle when the user has access to the Data Provider or a
 red cross otherwise.
 
 <a name="disk" />
+
 #### ii. Disk cache report
 
 To show the "Disk Cache Report":
@@ -175,6 +186,7 @@ A filter can be added to select results by date. Cleanup of the cache can also b
 performed on this page.
 
 <a name="task" />
+
 #### iii. Task workdir size report
 
 To show the "Task Workdir Size report":
@@ -188,6 +200,7 @@ where filters can be used to select particular entries. In each cell there is a
 color coded chip to represent the size of the data, from blue to red.
 
 <a name="access_data" />
+
 #### iv. Access to Data Providers
 
 To show the "Access to Data Providers" report:
@@ -219,9 +232,11 @@ files can still be accessed through streaming APIs, but can never be fully
 synchronized on any server. 
 
 <a name="task" />
+
 ## 5. Task statistics
 
 <a name="by_status" />
+
 #### i. Task statistics by status
 
 To show the "Task Statistics By Status" report
@@ -236,6 +251,7 @@ redirected to the Tasks tab, listing all of the tasks with a particular status a
 user on the execution server.
 
 <a name="by_type" />
+
 #### ii. Task statistics by type
 
 To show the "Task Statistics By Type" report
@@ -251,6 +267,7 @@ it you are redirected to the Tasks tab, listing all the tasks of a particular
 type, for the user and execution server you selected.
 
 <a name="por" />
+
 ## 6. Portal log page
 
 To use the "Portal log page":
@@ -262,6 +279,7 @@ to use a **filter**, for example to only show the logs for a particular user,
 or to **hide** some lines and only show what is most relevant.
 
 <a name="log" />
+
 ## 7. Log information
 
 On each show page there is a "File info" section, where all of the changes that
