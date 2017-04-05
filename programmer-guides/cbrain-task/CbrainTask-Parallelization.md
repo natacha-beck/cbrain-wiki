@@ -25,6 +25,7 @@ without having to recode existing tasks.
 4. [State Diagram](#diags)
 
 <a name="auto" />
+
 ## 1. Automatic parallelization
 
 Basically, when a task is about to be launched,
@@ -91,6 +92,7 @@ all its parallelized tasks as Data Ready so that they can proceed
 with their normal **Post Processing** steps.
 
 <a name="trigger" />
+
 ## 2. How to trigger parallelization of existing CbrainTasks
 
 As described above, the new parallelization framework is built on
@@ -107,6 +109,7 @@ value, or instead just provide ``true`` and let the ToolConfigs
 actually specify the number of task instances per Parallelizer.
 
 <a name="conf" />
+
 ## 3. CBRAIN administrator configuration
 
 For parallelization to work with existing tasks, the sysadmin must
@@ -127,6 +130,7 @@ configure a few more values using the CBRAIN interface.
      parallel mode.
 
 <a name="diags" />
+
 ## 4. State diagram
 
 This diagram is a variation of the standard state diagram
