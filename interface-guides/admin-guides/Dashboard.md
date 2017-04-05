@@ -13,6 +13,7 @@ the Dashboard includes: [system information](#system_info), [account information
 
 
 <a name="system_info" />
+
 ## 1. System information
 
 This section includes:
@@ -34,6 +35,7 @@ This section includes:
   Click on "Show exceptions" to be redirected to the "Exceptions" table.
 
 <a name="account_info" />
+
 ## 2. Account information
 
 This section includes:
@@ -47,7 +49,9 @@ This section includes:
 * **Your default Data Provider**
 * **Your default Execution Server**
 
-##3. Latest updated information <a name="latest_updated"></a>
+<a name="latest_updated" />
+
+## 3. Latest updated information 
 
 This section includes two parts: (1) latest updated tasks and (2) latest updated files.
 
