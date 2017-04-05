@@ -11,12 +11,14 @@ tasks are performed.
 3. [Reports](#reports)
 
 <a name="setup" />
+
 ## 1. Execution server setup
 
 Consult the [[Bourreau Setup]] documentation, for information on how to set up an 
 execution server.
 
 <a name="how_to" />
+
 ## 2. How to create an execution server
 
 * Go to the "Servers" tab.
