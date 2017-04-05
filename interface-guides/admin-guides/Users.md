@@ -1,5 +1,6 @@
 
 <a name="intro" />
+
 ## Introduction
 
 A user is a person who can access CBRAIN. In CBRAIN, there are three types of user:
@@ -19,6 +20,7 @@ This section will explain how to create a CBRAIN user and particular details abo
 
 
 <a name="how" />
+
 ## 1. How to create a User
 
 * Go to the "Users" tab.
@@ -60,6 +62,7 @@ This section will explain how to create a CBRAIN user and particular details abo
 ones are optional.
 
 <a name="loc" />
+
 ## 2. Lock/Delete a User
 
 #### 1. Lock a user
