@@ -1,5 +1,6 @@
 
 <a name="intro"/>
+
 ## Introduction
 
 Projects are used to store files and tasks and they facilitate the sharing of files and resources between users. There are four types of projects:
@@ -16,6 +17,7 @@ The system, site and user projects are all created automatically by CBRAIN.
 2. [Delete a Project](#del)
 
 <a name="how"/>
+
 ## 1. How to create a Project
 
 * Go to the "Projects" section.
@@ -31,6 +33,7 @@ The system, site and user projects are all created automatically by CBRAIN.
 * Click on "Create".
 
 <a name="del"/>
+
 ## 2. Delete a project
 
 All Userfile, RemoteResource and DataProvider associated with the group being destroyed will have their group set to their owner's SystemGroup.
