@@ -12,7 +12,9 @@ site and performs tasks. CBRAIN can contain several execution servers.
 2. [Reports](#reports) 
 
 <a name="index" />
+
 ## 1. The index table
+
 On the index page you will find one line for each portal or for each execution server.
 The following information is shown:
 * **Server Type**: The type of server, which can be a portal or an execution server.
@@ -38,6 +40,7 @@ you should first create the server and then edit the information about the serve
 * **Operation**: You can directly start or stop an execution server from the index page.
 
 <a name="reports" />
+
 ## 2. Reports
 
 On the Servers index page there are links to different reports, such as the "User Access 
