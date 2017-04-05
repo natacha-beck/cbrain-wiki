@@ -23,6 +23,7 @@ All commands shown in this guide use the _bash_ command-line interpreter.
 4. [Additional help](#help)
 
 <a name="dist" />
+
 ## 1. CBRAIN as a distributed system
 
 A CBRAIN installation is a graph of components connected through the network.
@@ -49,6 +50,7 @@ most likely there would be Bourreaux on servers for running tasks and Data
 Providers on them for storage.
 
 <a name="org" />
+
 ## 2. Code organization
 
 A note about the organization of the source code, as it is distributed. 
@@ -65,6 +67,7 @@ several Bourreaux, even on the same server and under the same UNIX
 username, you need to extract the source code separately.
 
 <a name="overview" />
+
 ## 3. Overview of installation
 
 The installation documentation is split into three separate guides.
@@ -106,6 +109,7 @@ branch between distinct Bourreau applications that you want to
 configure.
 
 <a name="more_help" />
+
 ## 4. Additional help
 
 Refer to the [[Troubleshooting]] and [[FAQ]] documents for hints
