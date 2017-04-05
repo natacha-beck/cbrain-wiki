@@ -9,6 +9,7 @@
 
 
 <a name="inst" />
+
 ## 1. Installation Issues
 
 #### i. Installing the database with "rake db:setup"
@@ -67,6 +68,7 @@ requirements to proceed. Make sure to undo this change after you've successfully
 compiled Ruby. 
 
 <a name="run" />
+
 ## 2. Runtime Issues
 
 Nothing here for the moment.
