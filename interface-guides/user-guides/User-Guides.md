@@ -1,9 +1,10 @@
 
 <a name="introduction" />
+
 ## Introduction
 
 This manual provides an introduction to CBRAIN, a web-based platform for storing files and running tasks on them.
-CBRAIN has been developed by support from [CANARIE](http://www.canarie.ca), in professor [Alan Evans'] (http://mcin-cnim.ca/people/alans-cv/) lab at [the McConnell Brain Imaging Centre] (http://www.mcgill.ca/bic/research-0/ace-lab-evans) and the McGill Centre for Integrative Neuroscience ([MCIN](http://mcin-cnim.ca)), at [McGill University](http://www.mcgill.ca/).
+CBRAIN has been developed by support from [CANARIE](http://www.canarie.ca), in professor [Alan Evans'](http://mcin-cnim.ca/people/alans-cv/) lab at [the McConnell Brain Imaging Centre](http://www.mcgill.ca/bic/research-0/ace-lab-evans) and the McGill Centre for Integrative Neuroscience ([MCIN](http://mcin-cnim.ca)), at [McGill University](http://www.mcgill.ca/).
 CBRAIN is easy to use and no computer programming expertise is required. All you need is a web browser  (recent versions of Firefox, Safari or Chrome, Internet Explorer) and you don’t need to install any specialized software.
 
 ## Table of contents
@@ -30,13 +31,16 @@ CBRAIN is easy to use and no computer programming expertise is required. All you
 10. [Citation](#citation)
 
 <a name="get" />
+
 ## 1. Getting started
 
 <a name="getting_account" />
+
 #### i. Getting an account
 See your service administrator.
 
 <a name="workflow" />
+
 #### ii. Typical data workflow in CBRAIN
 * Upload your files to CBRAIN
 * Run a task (e.g. "Diagnostics") on your files on CBRAIN
@@ -44,6 +48,7 @@ See your service administrator.
 * Download your output files to your computer
 
 <a name="uploading_downloading" />
+
 #### iii. Two Methods for Uploading/Downloading Files in CBRAIN
 * If you just have a few files, you can transfer the files one by one using the web browser.
 * If you have many files, you can might find it more convenient to upload them all at once using a SFTP server.
@@ -53,6 +58,7 @@ See your service administrator.
 This guide explains how to carry out the steps of typical data workflow in the order listed above using either method for transferring files and using "Diagnostics" as an example of a task which can be carried out in CBRAIN.
 
 <a name="create_project" />
+
 ## 2. Create a project
 * Login in to CBRAIN
 [[/interface-guides/user-guides/images/login.png]]
@@ -65,6 +71,7 @@ When you log on you are sent to a project summary page.  A project is a storage 
 [[/interface-guides/user-guides/images/new_project.png]]
 
 <a name="upload_files" />
+
 ## 3. Upload files
 
 **Data Providers - Network Storage Space**: The files in CBRAIN are stored in a "Data Provider", which is network storage space for files on a computer. This could be on your own computer or on another computer you connect to using CBRAIN.
@@ -72,7 +79,8 @@ When you log on you are sent to a project summary page.  A project is a storage 
 **Two Options for Uploading Files**: If you only have a few files to upload, you may find it convenient to upload them one by one (Section [3.1](#3.1)), or if you have many files, to upload them all at once (Section [3.2](#3.2)).
 
 <a name="3.1" />
-####i. Upload files one by one using Web Browser
+
+#### i. Upload files one by one using Web Browser
 
 * Click on project you created where you want files to go
 [[/interface-guides/user-guides/images/new_project.png]]
@@ -86,9 +94,11 @@ When you log on you are sent to a project summary page.  A project is a storage 
 * Continue until all files have been uploaded to project
 
 <a name="3.2" />
+
 #### ii. Upload files all at once using  SFTP server
 
 <a name="method_3_1" />
+
 ###### Method 1: Filezilla or another GUI SFTP Client
 
 If you are using Mac, Windows or Linux/Unix Operating systems, we recommend that you use Filezilla or another graphical user interface SFTP Client to transfer files.
@@ -115,6 +125,7 @@ If you are using Mac, Windows or Linux/Unix Operating systems, we recommend that
 [[/interface-guides/user-guides/images/drag_drop.png]]
 
 <a name="method_3_2" />
+
 ###### Method 2: Command line
 
 It is very convenient to use a graphical user interface SFTP Client as described above.  However, you also have the option of performing these operations at the command line:
@@ -124,6 +135,7 @@ It is very convenient to use a graphical user interface SFTP Client as described
 * Options can be displayed by entering help into the command line
 
 <a name="common_part_3" />
+
 #### Common part: Move Files from Temporary Storage SFTP Server to Data Provider
 * Move Files from Temporary Storage SFTP Server to Data Provider
   * Click on "Resources", drop down menu to "Data Providers"
@@ -144,6 +156,7 @@ It is very convenient to use a graphical user interface SFTP Client as described
   * Note that if you register a large number of files, this can take some time
 
 <a name="start_task" />
+
 ## 4. Start a task
 
 * Select the project you created
@@ -167,6 +180,7 @@ It is very convenient to use a graphical user interface SFTP Client as described
   * New task appears
 
 <a name="check_progress" />
+
 ## 5. Check the progress of a task
 
 * Check back later to see if task completed
@@ -190,6 +204,7 @@ It is very convenient to use a graphical user interface SFTP Client as described
 [[/interface-guides/user-guides/images/trigger_error_recovery.png]]
 
 <a name="viewing_output" />
+
 ## 6. Viewing the output of a finished task
 
 * Click on "Diagnostics" (name of task)
@@ -201,11 +216,13 @@ It is very convenient to use a graphical user interface SFTP Client as described
 [[/interface-guides/user-guides/images/show_content.png]]
 
 <a name="downloading_output" />
+
 ## 7. Downloading processed output files from finished task
 
 Follow the same procedure you used for uploading files but in reverse (See Section [3](#upload_files) ). You may find it convenient to download files one by one if you just have a few files (Section [7.1](#7.1)), or if you have many files, to download them all at once (Section [7.2](#7.2)).
 
 <a name="7.1" />
+
 #### i. Download files one by one using Web Browser
 
 * Click on "Projects" menu, then click on name of project
@@ -217,6 +234,7 @@ Follow the same procedure you used for uploading files but in reverse (See Secti
 [[/interface-guides/user-guides/images/download_files.png]]
 
 <a name="7.2" />
+
 #### ii. Download files all at once using SFTP Server
 
 * Check boxes for all output files to download (1)
@@ -228,6 +246,7 @@ Follow the same procedure you used for uploading files but in reverse (See Secti
 [[/interface-guides/user-guides/images/files_to_download.png]]
 
 <a name="method_7_1" />
+
 ###### Method 1: Filezilla or other GUI interface SFTP client
 
 * Open Filezilla (or other) application
@@ -235,6 +254,7 @@ Follow the same procedure you used for uploading files but in reverse (See Secti
 Drag/drop files from SFTP-Brainstorm to your computer
 
 <a name="method_7_2" />
+
 ###### Method 2:  Command line SFTP
 
 Use commands to change to the right directory and download files:
@@ -249,6 +269,7 @@ Use commands to change to the right directory and download files:
 * get */*.tar.gz
 
 <a name="common_part_7" />
+
 ###### Common part: Delete your data from the temporary storage SFTP Server
 
 * Click on "Resources" and drop down menu to "Data Providers"
@@ -259,12 +280,14 @@ Use commands to change to the right directory and download files:
 [[/interface-guides/user-guides/images/delete_files.png]]
 
 <a name="advanced_feature" />
+
 ## 8. Optional advanced feature of CBRAIN
 
 **Data Provider Configured on User’s Computer**": This manual describes two different options for uploading/downloading files, either using the web browser or SFTP Server. There is in fact a third option for advanced users, which is to use a Data Provider on your own computer, which makes it easier to transfer files. If you wish to use this option, see your service administrator
 
 <a name="help" />
-##9. Help and technical support
+
+## 9. Help and technical support
 
 **Methods for Getting Help**:
 * There are "Help" buttons at many places on the on-line system.
@@ -274,6 +297,7 @@ Use commands to change to the right directory and download files:
 cbrain-support.mni at mcgill.ca.
 
 <a name="citation" />
+
 ## 10. Citation
 If you use CBRAIN to process data, please cite the following publication:
 [Sherif T, Rioux P, Rousseau M-E, Kassis N, Beck N, Adalat R, Das S, Glatard T and Evans AC (2014) CBRAIN: a web-based, distributed computing platform for collaborative neuroimaging research. Front. Neuroinform. 8:54. doi: 10.3389/fninf.2014.00054](http://journal.frontiersin.org/article/10.3389/fninf.2014.00054/abstract)
