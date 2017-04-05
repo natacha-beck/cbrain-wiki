@@ -14,6 +14,7 @@ Within CBRAIN, the model files for Userfiles and CbrainTasks are not stored in t
 
 
 <a name="def" />
+
 ## 1. Specification of a plugin package
 
 Within the CBRAIN code branch, the plugins are deployed in:
@@ -67,12 +68,14 @@ cleanly and efficiently.
 
 
 <a name="uplug" />
+
 ## 2. Structure of a Userfile plugin
 
 To write.
 
 
 <a name="tplug" />
+
 ## 3. Structure of a CbrainTask plugin
 
 To write.
@@ -87,11 +90,12 @@ explains how to use it.
 
 
 <a name="inst" />
+
 ## 4. Plugin package installation
 
     rake cbrain:plugins:install:all
 
-The [administrator guide](https://github.com/aces/cbrain-doc-temp/wiki/Administrator-Guides) has a page [LINK] explaining the rake task and what it does.  
+The [administrator guide](https://github.com/aces/cbrain-doc-temp/wiki/Administrator-Guides) has a page explaining the rake task and what it does.  
             
               
 **Note**: Original author of this document is Pierre Rioux
