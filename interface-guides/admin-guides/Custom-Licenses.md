@@ -9,6 +9,7 @@ In CBRAIN, administrators can add custom licenses for particular CBRAIN resource
 3. [How to register a license](#register)
 
 <a name="which" />
+
 ## 1. Which resources can have a license
 
 A [[Portal|Portals]] can have a specific license, which makes it
@@ -20,6 +21,7 @@ the resource must accept the terms of the license to continue to
 use the platform.
 
 <a name="for_and_loc" />
+
 ## 2. Format and location of license files
 
 A license is a simple HTML file. At the beginning of the file, there is an input field "num_checkboxes"
@@ -49,6 +51,7 @@ In the original platform, the name of the file follows this convention:
 `cbrain_\d+.html` (\d+ is a string of numbers).
 
 <a name="register" />
+
 ## 3. How to register a license
 
 To add a license to a resource in CBRAIN, it is necessary to register it:
