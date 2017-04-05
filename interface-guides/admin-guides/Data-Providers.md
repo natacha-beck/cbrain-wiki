@@ -24,6 +24,7 @@ files on their respective storage areas.
 3. [Reports](#reports)
 
 <a name="how_to" />
+
 ## 1. How to create a Data Provider
 
 * Go to the "Data Providers" tab.
@@ -84,6 +85,7 @@ files on their respective storage areas.
   for SSH-based DataProviders (or Smart ones with a SSH personality).
 
 <a name="type_dp" />
+
 ## 2. Types of Data Providers
 
 This section describes different types of Data Providers implemented
@@ -94,6 +96,7 @@ data storage and SshDataProvider for user-specific personal storage.
 [[/interface-guides/admin-guides/images/DataProviderClasses.png]]
 
 <a name="local_dp" />
+
 #### i. LocalDataProvider
 This is an abstract class which represents Data Providers where the
 remote files are local to the currently running rails application.
@@ -103,6 +106,7 @@ accessing the real provider's files. All methods are adjusted so
 that their behavior is sensible.
 
 <a name="ssh_dp" />
+
 #### ii. FlatDirSshDataProvider (a.k.a. SshDataProvider)
 This class provides an implementation for a Data Provider where the
 remote files are accessed through ssh and rsync. The provider's
@@ -111,6 +115,7 @@ specified by the object's remote_dir attribute. The file "hello"
 is thus stored in a path like this: `/remote_dir/hello`.
 
 <a name="vault_ssh_dp" />
+
 #### iii. VaultSshDataProvider
 This class provides an implementation for a Data Provider where the
 remote files are accessed through ssh and rsync. The provider's
@@ -120,6 +125,7 @@ name. The file "hello" of user "myuser" is thus stored in a path
 like this: `/remote_dir/myuser/hello`.
 
 <a name="vault_local_dp" />
+
 #### iv. VaultLocalDataProvider
 This class provides an implementation for a Data Provider where the
 remote files are local to the currently running rails application.
@@ -134,6 +140,7 @@ the real provider's files. All methods are adjusted so that their
 behavior is sensible.
 
 <a name="vault_smart_dp" />
+
 #### v. VaultSmartDataProvider
 This class implements a 'wrapper' Data Provider that acts either
 as a VaultLocalDataProvider or a VaultSshDataProvider depending on
@@ -143,6 +150,7 @@ application runs on the same machine as the Data Provider, the
 faster and more efficient VaultLocalDataProvider will be used.
 
 <a name="incoming_vault_ssh_dp" />
+
 #### vi. IncomingVaultSshDataProvider
 This class behaves like the VaultSshDataProvider, except that it
 is browsable. When browsing, only the subdirectory named like the
@@ -151,12 +159,14 @@ accessing a jailed remote_dir for incoming content, where users can
 upload files to these subdirectories on other channels.
 
 <a name="incoming_vault_local_dp" />
+
 #### vii. IncomingVaultLocalDataProvider
 This class is exactly like VaultSshDataProvider, but it also has
 the ability to browse a subdirectory named after a user when calling
 provider_list_all(user).
 
 <a name="incoming_vault_ssh_dp" />
+
 #### viii. IncomingVaultSmartDataProvider
 This class implements a 'wrapper' data provider that acts either
 as a IncomingVaultLocalDataProvider or a IncomingVaultSshDataProvider
@@ -167,6 +177,7 @@ provider, the faster and more efficient VaultLocalDataProvider will
 be used.
 
 <a name="en_cbrain_dp" />
+
 #### ix. EnCbrain*DataProvider
 This class includes EnCbrainSshDataProvider, EnCbrainLocalDataProvider,
 and EnCbrainSmartDataProvider. These three providers are enhanced
@@ -180,6 +191,7 @@ structure. The EnCbrain\*DataProviders are the officially recommended
 data providers for production deployment.
 
 <a name="s3_dp" />
+
 #### x. S3DataProvider
 This class connects to Amazon's S3 cloud storage service. The files
 will be stored in a bucket named `gbrain_{name}` where name is the
@@ -189,6 +201,7 @@ Provider if files are registered with it, unless you also rename
 the bucket!
 
 <a name="reports" />
+
 ## 3. Reports
 
 On the Data Providers index page you can find links to different
