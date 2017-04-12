@@ -16,31 +16,32 @@ assets.
 2. [What the task does](#what)
 3. [Running the generator](#generator)
 4. [Editing the portal-side model](#portal)
-   1. [The default params] (#default)
-   2. [Pretty names for the parameters] (#pretty)
-   3. [before_form()] (#before)
-   4. [refresh_form()] (#refresh)
-   5. [after_form()] (#after)
-   6. [final_task_list()] (#final)
+   1. [The default params](#default)
+   2. [Pretty names for the parameters](#pretty)
+   3. [before_form()](#before)
+   4. [refresh_form()](#refresh)
+   5. [after_form()](#after)
+   6. [final_task_list()](#final)
 5. [Editing the common model](#common)
 6. [Creating the view files](#views)
-   1.  [_task_params.html.erb] (#task)
-   2.  [_show_params.html.erb] (#show)
-   3.  [The optional stylesheet] (#opt)
-   4.  [Other static assets] (#other)
+   1.  [_task_params.html.erb](#task)
+   2.  [_show_params.html.erb](#show)
+   3.  [The optional stylesheet](#opt)
+   4.  [Other static assets](#other)
 7. [Trying the interface](#intview)
-   1.  [Creating a Tool for CkSum] (#creating)
-   2.  [Creating two ToolConfigs] (#creatingTwo)
-   3.  [Examining the parameters form page] (#examining)
+   1.  [Creating a Tool for CkSum](#creating)
+   2.  [Creating two ToolConfigs](#creatingTwo)
+   3.  [Examining the parameters form page](#examining)
 8. [Editing the Bourreau-side model](#bourreau)
-   1. [setup()] (#setup)
-   2. [cluster_commands()] (#cluster)
-   3. [save_results()] (#save)
+   1. [setup()](#setup)
+   2. [cluster_commands()](#cluster)
+   3. [save_results()](#save)
 9. [Trying the full process](#test)
 9. [Moving forward](#forward)
 
 
 <a name="prereqs" />
+
 ## 1. Prerequisites
 
 To run this tutorial, you need to install and configure a local,
@@ -50,6 +51,7 @@ Bourreau Rails application. The instructions on how to do this are
 provided in the [[Setup Guide]].
 
 <a name="what" />
+
 ## 2. What the task does
 
 We create a task to run a UNIX checksum program on a file. The exact
@@ -70,6 +72,7 @@ CBRAIN's capabilities, the following additional features are included:
 * A rich user interface validates the input that the user provides.
 
 <a name="generator" />
+
 ## 3. Running the generator
 
 There are about a dozen files that are created and installed for
@@ -96,6 +99,7 @@ above. This is necessary to adjust the symbolic links that configure
 the task as 'installed'.
 
 <a name="portal" />
+
 ## 4. Editing the portal-side model
 
 After you run the generator above, you should now have a file called
@@ -103,6 +107,7 @@ After you run the generator above, you should now have a file called
 implement its web interface within the body of the class.
 
 <a name="default" />
+
 #### i. The default params
 
 A task has a params hash where its parameters are stored. We can
@@ -133,6 +138,7 @@ not stored there.  We have only created three parameters:
   can be stored in the params, which are referred to in the task's form.
 
 <a name="pretty" />
+
 #### ii. Pretty names for the parameters
 
 Whenever we edit or create a new task, we have the option of adding
@@ -155,6 +161,7 @@ represent the :struct_with_day_and_month.
 ```
 
 <a name="before" />
+
 #### iii. before_form()
 
 This is the main callback method that most programmers want to fill.
@@ -180,6 +187,7 @@ is shown). In our example, the empty string is returned, which means
 everything is okay.
 
 <a name="refresh" />
+
 #### iv. refresh_form()
 
 We allow the user to perform several cycles of refreshing the form.
@@ -203,6 +211,7 @@ CBRAIN task interface, but here one is added once the view partials
 are written (see below).
 
 <a name="after" />
+
 #### v. after_form()
 
 This method is invoked after the user clicks the "Submit Task"
@@ -246,6 +255,7 @@ provided by CBRAIN for parameters, see the description for the class
 CbrainTaskFormBuilder (in the CBRAIN code documentation).
 
 <a name="final" />
+
 #### vi. final_task_list()
 
 Once a task's parameters have been submitted, the programmer can
@@ -279,6 +289,7 @@ create 50 distinct tasks.
 ```
 
 <a name="common" />
+
 ## 5. Editing the common model
 
 The file '.../MyCksum/common/my_cksum.rb' is a place where you can
@@ -304,11 +315,13 @@ developer (e.g. "1.2.3", "A123", or "17.4-gamma").
 
 
 <a name="views" />
+
 ## 6. Creating the view files
 
 We have two view files to create; these are pretty standard Rails partials.
 
 <a name="task" />
+
 #### i. _task_params.html.erb
 
 This partial contains the body of the form where the task's parameters
@@ -353,6 +366,7 @@ of the CBRAIN framework:
   new month to be populated in the params automatically via the refresh_form() method.
 
 <a name="show" />
+
 #### ii. _show_params.html.erb
 
 Normally, this file is used to show the user a summary of the
@@ -374,6 +388,7 @@ is stored as an ID by the Bourreau side, as will be shown later).
 ```
 
 <a name="opt" />
+
 #### iii. The optional stylesheet
 
 As explained above, some static assets are installed just to
@@ -387,6 +402,7 @@ containing this simple CSS code.
     }
 ```
 <a name="other" />
+
 #### iv. Other static assets
 
 Two other files are created by the generator under 'views/public':
@@ -401,6 +417,7 @@ Two other files are created by the generator under 'views/public':
 We do not edit these files in this tutorial.
 
 <a name="intview" />
+
 ## 7. Trying the interface
 
 At this point, we have all the code necessary to implement the
@@ -412,6 +429,7 @@ but for the moment we will only use the minimum code necessary to
 create versions "1.0.0" and "2.0.0" of the tool.
 
 <a name="creating" />
+
 #### i. Creating a Tool for CkSum
 
 A Tool represents an application in general, irrespective of where
@@ -425,6 +443,7 @@ it is deployed and which versions exist.
   the userfiles page", which should contain a message such as "Launch my CkSum".
 
 <a name="creatingTwo" />
+
 #### ii. Creating two ToolConfigs
 
 A tool config represents a particular installation of a tool. We
@@ -446,6 +465,7 @@ create two versions.
   the demonstration of automatic parallelism within CBRAIN).
 
 <a name="examining" />
+
 #### iii. Examining the parameters form page
 
 Now, as any user, go to the File manager, select one or several
@@ -462,6 +482,7 @@ Try with version "2.0.0", too, where the version-specific input
 field should contain an odd number.
 
 <a name="bourreau" />
+
 ## 8. Editing the Bourreau-side model
 
 The Bourreau side is where the actual wrapping code for the tool
@@ -474,6 +495,7 @@ Bourreau side:
 * save_results()
 
 <a name="setup" />
+
 #### i. setup()
 
 This purpose of this method is to validate once more its parameters,
@@ -505,6 +527,7 @@ Bourreau local cache) and create a symbolic link to its data.
 ```
 
 <a name="cluster" />
+
 #### ii. cluster_commands()
 
 This is where we build a bash script to encapsulate the execution
@@ -535,6 +558,7 @@ parameters are used.
 ```
 
 <a name="save" />
+
 #### iii. save_results()
 
 This method is invoked when the task has finished on the cluster
@@ -572,6 +596,7 @@ Here we carry out the following steps:
 ```
 
 <a name="test" />
+
 ## 9. Trying the whole process
 
 If you edited 'bourreau/my_cksum.rb', then it is necessary to restart
@@ -585,6 +610,7 @@ wrong, inspect the content of the task's work directory and look
 at all the logs provided by CBRAIN.
 
 <a name="forward" />
+
 ## 10. Moving forward
 
 There are many features of the CbrainTask framework that are not
