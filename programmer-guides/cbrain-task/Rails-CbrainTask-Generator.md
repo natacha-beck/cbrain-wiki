@@ -7,6 +7,7 @@
 4. [Removing generated files](#removing)
 
 <a name="intro" />
+
 ## 1. Introduction
 
 CBRAIN comes with a Rails generator to help programmers create new
@@ -15,6 +16,7 @@ and directories for a new task, already filled with explanations
 and placeholder methods.
 
 <a name="usage" />
+
 ## 2. Usage
 
 The generator is invoked like any other Rails generator, with:
@@ -33,6 +35,7 @@ Help with using the generator can be obtained with:
     rails generate cbrain_task -h
 ```
 <a name="running" />
+
 ## 3. Running it
 
 The following command can be run to create a task named 'TicketStats':
@@ -67,6 +70,7 @@ with code excerpts and information to help you get started. For more
 information about creating a CbrainTask, see the [[CbrainTask Programmer Guide]].
 
 <a name="removing" />
+
 ## 4. Removing generated files
 
 If for some reason you do not want to keep the files that you have
