@@ -134,7 +134,7 @@ database for a development environment) are as follows:
 ```sql
 create database cbrain_dev;
 create user     'cbrain'@'localhost' identified by 'oh-oh-this-is-a-pw';
-grant all on cbrain_dev.* to 'cbrain'@'localhost'
+grant all on cbrain_dev.* to 'cbrain'@'localhost';
 ```
 
 Note that the database is never accessed from any other machine than
@@ -343,7 +343,7 @@ For a Bourreau:
 
 ```bash
 cd Bourreau
-rake cbrain:plugins:install:plugins
+rake cbrain:plugins:install:all
 ```
 
 The base CBRAIN distribution comes with a plugins package
