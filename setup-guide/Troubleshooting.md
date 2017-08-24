@@ -71,4 +71,15 @@ compiled Ruby.
 
 ## 2. Runtime Issues
 
-Nothing here for the moment.
+#### i. Mysql2 error
+
+Some SQL queries performed by CBRAIN might fail with a message that contains these keywords:
+
+```text 
+(...) incompatible with sql_mode=only_full_group_by (...)
+```
+
+This happens more and more with modern servers. To fix this you need to change the configuration of the DB server, by removing the keyword `ONLY_FULL_GROUP_BY` from a setting called `sql_mode`. This `sql_mode` setting is a list of several keywords separated by commas. There are two ways you can do this:
+
+* In the MySQL global configuration file (generally in `/etc/my.cnf`). The configuration file sometimes has the `sql_mode` setting explicitely stated in the `[mysqld]` section, and sometimes it isn't. If the setting isn't there, you can still create it yourself by first finding out the full value of `sql_mode` from the database's variable (see next bullet point) and removing `ONLY_FULL_GROUP_BY`.
+* Directly in the database by changing the content of the ["sql_mode"](https://dev.mysql.com/doc/refman/5.7/en/sql-mode.html) variable.
