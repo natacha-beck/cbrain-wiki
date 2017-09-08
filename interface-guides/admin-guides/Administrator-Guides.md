@@ -8,8 +8,8 @@ This guide is divided into different parts for the purpose of readability.
 ## Role of an administrator
 
 For each CBRAIN platform you can have one or several user with administrator
-privilige.
-An administrator have access to everething in CBRAIN, they can
+privilege.
+An administrator have access to everything in CBRAIN, they can
 add/modify/delete all resources present in CBRAIN. For exemple he can add
 some users, execution servers, data providers etc...
 An administrator should also take care of the maintenance of the platform.
