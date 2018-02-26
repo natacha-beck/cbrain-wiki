@@ -178,7 +178,7 @@ Bourreau server.
 
 After editing each section, click 'Update' to save the values.
 
-<name="next" />
+<a name="next" />
 
 ## 4. Moving on
 
