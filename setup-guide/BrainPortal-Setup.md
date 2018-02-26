@@ -17,7 +17,8 @@ and files specific to the `BrainPortal` Rails application.
   1. [Database connection](#db_connection)
   2. [Application name](#app_name)
   3. [Database schema initialization](#db_initialization)
-  4. [BrainPortal console checks](#console)
+  4. [Assets compiling](#assets)
+  5. [BrainPortal console checks](#console)
 2. [Interface configuration](#interface)
   1. [Time zone configuration](#timezone)
   2. [Data cache configuration](#datacache)
@@ -138,9 +139,29 @@ _Please write it down_, since you need it to connect to the web
 interface. However, if you do forget it, you can re-run the rake task later
 to reset the password.
 
+<a name="assets" />
+
+#### iv. Assets compiling
+
+This step is particularly important if you are deploying your portal
+in Rails' production mode.
+
+```bash
+cd BrainPortal
+rake assets:precompile
+```
+
+Note that if your shell's umask is set too restrictive, the precompiled
+assets may not be readable for whatever web server is supposed to
+provide them. Make sure you reset them with:
+
+```bash
+chmod -R go+rX BrainPortal/public/assets
+```
+
 <a name="console" />
 
-#### iv. BrainPortal console checks
+#### v. BrainPortal console checks
 
 The Rails console is a great tool to inspect the entire CBRAIN
 system.  For the moment, we start it once in order to initiate a 
