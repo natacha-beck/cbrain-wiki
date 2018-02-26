@@ -212,7 +212,7 @@ recommended (minor upgrades to this version are fine too). Ruby versions before 
 In the following steps, RVM is used to install Ruby.
 
 ```bash
-rvm install 2.2
+rvm install 2.4.1
 ```
 
 This is often a step where problems occur; to install Ruby there are 
@@ -226,8 +226,8 @@ Once Ruby is installed, use the following commands for RVM to use it
 as a default whenever you connect:
 
 ```bash
-rvm use 2.2
-rvm --default 2.2
+rvm use 2.4.1
+rvm --default 2.4.1
 ```
 
 You can run 'rvm info' again to make sure this version is selected.
@@ -261,7 +261,7 @@ a nice front-end to installing and encapsulating a bunch of Ruby gems. If
 you can install it with:
 
 ```bash
-gem install bundler
+gem install bundler --no-ri --no-rdoc
 ```
 
 At this point the steps are different, depending on 
@@ -299,9 +299,12 @@ Here is a table of libraries that are often required:
 | CentOS package name   | Ubuntu package name     |
 |:----------------------|:------------------------|
 | mysql-devel           | libmysqlclient-dev      |
+| MariaDB-devel         | libmariadbclient-dev    |
 | libxml2               | libxml2                 |
 | libxml2-devel         | libxml2-dev             |
 | libxslt               | libxslt                 |
+| libyaml-devel         | libyaml-dev             |
+|
 
 There is one more step, once all of the gems are installed. Because of a
 tiny bug in the install process of the gem 'sys-proctable', it is necessary 
