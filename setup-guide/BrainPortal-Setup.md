@@ -256,7 +256,7 @@ the CBRAIN interface. First, start a local BrainPortal server:
 
 ```bash
 cd BrainPortal
-rails server thin -e development -p 3000
+rails server puma -e development -p 3000
 ```
 If all is well, more or less the same boot messages appear as were 
 shown earlier when launching the console. But this time the server
