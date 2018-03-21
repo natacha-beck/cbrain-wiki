@@ -2,7 +2,7 @@
 
 If you are interested in joining an exciting team of developers working on this project, now is your chance.
 
-Software Developer Job Opportunity
+[Software Developer Job Opening](https://github.com/aces/cbrain/wiki/CBRAIN-Team-hiring-new-developers:-Software-Developer-(MR0807))
 
 ## What is CBRAIN?
 
