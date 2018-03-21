@@ -1,4 +1,4 @@
-## CBRAIN Team Hiring
+## The CBRAIN Team is Hiring at McGill
 
 If you are interested in joining an exciting team of developers working on this project, now is your chance.
 
