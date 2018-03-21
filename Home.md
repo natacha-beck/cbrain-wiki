@@ -1,3 +1,8 @@
+## CBRAIN Team Hiring
+
+If you are interested in joining an exciting team of developers working on this project, now is your chance.
+
+Software Developer Job Opportunity
 
 ## What is CBRAIN?
 
