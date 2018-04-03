@@ -304,7 +304,6 @@ Here is a table of libraries that are often required:
 | libxml2-devel         | libxml2-dev             |
 | libxslt               | libxslt                 |
 | libyaml-devel         | libyaml-dev             |
-|
 
 There is one more step, once all of the gems are installed. Because of a
 tiny bug in the install process of the gem 'sys-proctable', it is necessary 
