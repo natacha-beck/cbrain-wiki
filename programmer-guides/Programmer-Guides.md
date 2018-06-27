@@ -46,7 +46,7 @@ A complete diagram can be generated using [RailRoady](https://github.com/preston
   release.
 
 * Third, create the code documentation. Once you have installed
-  the code base, a bash script at the top level called "alldoc.sh"
+  the code base, a bash script located in "script/make_local_doc.sh"
   will do this for you. It invokes the 'rdoc' utility
   ([http://rdoc.sourceforge.net/doc/index.html](http://rdoc.sourceforge.net/doc/index.html))
   and will create a bunch of local HTML files that you can then access
