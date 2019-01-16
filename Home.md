@@ -1,9 +1,3 @@
-## The CBRAIN Team is Hiring at McGill
-
-If you are interested in joining an exciting team of developers working on this project, now is your chance.
-
-[Software Developer Job Opening](https://www.mcgill.ca/medhr/files/medhr/18-0920_mr0830_software_developer_september_14_2018.pdf)
-
 ## What is CBRAIN?
 
 CBRAIN is a web-enabled grid platform that facilitates collaborative
