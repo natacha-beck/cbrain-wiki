@@ -133,6 +133,15 @@ Fill in the form:
 * **Environment variables needed for this tool**: Environment variables are defined.
   * **BASH initialization prologue**: This is a multi line partial BASH script, which uses the environment variables defined above.
 
+#### iv. Tool config associated with Boutiques-described tool
+
+This type of tool config is generated automatically when importing a Boutiques tool to CBRAIN if the following is true:
+* The descriptor containers a valid `"container-image"` of type singularity/docker
+* The Bourreau's own configuration specifies that singularity/docker (same as in descriptor) is available.
+
+Otherwise, this must be created manually using one of the above methods.
+
+
 <a name="show" />
 
 ## 4. How to view a tool config
