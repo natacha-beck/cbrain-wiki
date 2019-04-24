@@ -14,7 +14,8 @@ other programming languages.
 
 
 <a name="acceptable_rules" />
-## 1. Commonly accepted rules
+
+### 1. Commonly accepted rules
 
 Someone has already written a nice guide. Although it was
 written for people developing standalone Ruby applications, many
@@ -46,7 +47,8 @@ end
   - ``some_variable = "Hi"``
 
 <a name="CBRAIN_rules" />
-## 2. CBRAIN-specific rules
+
+### 2. CBRAIN-specific rules
 
 The following are our internal rules:
 
