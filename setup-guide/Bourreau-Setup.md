@@ -112,8 +112,15 @@ and Ruby.
 ## 3. Bourreau configuration
 
 Assuming that you have properly installed the Bourreau application's
-code, named it and made sure you can SSH to its installation
-location with RVM properly activated, it is now possible to configure it 
+code and made sure you can SSH to its installation
+location with RVM properly activated, only one step is needed before
+proceeding with the configuration with the interface. In the directory
+`Bourreau/config/initializers`, find the file named `config_bourreau.rb.TEMPLATE`,
+copy it as `config_bourreau.rb`, edit it and give your Bourreau a simple
+name in the variable `CBRAIN_RAILS_APP_NAME`. These are the same steps
+you performed for the Portal side, but with a different configuration file.
+
+It is now possible to configure the Bourreau 
 using the BrainPortal interface. Log in as admin, go back to the Server 
 index page (click on the 'Servers' tab), and click on `Create New Server'
 to bring up the required form.
