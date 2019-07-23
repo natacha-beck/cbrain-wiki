@@ -29,4 +29,4 @@ Please click on your project now to enter into this **Project**
 
 Once you do this, you will be taken to the **Files** page, which if you just started as a new user, should have no files in it.  We will now upload some neuroimaging files so that you can get some experience using CBRAIN.
 
-[[/tutorials/files/CBRAIN_DEMO_MINC_Image_1.mnc]]
+[CBRAIN_DEMO_MINC_Image_1.mnc](/tutorials/files/CBRAIN_DEMO_MINC_Image_1.mnc]])
