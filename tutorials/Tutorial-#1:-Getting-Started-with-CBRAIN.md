@@ -1,5 +1,5 @@
 # Introduction
-This tutorial is meant to give a new CBRAIN user their first experience in managing files and running a parallel task in the CBRAIN platform.  
+This tutorial is meant to give a new CBRAIN user their first experience in managing files and running a parallel task in the CBRAIN platform.
 
 In this tutorial, you will learn how to:
 
@@ -15,9 +15,8 @@ If you need any help during the tutorial, please post in the CBRAIN Support Foru
 
 If you haven't already done so, you can sign up for a CBRAIN account free on the McGill CBRAIN portal.  Just go to https://portal.cbrain.mcgill.ca and click on the link for "Request an Account".  Please fill out the form and once completed, you will receive a confirmation email, just to verify that it is real. Please be patient as we will need to have the account approved, so it may take a little time to process (usually within a few hours).
 
-If you already have a CBRAIN account or once you have your account approved, please login to the CBRAIN portal. 
+If you already have a CBRAIN account or once you have your account approved, please login to the CBRAIN portal.
 
 Once you log into CBRAIN you should see be taken directly to the **Projects** page, which will list all of the current projects to which you belong.  It should look something like below:
 
- 
-
+[[/tutorials/images/CBRAIN_Tut_1_Screen1.png]]
