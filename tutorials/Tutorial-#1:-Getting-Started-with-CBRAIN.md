@@ -30,9 +30,9 @@ Please click on your project now to enter into this **Project**.
 Once you do this, you will be taken to the **Files** page, which if you just started as a new user, should have no files in it.  We will now upload some neuroimaging files so that you can get some experience using CBRAIN.
 
 1. First, please download the following three files from Zenodo and save them on your local computer.
-...  * [CBRAIN_DEMO_MINC_Image_1.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_1.mnc?download=1)
-...  * [CBRAIN_DEMO_MINC_Image_2.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_2.mnc?download=1)
-...  * [CBRAIN_DEMO_MINC_Image_3.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_3.mnc?download=1)
+   * [CBRAIN_DEMO_MINC_Image_1.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_1.mnc?download=1)
+   * [CBRAIN_DEMO_MINC_Image_2.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_2.mnc?download=1)
+   * [CBRAIN_DEMO_MINC_Image_3.mnc](https://zenodo.org/record/3348309/files/CBRAIN_DEMO_MINC_Image_3.mnc?download=1)
 2. On the **Files** page click on the button at the top labelled **Upload**, shown below:
 
    <kbd>
