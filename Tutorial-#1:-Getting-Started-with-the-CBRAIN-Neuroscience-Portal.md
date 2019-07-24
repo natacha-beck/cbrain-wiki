@@ -23,7 +23,7 @@ Once you log into the CBRAIN Portal, you should see be taken directly to the **P
 
 # Upload files to your user project
 
-So everyone in CBRAIN that has an account gets a **Project** that is for their own individual user.  This project can be used as your personal space and allows you to organize **Files** and **Tasks** as well as control permission for others to share your files and work.  While you can create new **Projects** for your work in the future, we will use the one that was automatically created by CBRAIN.  It should be denoted by the tile on the screen that has your user name associated with it.
+Everyone in CBRAIN that has an account gets a **Project** that is for their own individual user.  This project can be used as your personal space and allows you to organize **Files** and **Tasks** as well as control permission for others to share your files and work.  While you can create new **Projects** for your work in the future, we will use the one that was automatically created by CBRAIN.  It should be denoted by the tile on the screen that has your user name associated with it.
 
 Please click on your project now to enter into this **Project**.
 
