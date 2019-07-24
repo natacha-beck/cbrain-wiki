@@ -1,5 +1,5 @@
 # Introduction
-This tutorial is meant to give a new CBRAIN user their first experience in managing files and running a parallel task in the CBRAIN platform.
+This tutorial is meant to give a new CBRAIN Portal user a first experience in managing files and running a parallel task in the McGill hosted CBRAIN Neuroscience Portal (https://portal.cbrain.mcgill.ca).
 
 In this tutorial, you will learn how to:
 
