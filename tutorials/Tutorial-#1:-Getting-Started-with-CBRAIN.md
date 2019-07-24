@@ -19,7 +19,7 @@ If you already have a CBRAIN account or once you have your account approved, ple
 
 Once you log into CBRAIN you should see be taken directly to the **Projects** page, which will list all of the current projects to which you belong.  It should look something like below:
 
-[[/tutorials/images/CBRAIN_Tut_1_Screen1.png]]
+<kbd>[[/tutorials/images/CBRAIN_Tut_1_Screen1.png]]</kbd>
 
 # Upload files to your user project
 
