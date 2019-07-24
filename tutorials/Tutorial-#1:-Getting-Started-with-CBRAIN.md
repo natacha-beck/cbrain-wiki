@@ -25,7 +25,7 @@ Once you log into CBRAIN you should see be taken directly to the **Projects** pa
 
 So everyone in CBRAIN that has an account gets a **Project** that is for their own individual user.  This project can be used as your personal space and allows you to organize **Files** and **Tasks** as well as control permission for others to share your files and work.  While you can create new **Projects** for your work in the future, we will use the one that was automatically created by CBRAIN.  It should be denoted by the tile on the screen that has your user name associated with it.
 
-Please click on your project now to enter into this **Project**
+Please click on your project now to enter into this **Project**.
 
 Once you do this, you will be taken to the **Files** page, which if you just started as a new user, should have no files in it.  We will now upload some neuroimaging files so that you can get some experience using CBRAIN.
 
@@ -36,3 +36,9 @@ Once you do this, you will be taken to the **Files** page, which if you just sta
 2. On the **Files** page click on the button at the top labelled **Upload**, shown below:
 
 [[/tutorials/images/CBRAIN_Tut_1_Screen_2.png]]
+
+3. Once clicked, you will be asked to locate the files you just downloaded within your computer.  Please navigate to the file **CBRAIN_DEMO_MINC_Image_1.mnc** and select it.  A popup dialog will appear for you fill in the details of where you would like to store this file in the CBRAIN ecosystem. You will be placing the file in a **DataProvider** in CBRAIN which is a construct used to define a remote filesystem.  For more information about **DataProviders**, you can read the documentation [here](/interface-guides/admin-guides/Data-Providers.md). You should select the "To" location to be *MainStore*, the "Project" should be your user's project.  You can click the triangle next to *Advanced options...*, and you will see that the file has already been detected as a "Minc File", which is indeed the correct type of file. If you would like to see what other file types are supported in CBRAIN, you can click the drop down menu, but do ensure that before you upload, it is still set at "Minc File". Your screen should look something like below:
+
+[[/tutorials/images/CBRAIN_Tut_1_Screen_3.png]]
+
+
