@@ -5,8 +5,6 @@ A pre-requisite to used this ability of CBRAIN is to have a Bourreau able to run
 
 [[/programmer-guides/images/Container_configuration.png]]
 
-[[/programmer-guides/images/CbrainTaskStates_Restart.png]]
-
 To integrate your tool in CBRAIN you should have: 
 
 * A Singularity container or a Docker container. In case of a Docker container it will be converted in a Singularity container before running your tool in CBRAIN (it is transparent to the user). 
