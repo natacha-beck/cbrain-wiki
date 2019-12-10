@@ -1,6 +1,8 @@
 [[Home]] > [[Programmer Guides]]
 
 * [[Programming Style]]
+* [[Tasks Integration With Boutiques]]
+* [[Bids App Integration With Boutiques]]
 * Writing Userfiles And Tasks
   1. [[Plugins Structure]]
   2. [[CbrainTask Programmer Guide]]
