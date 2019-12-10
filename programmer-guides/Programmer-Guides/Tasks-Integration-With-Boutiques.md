@@ -3,7 +3,9 @@ And used [Boutiques](http://boutiques.github.io/) to integrate your tool based o
 
 A pre-requisite to used this ability of CBRAIN is to have a Bourreau able to run Singularity, and configurate to do that. Please set the container engine of your Bourreau: 
 
-![Container_configuration]([[/programmer-guides/images/CbrainTaskStates_Restart.png]])
+[[/programmer-guides/images/Container_configuration.png]]
+
+[[/programmer-guides/images/CbrainTaskStates_Restart.png]]
 
 To integrate your tool in CBRAIN you should have: 
 
