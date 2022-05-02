@@ -8,5 +8,6 @@
 * [[Production Hints]]
 * [[Communications]]
 * [[Troubleshooting]]
+* [[Login With Globus]]
 * [[FAQ]]
 
