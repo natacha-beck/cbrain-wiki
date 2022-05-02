@@ -2,7 +2,7 @@
 ## Introduction
 
 This document explains how to configure a CBRAIN and NeuroHub portal
-to provide a login button that works with with the Globus Auth
+to provide a login button that works with the Globus Auth
 system.
 
 Any CBRAIN or NeuroHub portal deployed (not just the production
@@ -72,3 +72,8 @@ pages will show a button that says "Login With Globus". Also,
 the "My Account" pages will provide a way for users to link their
 CBRAIN or NeuroHub accounts to their favorite Globus identity.
 
+## Adding new administrators for the Globus App
+
+At the project level, other people can be added as 'administrators' for
+the Globus configuration described above. This allows them to adjust the
+configuration of the app and reset the secret token, if necessary.
