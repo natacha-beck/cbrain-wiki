@@ -57,14 +57,14 @@ In the CBRAIN console, find the object for the Portal. Generally,
 there is only one:
 
 ```ruby
-CBRAIN_main_001> p = BrainPortal.first
+CBRAIN_console> p = BrainPortal.first
 ```
 
 Then store the two values in the meta-data store for the Portal object:
 
 ```ruby
-CBRAIN_main_001> p.meta[:globus_client_id]     = "e25e39dd-xxxxxxxxxxxxxxxxxxxxxxxxxxx"
-CBRAIN_main_001> p.meta[:globus_client_secret] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+CBRAIN_console> p.meta[:globus_client_id]     = "e25e39dd-xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+CBRAIN_console> p.meta[:globus_client_secret] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 At this point, the interface for both the CBRAIN and NeuroHub login
