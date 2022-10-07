@@ -140,16 +140,6 @@ Bourreau server.
     on a different port, specify it here.
   * **Rails Server Directory**: The full path where the Bourreau
     Rails application code is installed, for instance, `/home/user/cbrain/Bourreau`.
-* In the `Tunnelling Configuration` section: (see also [[Communications]])
-  * **Database Server Remote Tunnel Port**: The choice of port number is arbitrary
-    and can be any number between 1024 and 65535. The Bourreau application uses 
-    this port on the remote host to connect back to the MySQL server used by 
-    BrainPortal. The tunnel is set up automatically, so it is only necessary to make 
-    sure that this port number is not in use by any other application on the host 
-    where the Bourreau runs.
-  * **Active Resource Remote Tunnel Port**: Again, the choice of port number 
-    is arbitrary, but this time the port is open on the BrainPortal side
-    and allows the BrainPortal to send commands the Bourreau side.
 * In the `Cache Management Configuration` section:
   * **Path to Data Provider caches**: Just like the BrainPortal application, each
     Bourreau needs its own directory where it can cache data. Create a new empty
