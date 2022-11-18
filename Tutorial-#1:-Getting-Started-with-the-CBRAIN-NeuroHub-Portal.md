@@ -1,5 +1,5 @@
 # Introduction
-This tutorial is meant to give a new CBRAIN Portal user a first experience in managing files and running a parallel task in the McGill hosted CBRAIN Neuroscience Portal (https://portal.cbrain.mcgill.ca).
+This tutorial is meant to give a new CBRAIN/NeuroHub user a first experience in managing files and running a parallel task in the McGill hosted CBRAIN Neuroscience Portal (https://portal.cbrain.mcgill.ca).
 
 In this tutorial, you will learn how to:
 
@@ -11,15 +11,15 @@ In this tutorial, you will learn how to:
 
 If you need any help during the tutorial, please post in the CBRAIN Support Forum at https://forum.cbrain.mcgill.ca and someone will be there to help as soon as possible.
 
-# Sign up for a CBRAIN Portal account
+# Sign up for a CBRAIN/NeuroHub Portal account
 
-If you haven't already done so, you can sign up for a CBRAIN account free on the McGill CBRAIN Neuroscience portal. Just go to https://portal.cbrain.mcgill.ca and click on the link for "Request an Account".  Please fill out the form and once completed, you will receive a confirmation email, just to verify that it is real. Please be patient as we will need to have the account approved, so it may take a little time to process (usually within a few hours).
+If you haven't already done so, you can sign up for an account on the [NeuroHub Portal](https://neurohub.ca/). The steps to steps can be found [here](https://github.com/neurohub/neurohub_documentation/wiki/1.1.Get-a-NeuroHub-account). 
 
-If you already have a CBRAIN account or once you have your account approved, please login to the CBRAIN portal.
+If you already have an account or once you have your account approved, please login to the [portal](https://portal.neurohub.ca/neurohub).
 
-Once you log into the CBRAIN Portal, you will be taken directly to the **Projects** page, which will list all of the current projects to which you belong. It should look something like below:
+Once you log into the Portal, you can easily navigate between CBRAIN and NeuroHub (by clicking on the required icon) as they are interactively connected to each other. From the CBRAIN portal, you will be taken directly to the **Projects** page, which will list all of the current projects to which you belong. It should look something like below:
 
-<kbd>[[/tutorials/images/CBRAIN_Tut_1_Screen1.png]]</kbd>
+<kbd><img width="1763" alt="cbrain tutorial project " src="https://user-images.githubusercontent.com/115739667/202796819-dd759f88-b501-4dcf-848f-be4462e43c7f.png"></kbd>
 
 # Upload files to your user project
 
