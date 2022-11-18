@@ -39,6 +39,9 @@ Once you do this, you will be taken to the **Files** page, which if you just sta
    [[/tutorials/images/CBRAIN_Tut_1_Screen_2.png]]
    </kbd>
 
+<kbd>![CBRAIN UPLOAD FILES ](https://user-images.githubusercontent.com/115739667/202799469-c6511038-1fd6-4421-ac2e-a71c097468f0.png)</kbd>
+
+
 3. Once clicked, you will be asked to locate the files you just downloaded within your computer.  Please navigate to the file **CBRAIN_DEMO_MINC_Image_1.mnc** and select it.  A popup dialog will appear for you to fill in the details of where you would like to store this file in the CBRAIN ecosystem. You will be placing the file in a **DataProvider** in CBRAIN which is a construct used to define a remote filesystem.  For more information about **DataProviders**, you can read the documentation [here](https://github.com/aces/cbrain/wiki/Data-Providers). You should select the "To" location to be *MainStore*, the "Project" should be your user's project.  You can click the triangle next to *Advanced options...*, and you will see that the file has already been detected as a "Minc File", which is indeed the correct type of file. If you would like to see what other file types are supported in CBRAIN, you can click the drop down menu, but do ensure that before you upload, it is still set at "Minc File". Your screen should look something like below:
 
    <kbd>
