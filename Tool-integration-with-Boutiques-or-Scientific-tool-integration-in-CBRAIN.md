@@ -1,4 +1,4 @@
-If you have a script that can be executed by the command line, any tool can be integrated into CBRAIN using Boutiques. The script will take one or more inputs and produce output(s).=
+If you have a script that can be executed by the command line, any tool can be integrated into CBRAIN using Boutiques. The script will take one or more inputs and produce output(s).
 
 ## Background
 
@@ -21,7 +21,7 @@ Tools have been integrated via 3 different methods:
 
 1. Containerize your tool, with Docker or Singularity.
     - For Docker see here: https://docker-curriculum.com/#dockerfile
-    - For Singularity/Apptnair see here: https://sylabs.io/guides/3.0/user-guide/, https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes (not sure if it is the better link. )
+    - For Singularity/Apptainer see here: https://sylabs.io/guides/3.0/user-guide/, https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes (not sure if it is the better link. )
 
 2. Write a boutique descriptor for your tool. See here:
     - Install Boutiques: https://github.com/boutiques/boutiques
@@ -33,4 +33,4 @@ Tools have been integrated via 3 different methods:
 
 4. You can also overwrite some methods in CBRAIN by writing module (For Example --> https://github.com/aces/cbrain/blob/master/BrainPortal/lib/boutiques_file_name_matcher.rb).
 
-Usefull link: (Pierre presentation)[https://prioux.github.io/new-boutiques-presentation/#/title]
+Useful link: (Pierre presentation)[https://prioux.github.io/new-boutiques-presentation/#/title]
