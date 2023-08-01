@@ -3,7 +3,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/115739667/226413035-88c8f252-6892-42fe-9b23-ef3bc8dc2bef.png">
 </p>
 
-The CBRAIN component of NeuroHub allows researchers to analyze datasets via standardized and validated pipelines accessible through a distributed web-based computing platform. It offers a friendly, easy-to-use web interface for running command-line scientific pipelines and tools on High-Performance-Computing resources.
+The CBRAIN component of NeuroHub allows researchers to analyze datasets via standardized and validated pipelines accessible through a distributed web-based computing platform. It offers a friendly, easy-to-use web interface for running command-line scientific pipelines and tools on High Performance Computing resources.
 
 This manual is intended to provide a guide to walk through every step of your research. CBRAIN simplifies ways to access, store, process and share data with your _team/community_. This HPC (High Performance Computing) web platform has been developed with support from [CANARIE](http://www.canarie.ca), in professor [Alan Evans'](http://mcin-cnim.ca/people/alans-cv/) lab at [the McConnell Brain Imaging Centre](http://www.mcgill.ca/bic/research-0#ACE%20Lab) and the McGill Centre for Integrative Neuroscience ([MCIN](http://mcin-cnim.ca)), at [McGill University](http://www.mcgill.ca/).
 CBRAIN is a simple user interface with no computer programming expertise required. All you need is a web browser (recent versions of Firefox, Safari or Chrome, Internet Explorer) without the need to install any specialized software.
