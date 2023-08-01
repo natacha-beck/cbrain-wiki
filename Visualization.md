@@ -1,0 +1,13 @@
+The ability to visualize the raw and derivative data online is a key component as it facilitates rapid and collaborative quality control and preliminary evaluations. An online visualization tool increases workflow efficiency, as it alleviates the need to download the data on the local workstations. Also, this ability enables easy comparison and integration of data analyzed through different pipelines.
+
+#### Method
+
+CBRAIN provides visualization for different generic data formats such as text, JSON, CSV, MP3, MP4 and some more specific data like NIfTI, MGH/MGZ and MINC (viewable by using BrainBrowser[4]). Historically, the ability to visualize data was only available for files stored as files in CBRAIN (a.k.a: SingleFile). But as soon as the file was part of a folder (a.k.a: FileCollection) it was not possible anymore to visualize the data. NeuroHub has made the UK Biobank dataset available in BIDS format where every UK Biobank subject is stored as a BIDS entry. Since every subject is represented by a folder with multiple files (a.k.a: FileCollection), CBRAIN was not able to provide a viewer for the files inside of a subject. CBRAIN now has a SubViewer mechanism, this mechanism allows it to display the content of a file part of a FileCollection if a viewer is available for this type of data. It also comes with the ability to show the outcome of an increasing number of pipelines as fMRIPrep, TractoFlow, [[CELLRANGER COUNT]] that produce HTML output as part of the output FileCollection. Moreover, if a file within a FileCollection is not too large it can be downloaded directly from the Browser (without using a SFTP transfer) (https://github.com/aces/cbrain/pull/1148). The last addition on the visualization side is the ability to use the overlay capacity of BrainBrowser. BrainBrowser allows you to overlay two files, for example, to display a mask on top of a brain. Now, when a FileCollection contains multiple files viewable by BrainBrowser, the user will be able to select one file and then select another one to overlay.
+
+#### Results
+
+You can directly view (if a viewer is available) or download data from a folder (if not too large). 
+As an example, you can visualize a NIfTI, part of a BIDS dataset by clicking on the link available on the folder tree. 
+
+<kbd>![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/845a6b1c-83ea-4f12-8a4c-a6dc01c305f0)
+</kbd>
