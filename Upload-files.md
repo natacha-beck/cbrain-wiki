@@ -10,4 +10,4 @@ You have 4 different ways to upload files (depending on the number/size you need
 
 3.3 [[Request for a Site Data Provider]]
 
-3.4 [[Create your private data provider]]
+3.4 [[Configure a private Data provider]]
