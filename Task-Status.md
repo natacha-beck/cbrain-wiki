@@ -42,10 +42,10 @@ If for some reason, you would like to restart a completed task, you can do the s
     * Here you can choose at which stage you want to restart the task (Set up, Cluster, Post-processing)
     * Click on _For Completed Tasks_
 
-![image](https://user-images.githubusercontent.com/115739667/223806305-1819d6dd-303b-4f49-9730-5c7851c12fb4.png)
+<kbd>![image](https://user-images.githubusercontent.com/115739667/223806305-1819d6dd-303b-4f49-9730-5c7851c12fb4.png)</kbd>
 
 Same as for the failed task, you can restart a completed task at the task level by clicking on the task name and select the Restart option of your choice
 
-![image](https://user-images.githubusercontent.com/115739667/223812725-96f77fc9-b5ad-484a-b77a-05b54947a591.png)
+<kbd>![image](https://user-images.githubusercontent.com/115739667/223812725-96f77fc9-b5ad-484a-b77a-05b54947a591.png)</kbd>
 
 
