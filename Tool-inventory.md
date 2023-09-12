@@ -4,7 +4,6 @@ In this section, we will find a tutorial for a selection of CBRAIN Tools to guid
 
 * [[BraTSPipeline]]
 * [[CELLRANGER COUNT]]
-* [[fMRI prep]]
 * [[Oxford ASL]]
 * [[SimpleFileExtractor]]
 * [[TAPAS PhysIO]]  
