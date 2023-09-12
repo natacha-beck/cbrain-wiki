@@ -6,7 +6,7 @@ To see the results of your task, please go the Tasks tab from your project page.
 <kbd>![image](https://user-images.githubusercontent.com/115739667/223525572-bab49dda-5d36-4b8e-80d4-33003fa2c9ed.png)</kbd>
 
 Depending on the tool and type of file you are using, you will have different types of views available.
-As an example, by running Civet Tool you can select different views between Civet output, surface viewer, volume viewer like below:
+As an example, by running Civet Tool you can select the available views (here surface viewer), as you can see in the below picture:
 
 <kbd><img src ="https://user-images.githubusercontent.com/115739667/226629426-13798959-9e89-4ba5-9782-c92fcf8316bc.png" width="600" height="350"></kbd>
 
