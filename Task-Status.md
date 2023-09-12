@@ -22,14 +22,14 @@ You can continuously check the _Task_ page to monitor the status of your task(s)
 * Click on "Tasks" tab, then check box to select failed task.
 * Click on "For Failed Tasks", then _Trigger Error Recovery_
 
-![image](https://user-images.githubusercontent.com/115739667/223804587-e3e65604-e134-41d5-b97e-32ac038e3cd6.png)
+<kbd>![image](https://user-images.githubusercontent.com/115739667/223804587-e3e65604-e134-41d5-b97e-32ac038e3cd6.png)</kbd>
 
  * Steps for Retry failed:
     * Click on the task tab 
     * Click on the specific task you want to restart
     * Click on  _Retry failed_
 
-![image](https://user-images.githubusercontent.com/115739667/223545962-798b6ca5-b384-47d6-ae9c-a68397eafe40.png)
+<kbd>![image](https://user-images.githubusercontent.com/115739667/223545962-798b6ca5-b384-47d6-ae9c-a68397eafe40.png)</kbd>
 
 If this does not resolve the issue, the problem is likely with the input files.
 
