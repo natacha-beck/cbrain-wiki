@@ -1,5 +1,5 @@
 For users or groups that plan to shuffle really large amounts of data into CBRAIN, the previous two options might still be too cumbersome. 
-A third option is available by [contacting](support@neurohub.ca) the CBRAIN admins to install your own Site Data Provider. 
+A third option is available by contacting the CBRAIN admins @`support@neurohub.ca` to install your own **Site Data Provider**. 
 The process is simple and only requires a standard LINUX or Mac OS X computer at your site. It can also be done entirely using a standard UNIX user account, root access is not necessary. 
 
 The advantages of having your own Data Provider:
