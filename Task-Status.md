@@ -13,8 +13,7 @@ You can continuously check the _Task_ page to monitor the status of your task(s)
 
 <kbd>![image](https://user-images.githubusercontent.com/115739667/223544494-f4b995ad-83bf-49ab-9927-28f8dce3d01e.png)</kbd>
 
-<img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">
-**Trigger Error Recovery/ Retry failed** If a task fails, you can try to recover the error from the task itself or from the project page
+<img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">**Trigger Error Recovery/ Retry failed** If a task fails, you can try to recover the error from the task itself or from the project page
  
 
 ## Steps to Trigger Error Recovery:
