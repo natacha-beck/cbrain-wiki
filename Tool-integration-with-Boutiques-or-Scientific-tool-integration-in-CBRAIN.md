@@ -6,7 +6,7 @@ CBRAIN allows users to run pipelines on high-performance computing resources and
 
 New scientific software is constantly being developed and updated, and the integration of those tools into the platform started to be challenging.
 Initially, each tool integration required the web form and related logic to be coded directly within the CBRAIN framework in Ruby. 
-Since 2015, the platform uses Boutiques to describe the command line invocation and parameters in a JSON format. Based on the Boutiques descriptor CBRAIN will generate the user interface with a form for the pipeline parameters and will use the rules built-in Boutiques to validate them. 
+Since 2015, the platform uses Boutiques to describe the command line invocation and parameters in a [JSON](https://github.com/topics/json) format. Based on the Boutiques descriptor CBRAIN will generate the user interface with a form for the pipeline parameters and will use the rules built-in Boutiques to validate them. 
 
 Tools have been integrated via 3 different methods: 
 
