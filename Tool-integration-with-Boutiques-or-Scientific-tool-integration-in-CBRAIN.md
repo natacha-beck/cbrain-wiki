@@ -17,7 +17,7 @@ Tools have been integrated via 3 different methods:
     * There was no easy way to add logic to modify pre-processing or post-processing step of the pipeline. 
 
 * Since 2020: The 'new' Boutiques descriptor integration. Support Code is no longer created, the behaviour of both the interface and the tool's integration is controlled by the descriptor's content.
-         * Now, it is easy to introduce CBRAIN-specific properties to Boutiques that enhance and adjust standard behaviour. 
+* Now, it is easy to introduce CBRAIN-specific properties to Boutiques that enhance and adjust standard behaviour. 
 
 ## How to integrate a tool in CBRAIN with Boutiques
 
