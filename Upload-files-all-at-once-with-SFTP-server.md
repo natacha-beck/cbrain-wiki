@@ -1,4 +1,4 @@
-If you have many files or files greater than 500 MB, please follow one of the 2 methods to upload them all at once.
+If you have many files or files greater than 400 MB, please follow one of the 2 methods to upload them all at once.
 
 #### Method 1: Filezilla or another GUI SFTP Client
 
