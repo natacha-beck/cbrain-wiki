@@ -60,7 +60,7 @@ If you want to run a quick run test, we recommend selecting Converter-1 or Conve
 
 <kbd>![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/882e0031-8563-47c2-ad2c-06b914e6434f)</kbd>
 
-4. Click Start cellranger-count
+## 4. Click Start cellranger-count
 
 Once the task is running, you will get a notification advising the task is launched
 
