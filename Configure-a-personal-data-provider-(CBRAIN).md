@@ -40,7 +40,7 @@ If you prefer, you can also directly create a `.ssh` directory on your host serv
 
 Now, you can click on _Create new Data Provider_
  
-5. TEST CONFIGURATION, AUTO REGISTER FILES and DECONFIGURE THIS STORAGE
+5. TEST CONFIGURATION, REGISTER FILES and DECONFIGURE THIS STORAGE
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
 
@@ -52,7 +52,15 @@ A message will pop up confirming the configuration is successful
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/e1637f3e-6515-409b-8ee3-845c32fe1b63)</kbd>
 
-* AUTO REGISTER FILES by clicking on the button will confirm  how many files have been registered
+* REGISTER FILES
+
+Please go to [Resources Data Providers](https://portal.neurohub.ca/data_providers) and select the personal data provider
+Click browse and you will see how many files are available to register
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/19a84c8d-d335-441f-944f-82e51aaf3f40)</kbd>
+
+
+
 
 <kbd>![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/0145db66-180f-4549-9347-3334ef3b2d40)</kbd>
 
