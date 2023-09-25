@@ -72,42 +72,19 @@ Once the task is running, you will get a notification advising the task is launc
 
 * Go back to your task (by clicking on the task name) where you can see the information of your task including the input and output results
 
-<kbd>![image](https://user-images.githubusercontent.com/115739667/235205394-3e7e1b22-f483-482c-8b6f-9183caa176ff.png)</kbd>
+<kbd>![task completed](https://github.com/neurohub/neurohub_documentation/assets/115739667/b3054726-9f06-4871-9568-baa7127b77a6)</kbd!>
 
 * Click on the Output files to view your results
 
-<kbd>![image](https://user-images.githubusercontent.com/115739667/234685323-7570b03b-cd16-48e2-be05-40f960dc0d82.png)</kbd>
+<kbd>![image](https://github.com/neurohub/neurohub_documentation/assets/115739667/03dcc1b1-de08-4ba4-99f9-859cf18b3be1)</kbd>
 
-<kbd>![image](https://user-images.githubusercontent.com/115739667/234685379-18d7257b-9dfc-4cf5-ad13-211607f53f26.png)</kbd>
+<kbd>![image](https://github.com/neurohub/neurohub_documentation/assets/115739667/6aa4460e-c75c-4981-854f-ebb4df362951)</kbd>
 
 * Expand the outs file, as an example click on the web_summary_html and you will see the Cell Ranger counts results of your task
 
+<kbd>![image](https://github.com/neurohub/neurohub_documentation/assets/115739667/21f9d214-3bb3-4285-b345-3169c7f1d11f)</kbd>
 
- 
-
-
-
- 
+<kbd>![image](https://github.com/neurohub/neurohub_documentation/assets/115739667/b38bd81a-eb2e-4693-bcaf-41b7b07b0fe4)</kbd>
 
 
-Fastql file
- 
- 
 
- 
-
- 
-Mai note (will be removed )
-ds le fasq collection there are 4 files 
-
-![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/0eda5db5-4730-4c84-9d7d-95c21df17ced)
-
-however it creates 2 tasks ( that is normal)
-2 tasks 
-•	HA776-s1 L007
-•	HA800-S1 L006
-•	les fichier vont par 2 voir 3	
-•	Les HA776 vont ensemble (mais il pourrais y en avoir un 4eme)et les HA800 vont ensemble.
-
-*Note* you can have HA800 and HA776 files in a single FASTQ Collection if you do so you will have to select both samples in the --sample field and then 
-CBRAIN will launch 2 tasks one for HA800 and one for HA776.
