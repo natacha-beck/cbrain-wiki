@@ -41,7 +41,7 @@ If you prefer, you can also directly create a `.ssh` directory on your host serv
 
 Now, you can save the configuration by clicking on **Create new Data Provider**
 
-![image](https://user-images.githubusercontent.com/115739667/234661034-d1882ecf-0371-452b-9123-6c42b0618c4d.png)
+
 
 ![image](https://user-images.githubusercontent.com/115739667/234661086-d9398b5b-0df2-445b-860a-bba5c34cfe49.png)
  
