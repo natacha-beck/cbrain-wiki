@@ -34,13 +34,12 @@ option to prevent the editor from splitting the line of the key. The SSH key mus
 * Run a command to add it to the authorized keys file on the host, as for an example the below one:
 `ssh-copy-id -f -i key.pub username@hostname`
 
-<kbd>![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/addd7584-54ee-4df9-9e84-14b32618c1c5)</kbd>
 
 If you prefer, you can also directly create a `.ssh` directory on your host server, add the `authorized key` file in `.ssh` and copy the SSH key in that file without using the previous command line.
 
 ![image](https://user-images.githubusercontent.com/115739667/234660916-06c5ba4c-3c7b-4570-b8cd-1dc5a39521b5.png)
 
-Now, you can save the configuration by clicking on **SAVE CONFIGURATION**
+Now, you can save the configuration by clicking on **Create new Data Provider**
 
 ![image](https://user-images.githubusercontent.com/115739667/234661034-d1882ecf-0371-452b-9123-6c42b0618c4d.png)
 
