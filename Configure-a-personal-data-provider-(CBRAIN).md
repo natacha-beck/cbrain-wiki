@@ -44,11 +44,13 @@ Now, you can click on _Create new Data Provider_
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
 
-![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/70c1e57f-d2b8-451c-97c1-f9d0677c4070)
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/86eac441-2f96-4c61-b375-5bd41a8e5761)</kbd>
 
 * TEST CONFIGURATION by clicking on the button
  
 A message will pop up confirming the configuration is successful
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/e1637f3e-6515-409b-8ee3-845c32fe1b63)</kbd>
 
 * AUTO REGISTER FILES by clicking on the button will confirm  how many files have been registered
 
