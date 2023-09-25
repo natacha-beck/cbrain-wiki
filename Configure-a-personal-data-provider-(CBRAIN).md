@@ -7,7 +7,6 @@ The final option is to configure your personal data provider. To do so, please f
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/8e148428-41a3-49cd-b954-f6cac51ca4e9)</kbd>
 
 3. Add New Personal Data Provider
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/fa1aae20-3192-4efa-a7bb-f5bc6ce29790)</kbd>
 
 Complete the form as per:
 
