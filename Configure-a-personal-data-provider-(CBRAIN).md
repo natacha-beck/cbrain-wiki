@@ -57,11 +57,9 @@ A message will pop up confirming the configuration is successful
 Please go to [Resources Data Providers](https://portal.neurohub.ca/data_providers) and select the personal data provider
 * Click browse and you will see how many files are available to register
 
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/1125d2fd-7168-486f-82d5-b242dc4b5a9d)</kbd>
+
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/639b1f66-4573-4d35-b358-9f437ca93e74)</kbd>
-
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/8e148428-41a3-49cd-b954-f6cac51ca4e9)</kbd>
-
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/19a84c8d-d335-441f-944f-82e51aaf3f40)</kbd>
 
 
 
