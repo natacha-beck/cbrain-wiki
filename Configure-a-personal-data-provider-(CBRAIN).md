@@ -10,6 +10,8 @@ The final option is to configure your personal data provider. To do so, please f
 
 Complete the form as per:
 
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/260bb98c-19bd-494b-813a-fa9e15d75e68)</kbd>
+
 * **Name**: Name of the personal data provider
 * **Description**: Short description
 * **Project**: assigned project
@@ -17,8 +19,6 @@ Complete the form as per:
 In this example, I want to move a file from Compute Canada Beluga to the personal data provider hosted in CBRAIN
 * **USERNAME** of your Compute Canada Account
 * **PATH**: where the file is located in Beluga
-
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/260bb98c-19bd-494b-813a-fa9e15d75e68)</kbd>
 
 4. SSH KEY SET UP
 
