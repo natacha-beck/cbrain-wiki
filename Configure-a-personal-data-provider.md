@@ -11,7 +11,7 @@ The final option is to configure your own private data provider. To do so, pleas
 Complete the form as per:
 
 * **HOSTNAME**: this is the server’s name where you are getting the file from. 
-In this example, I want to move a file from Compute Canada Beluga to the private data provider hosted in CBRAIN
+In this example, I want to move a file from Compute Canada Beluga to the personal data provider hosted in CBRAIN
 * **USERNAME** of your Compute Canada Account
 * **PATH**: where the file is located in Beluga
 
