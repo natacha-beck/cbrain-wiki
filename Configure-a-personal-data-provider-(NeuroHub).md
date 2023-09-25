@@ -1,4 +1,4 @@
-The final option is to configure your own private data provider. To do so, please follow the following steps:
+The final option is to configure your personal data provider. To do so, please follow the following steps:
 
 1. Go to [NeuroHub Storage](https://portal.neurohub.ca/nh_storages) 
  
