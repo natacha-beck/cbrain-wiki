@@ -20,7 +20,7 @@ CBRAIN is a simple user interface with no computer programming expertise require
        * [Method 2: Command line SFTP](Upload-files-all-at-once-with-SFTP-server#method-2-command-line)
        * [Common part: Move Files from Temporary Storage SFTP Server to Data Provider](Upload-files-all-at-once-with-SFTP-server#common-part-move-files-from-temporary-storage-sftp-server-to-data-provider)
    3. [[Request for a Site Data Provider]]
-   4. [[Configure a private data provider]]
+   4. [[Configure a personal data provider]]
 
 #### 4. [[Launch Task]]
 
