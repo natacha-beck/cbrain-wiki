@@ -61,6 +61,6 @@ Please go to [Resources Data Providers](https://portal.neurohub.ca/data_provider
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/ac772c16-afb0-4db0-b0fc-2a7cc19f86be)</kbd>
 
-You can now go to your **Projects**, and you will see the new file(s) uploaded under **Files** with the private data provider name:
+You can now go to the project you assigned the files, and you will see the new file(s) uploaded under **Files** with the personal data provider name:
 
-<kbd>![image](https://github.com/xmpham/CBRAIN_USERGUIDE_PXM/assets/115739667/ac5d3bfd-0243-4869-b027-52c79246adbc)</kbd>
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/7f46c12d-cc69-43a7-a57e-78583367ad10)</kbd>
