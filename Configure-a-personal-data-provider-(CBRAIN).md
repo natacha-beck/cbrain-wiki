@@ -38,7 +38,7 @@ If you prefer, you can also directly create a `.ssh` directory on your host serv
 
 ![image](https://user-images.githubusercontent.com/115739667/234660916-06c5ba4c-3c7b-4570-b8cd-1dc5a39521b5.png)
 
-Now, you can click on __Create new Data Provider
+Now, you can click on _Create new Data Provider_
  
 5. TEST CONFIGURATION, AUTO REGISTER FILES and DECONFIGURE THIS STORAGE
 
