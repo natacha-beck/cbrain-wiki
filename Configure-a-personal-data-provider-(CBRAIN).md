@@ -8,14 +8,14 @@ The final option is to configure your personal data provider. To do so, please f
 
 3. Add New Personal SSH-based Data Provider
 
-Complete the form as per:
-
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/260bb98c-19bd-494b-813a-fa9e15d75e68)</kbd>
+
+Complete the form as per:
 
 * **Name**: Name of the personal data provider
 * **Description**: Short description
 * **Project**: assigned project
-* **HOSTNAME**: this is the server’s name where you are getting the file from. 
+* **HOSTNAME**: this is the server’s name where you get the file. 
 In this example, I want to move a file from Compute Canada Beluga to the personal data provider hosted in CBRAIN
 * **USERNAME** of your Compute Canada Account
 * **PATH**: where the file is located in Beluga
