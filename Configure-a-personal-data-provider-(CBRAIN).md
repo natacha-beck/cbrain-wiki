@@ -6,7 +6,7 @@ The final option is to configure your personal data provider. To do so, please f
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/8e148428-41a3-49cd-b954-f6cac51ca4e9)</kbd>
 
-3. Add New Personal Data Provider
+3. Add New Personal SSH-based Data Provider
 
 Complete the form as per:
 
