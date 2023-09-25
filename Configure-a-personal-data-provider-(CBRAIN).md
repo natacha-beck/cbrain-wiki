@@ -25,7 +25,7 @@ In this example, I want to move a file from Compute Canada Beluga to the persona
 Before saving your configuration, you will need to configure the SSH in your host storage.
 A public SSH key needs to be added to the authorized keys of the user on the host. Paste the SSH key provided on CBRAIN in a text file 
 
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/fdd5014a-23b7-445f-a8d5-e28aa4e7486f)</kbd>
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/fb9d4815-1b0c-4d65-afc3-6a4a631464d5)</kbd>
 
 * If you use the nano or pico text editor, please make sure to use the
 `-w`
@@ -34,16 +34,11 @@ option to prevent the editor from splitting the line of the key. The SSH key mus
 * Run a command to add it to the authorized keys file on the host, as for an example the below one:
 `ssh-copy-id -f -i key.pub username@hostname`
 
-
 If you prefer, you can also directly create a `.ssh` directory on your host server, add the `authorized key` file in `.ssh` and copy the SSH key in that file without using the previous command line.
 
 ![image](https://user-images.githubusercontent.com/115739667/234660916-06c5ba4c-3c7b-4570-b8cd-1dc5a39521b5.png)
 
-Now, you can save the configuration by clicking on **Create new Data Provider**
-
-
-
-![image](https://user-images.githubusercontent.com/115739667/234661086-d9398b5b-0df2-445b-860a-bba5c34cfe49.png)
+Now, you can click on **Create new Data Provider**
  
 5. TEST CONFIGURATION, AUTO REGISTER FILES and DECONFIGURE THIS STORAGE
 
