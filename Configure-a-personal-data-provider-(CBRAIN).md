@@ -1,12 +1,12 @@
 The final option is to configure your personal data provider. To do so, please follow the following steps:
 
-1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
+#1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
  
-2. Click on _Create Personal Data provider_
+#2. Click on _Create Personal Data provider_
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/8e148428-41a3-49cd-b954-f6cac51ca4e9)</kbd>
 
-3. Add New Personal SSH-based Data Provider
+#3. Add New Personal SSH-based Data Provider
 
 A new page will pop up asking you to complete the following form:
 
@@ -22,7 +22,7 @@ In this example, I want to move a file from Compute Canada Beluga to the persona
 * **Remote Username** of your Compute Canada Account
 * **Full Directory Path**: where the file is located in Beluga
 
-4. SSH KEY SET UP
+#4. SSH KEY SET UP
 
 Before saving your configuration, you will need to configure the SSH in your host storage.
 A public SSH key needs to be added to the authorized keys of the user on the host. Paste the SSH key provided on CBRAIN in a text file 
@@ -54,15 +54,15 @@ To push the CBRAIN SSH key, please go to _My account_ then edit _your System SSH
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/a4fc1589-9069-49e4-8254-201c6d4a9a9d)</kbd>
 
-5. TEST CONFIGURATION, REGISTER FILES and DELETE THE DATA PROVIDER
+#5. TEST CONFIGURATION, REGISTER FILES and DELETE THE DATA PROVIDER
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/86eac441-2f96-4c61-b375-5bd41a8e5761)</kbd>
 
-* TEST CONFIGURATION by clicking on the button
+* TEST CONFIGURATION 
  
-A message will pop up confirming the configuration is successful
+By clicking on the button, a message will pop up confirming the configuration is successful
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/e1637f3e-6515-409b-8ee3-845c32fe1b63)</kbd>
 
