@@ -24,7 +24,7 @@ In this example, I want to move a file from Compute Canada Beluga to the persona
 
 #### 4. SSH KEY SET UP
 
-Before saving your configuration, you will need to configure the SSH in your host storage.
+Before saving your configuration, you will need to configure the SSH in your **host** storage.
 A public SSH key needs to be added to the authorized keys of the user on the host. Paste the SSH key provided on CBRAIN in a text file 
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/fb9d4815-1b0c-4d65-afc3-6a4a631464d5)</kbd>
