@@ -32,7 +32,7 @@ There are four ways to [Transfer data](How-to-Transfer-files) in and out of CBRA
 * Transfer files [one by one](Upload-files-one-by-one) using the Web browser (small files)
 * Upload or download files all at once using a [SFTP](Upload-files-all-at-once-with-SFTP-server) client to a special Data Provider 
 * Ask the CBRAIN admins to configure one or several Data Providers directly on a user's machine or at a user's lab.
-* [[Configure a private data provider]]
+* [[Configure a personal data provider (CBRAIN)]]
 
 ## 3. Launch BraTS task
 
