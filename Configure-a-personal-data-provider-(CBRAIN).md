@@ -54,7 +54,7 @@ To push the CBRAIN SSH key, please go to _My account_ then edit _your System SSH
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/a4fc1589-9069-49e4-8254-201c6d4a9a9d)</kbd>
 
-5. TEST CONFIGURATION, REGISTER FILES and DECONFIGURE THIS STORAGE
+5. TEST CONFIGURATION, REGISTER FILES and DELETE THE DATA PROVIDER
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
 
@@ -78,3 +78,10 @@ Please go to [Resources Data Providers](https://portal.neurohub.ca/data_provider
 You can now go to the project you assigned the files, and you will see the new file(s) uploaded under **Files** with the personal data provider name:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/7f46c12d-cc69-43a7-a57e-78583367ad10)</kbd>
+
+* DELETE
+
+If you want to delete this personal storage, simply select your personal data provider from the list the list and click delete:
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/0641e024-9c8f-456c-b317-9feb7273098d)</kbd>
+
