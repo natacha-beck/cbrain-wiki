@@ -69,7 +69,7 @@ By clicking on the button, a message will pop up confirming the configuration is
 * REGISTER FILES
 
 Please go to [Resources Data Providers](https://portal.neurohub.ca/data_providers) and select the personal data provider
-* Click browse and you will see how many files are available to register
+Click browse and you will see the files available to be registered
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/1125d2fd-7168-486f-82d5-b242dc4b5a9d)</kbd>
 
