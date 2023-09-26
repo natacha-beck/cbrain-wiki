@@ -1,12 +1,12 @@
 The final option is to configure your personal data provider. To do so, please follow the following steps:
 
-#1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
+# 1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
  
-#2. Click on _Create Personal Data provider_
+# 2. Click on _Create Personal Data provider_
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/8e148428-41a3-49cd-b954-f6cac51ca4e9)</kbd>
 
-#3. Add New Personal SSH-based Data Provider
+# 3. Add New Personal SSH-based Data Provider
 
 A new page will pop up asking you to complete the following form:
 
