@@ -44,7 +44,7 @@ Now, you can click on _Create new Data Provider_
 
 Note:
 
-Please remember to manually push the CBRAIN SSH key to the cluster if you want the _personal data provider_ to be connected directly  otherwise you will get the following message:
+Please remember to manually push the CBRAIN SSH key to the cluster if you want the _personal data provider_ to be connected directly,  otherwise you will get the following message:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/148bc6f2-5b5c-4c05-a2b3-5694701a24c3)</kbd>
 
