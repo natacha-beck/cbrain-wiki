@@ -15,9 +15,9 @@ Complete the form as per:
 * **Name**: Name of the personal data provider
 * **Description**: Short description
 * **Project**: assigned project
-* **Hostname**: this is the server’s name where you are getting the file from. 
+* **Remote Hostname**: this is the server’s name where you are getting the file from. 
 In this example, I want to move a file from Compute Canada Beluga to the personal data provider hosted in CBRAIN
-* **Username** of your Compute Canada Account
+* **Remote Username** of your Compute Canada Account
 * **Full Directory Path**: where the file is located in Beluga
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/260bb98c-19bd-494b-813a-fa9e15d75e68)</kbd>
