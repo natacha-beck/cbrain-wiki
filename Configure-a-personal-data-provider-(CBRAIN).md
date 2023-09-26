@@ -41,7 +41,19 @@ If you prefer, you can also directly create a `.ssh` directory on your host serv
 ![image](https://user-images.githubusercontent.com/115739667/234660916-06c5ba4c-3c7b-4570-b8cd-1dc5a39521b5.png)
 
 Now, you can click on _Create new Data Provider_
- 
+
+Note:
+
+Please remember to manually push the CBRAIN SSH key to the cluster you want the personal data provider to be connected directly  otherwise you will get the following message:
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/148bc6f2-5b5c-4c05-a2b3-5694701a24c3)</kbd>
+
+To push the CBRAIN SSH key, please go to _My account_ then edit _your System SSH Key_
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/d5e9408f-4d3e-4408-a74b-b1df3c58dc80)</kbd>
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/a4fc1589-9069-49e4-8254-201c6d4a9a9d)</kbd>
+
 5. TEST CONFIGURATION, REGISTER FILES and DECONFIGURE THIS STORAGE
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
