@@ -42,9 +42,9 @@ If you prefer, you can also directly create a `.ssh` directory on your host serv
 
 Now, you can click on _Create new Data Provider_
 
-Note:
+<img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">**Note**:
 
-Please remember to manually push the CBRAIN SSH key to the cluster if you want the _personal data provider_ to be connected directly,  otherwise you will get the following message:
+Please remember to manually push the CBRAIN SSH key to the cluster if you want the _personal data provider_ to be connected directly,  otherwise, you will get the following message:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/148bc6f2-5b5c-4c05-a2b3-5694701a24c3)</kbd>
 
