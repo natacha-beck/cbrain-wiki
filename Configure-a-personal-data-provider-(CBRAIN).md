@@ -8,6 +8,8 @@ The final option is to configure your personal data provider. To do so, please f
 
 3. Add New Personal SSH-based Data Provider
 
+A new page will pop up asking you to complete the following form:
+
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/260bb98c-19bd-494b-813a-fa9e15d75e68)</kbd>
 
 Complete the form as per:
