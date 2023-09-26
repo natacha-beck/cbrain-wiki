@@ -43,7 +43,7 @@ The input pules required to launch the task are 4 mandatory structural MRI image
 * T2
 * FLAIR
 
-For the purpose of this tutorial, we are getting the files from [Github BraTS Toolkit example data](https://github.com/neuronflow/BraTS-Toolkit/tree/master/example_data) and transferring using the web browser.** @Mai - Can you please indicate the source location from where you downloaded the 4 example input data files to BraTS?
+For the purpose of this tutorial, we are getting the files from [Github BraTS Toolkit example data](https://github.com/neuronflow/BraTS-Toolkit/tree/master/example_data) and transferring using the web browser.
 
 <kbd>![image](https://user-images.githubusercontent.com/115739667/236532203-1e5d1668-84e6-4af0-9f65-b6d99966fc87.png)</kbd>
 
