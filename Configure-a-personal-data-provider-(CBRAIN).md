@@ -54,7 +54,7 @@ To push the CBRAIN SSH key, please go to _My account_ then edit _your System SSH
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/a4fc1589-9069-49e4-8254-201c6d4a9a9d)</kbd>
 
-#5. TEST CONFIGURATION, REGISTER FILES and DELETE THE DATA PROVIDER
+#### 5. TEST CONFIGURATION, REGISTER FILES and DELETE 
 
 To make sure your data provider has been successfully configured, you will have to test it before the files can be automatically registered. When you don't need it anymore, you will be able to deconfigure it as well.
 
