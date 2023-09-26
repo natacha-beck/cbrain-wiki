@@ -1,4 +1,4 @@
-The final option is to configure your personal data provider. To do so, please follow the following steps:
+The final option is to configure your personal data provider. To do so, please follow the subsequent steps:
 
 #### 1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
  
