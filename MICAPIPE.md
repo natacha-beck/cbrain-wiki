@@ -6,3 +6,7 @@ As described in the official [MICAPIPE](https://micapipe.readthedocs.io/en/lates
 
 We recommend to visit the page if you want more information.
 
+Please follow the following steps:
+#### 1. [[Create a project]]
+
+#### 2.  
