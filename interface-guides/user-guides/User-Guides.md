@@ -52,6 +52,6 @@ CBRAIN is a simple user interface with no computer programming expertise require
    * [[Oxford ASL]]
    * [[SimpleFileExtractor]]
    * [[TAPAS PhysIO]]  
-   * [[MICAPE]]     
+   * [[MICAPIPE]]     
 
 #### [[Acknowledging CBRAIN]]
