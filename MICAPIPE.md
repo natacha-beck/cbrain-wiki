@@ -5,3 +5,4 @@ As described in the official [MICAPIPE](https://micapipe.readthedocs.io/en/lates
 >Micapipe is a processing pipeline providing a robust framework to analyze multimodal MRI data. This pipeline integrates processing streams for T1-weighted, microstructure-sensitive, diffusion-weighted, and resting-state functional imaging to facilitate the development of multiscale models of neural organization. For this purpose, we leverage several specialized software packages to bring BIDS-formatted raw MRI data to fully-processed surface-based feature matrices.
 
 We recommend to visit the page if you want more information.
+
