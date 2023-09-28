@@ -11,7 +11,7 @@ You can now run MICAPIPE in CBRAIN by following the steps:
 
 ## 2. [[Upload files]]
 
-### Select your input files
+#### Select your input files
 
 Pre-Requirement:
 1. Download an open-access dataset
