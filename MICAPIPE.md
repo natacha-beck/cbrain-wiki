@@ -47,7 +47,7 @@ For example,  you can visualize available files without downloading them by simp
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/85051f8f-ba0f-4df2-8b16-56358852bb8c)</kbd>
 
-* * [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html)
+You can find more information [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html) by visiting the page.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
