@@ -40,12 +40,13 @@ Please make sure to
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-You can navigate in the tree directory by expanding each folder.
-For example,  you can visualize available files without downloading them by simply clicking on the link and quality control reports.
+You can navigate in the tree directory by expanding each folder and visualize files without downloading them by simply clicking on the link.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/22328b43-a529-4b79-87eb-b884529a9b20)</kbd>
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/85051f8f-ba0f-4df2-8b16-56358852bb8c)</kbd>
+
+Micapipe includes an integrated module for quality control of the outputs:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
