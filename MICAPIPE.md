@@ -40,12 +40,14 @@ Please make sure to
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-You can navigate in the tree directory by expanding each folder of your interest.
-For example,  you can find quality control reports and visualize available files without the need to download them by simply clicking on the link.
+You can navigate in the tree directory by expanding each folder.
+For example,  you can visualize available files without downloading them by simply clicking on the link and quality control reports.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/22328b43-a529-4b79-87eb-b884529a9b20)</kbd>
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/85051f8f-ba0f-4df2-8b16-56358852bb8c)</kbd>
+
+* * [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html)
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
