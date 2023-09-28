@@ -13,3 +13,9 @@ Please follow the following steps:
 
 ## 3. [[Launch Task]]
 ### Select your input files
+
+Requirement pre steps:
+1. Download an open access dataset
+2. Converting to BIDS
+
+Full information can found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset)
