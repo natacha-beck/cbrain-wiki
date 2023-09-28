@@ -3,8 +3,6 @@ As described in the official [MICAPIPE](https://micapipe.readthedocs.io/en/lates
 
 >Micapipe is a processing pipeline providing a robust framework to analyze multimodal MRI data. This pipeline integrates processing streams for T1-weighted, microstructure-sensitive, diffusion-weighted, and resting-state functional imaging to facilitate the development of multiscale models of neural organization. For this purpose, we leverage several specialized software packages to bring BIDS-formatted raw MRI data to fully-processed surface-based feature matrices.
 
-We recommend visiting [MICAPIPE](https://micapipe.readthedocs.io/en/latest/) if you want more information.
-
 You can now run MICAPIPE in CBRAIN by following the steps:
 
 ## 1. [[Create a project]]
@@ -50,7 +48,7 @@ MICAPIPE includes an integrated module for quality control of the outputs:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
-You can find more information about [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html) by visiting the page.
+You can find more information about [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html) by visiting their page.
 
 
 
