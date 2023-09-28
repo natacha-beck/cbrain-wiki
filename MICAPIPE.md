@@ -19,7 +19,7 @@ Please note the Pre-Requirement for the input files:
 
 Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset)
 
-Once you have your required input file please select it from the file list:
+Once you have your required input file please select it from the Files list:
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/35d5d49a-d86b-4fef-8ed4-7fdc8a10a000)</kbd>
 
 ## 3. [[Launch Task]]
@@ -32,7 +32,7 @@ Set up the task parameters according to your interest
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/708f77b3-8489-4a44-a84f-86dcaec8c155)</kbd>
 
-Please make sure to 
+Please make sure to select all the required processing flags (proc_structural, proc_surfs, T1w string identifier, proc_dwi..) based on your expected results.
 
 ## 5. Output (Derivatives)
 
@@ -48,7 +48,7 @@ MICAPIPE includes an integrated module for quality control of the outputs:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
-You can find more information about [MICAPIPE QUALITY CONTROL](https://micapipe.readthedocs.io/en/latest/pages/02.qc/index.html) by visiting their page.
+You can find more information about the MICAPIPE tool by visiting their [page](https://micapipe.readthedocs.io/en/latest/).
 
 
 
