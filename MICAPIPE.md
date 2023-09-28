@@ -12,11 +12,21 @@ You can now run MICAPIPE in CBRAIN by following the steps:
 ## 2. [[Upload files]]
 
 #### Select your input files
-
-Pre-Requirement:
+Please note the Pre-Requirement for the input files:
 1. Download an open-access dataset
 2. Converting to BIDS
 
 Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset)
 
+Once you have your required input file please select it from the file list:
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/35d5d49a-d86b-4fef-8ed4-7fdc8a10a000)</kbd>
+
 ## 3. [[Launch Task]]
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/86999c34-0fde-4117-bc56-66d2bafe0512)</kbd>
+
+## 4. Task parameters
+
+Set up the task parameters according to your interest
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/708f77b3-8489-4a44-a84f-86dcaec8c155)</kbd>
