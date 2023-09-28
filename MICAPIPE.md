@@ -6,11 +6,11 @@ As described in the official [MICAPIPE](https://micapipe.readthedocs.io/en/lates
 We recommend visiting [MICAPIPE](https://micapipe.readthedocs.io/en/latest/) if you want more information.
 
 You can now run MICAPIPE in CBRAIN by following the steps:
+
 ## 1. [[Create a project]]
 
 ## 2. [[Upload files]]
 
-## 3. [[Launch Task]]
 ### Select your input files
 
 Pre-Requirement:
@@ -18,3 +18,5 @@ Pre-Requirement:
 2. Converting to BIDS
 
 Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset)
+
+## 3. [[Launch Task]]
