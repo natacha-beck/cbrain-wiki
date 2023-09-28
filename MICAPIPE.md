@@ -46,7 +46,7 @@ You can navigate in the tree directory by expanding each folder and visualize fi
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/85051f8f-ba0f-4df2-8b16-56358852bb8c)</kbd>
 
-Micapipe includes an integrated module for quality control of the outputs:
+MICAPIPE includes an integrated module for quality control of the outputs:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)</kbd>
 
