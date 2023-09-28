@@ -40,7 +40,8 @@ Please make sure to
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-Explore the tree directory by expanding the folder of your interest where you can find quality control reports and visualize available files without the need to download them by simply clicking on the link.
+You can navigate in the tree directory by expanding each folder of your interest.
+For example,  you can find quality control reports and visualize available files without the need to download them by simply clicking on the link.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/22328b43-a529-4b79-87eb-b884529a9b20)</kbd>
 
