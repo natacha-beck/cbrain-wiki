@@ -10,7 +10,7 @@ You can now run MICAPIPE in CBRAIN by following the steps:
 ## 2. [[Upload files]]
 
 #### Select your input files
-Please note the Pre-Requirement for the input files:
+Please note the following prerequisites:
 1. Download an open-access dataset
 2. Converting to BIDS
 3. BIDS format validation 
