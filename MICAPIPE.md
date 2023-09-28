@@ -33,3 +33,18 @@ Once you have your required input file please select it from the file list:
 Set up the task parameters according to your interest
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/708f77b3-8489-4a44-a84f-86dcaec8c155)</kbd>
+
+Please make sure to 
+
+
+
+## 5. Output (Derivatives)
+
+All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi). 
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/c77fefb2-8e78-4ae7-bad1-60864fe844ac)</kbd>
+Then you can go into and expand any directory, click on a file of your interest and you will be able to visualize the image.
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/85051f8f-ba0f-4df2-8b16-56358852bb8c)<kbd>
+
+![image](https://github.com/aces/cbrain/assets/115739667/b88ab8fa-d1ca-4754-a516-dd242c2dbf23)
+
