@@ -15,11 +15,11 @@ Please note the following prerequisites:
 2. Converting to BIDS
 3. BIDS format validation 
 
-    *   Any new dataset has to be BIDS-compliant (see specifications at http://bids-specification.readthedocs.io/), and should be validated with tools provided by BIDS, such as the BIDS-validator available in CBRAIN.
+    *   Any new dataset has to be BIDS-compliant (see specifications at http://bids-specification.readthedocs.io/) and should be validated with tools provided by BIDS, such as the BIDS-validator available in CBRAIN.
 
 Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset))
 
-Once your file(s) is uploaded please select from the Files list:
+Once your file(s) is uploaded, please select from the Files list:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/35d5d49a-d86b-4fef-8ed4-7fdc8a10a000)</kbd>
 
