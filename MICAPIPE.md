@@ -25,6 +25,8 @@ Once your file(s) is uploaded, please select from the Files list:
 
 ## 3. [[Launch Task]]
 
+Process the Launch Task steps and select MICAPIPE tool:
+ 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/86999c34-0fde-4117-bc56-66d2bafe0512)</kbd>
 
 ## 4. Task parameters
