@@ -41,7 +41,7 @@ Please make sure to select all the required processing flags (proc_structural, p
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-You can navigate in the tree directory by expanding each folder and visualize files without downloading them by simply clicking on the link.
+You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/22328b43-a529-4b79-87eb-b884529a9b20)</kbd>
 
