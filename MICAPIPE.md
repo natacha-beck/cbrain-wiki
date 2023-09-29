@@ -17,7 +17,7 @@ Please note the following prerequisites:
 
     *   Any new dataset has to be BIDS-compliant (see specifications at http://bids-specification.readthedocs.io/) and should be validated with tools provided by BIDS, such as the BIDS-validator available in CBRAIN.
 
-Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset))
+Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset)
 
 Once your file(s) is uploaded, please select from the Files list:
 
