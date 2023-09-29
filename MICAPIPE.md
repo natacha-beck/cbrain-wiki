@@ -19,7 +19,7 @@ Please note the following prerequisites:
 
 Full information can be found here [HERE](https://micapipe.readthedocs.io/en/latest/pages/04.start2end/index.html#download-an-open-access-dataset))
 
-Once you have your required input file please select it from the Files list:
+Once your file(s) is uploaded please select from the Files list:
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/35d5d49a-d86b-4fef-8ed4-7fdc8a10a000)</kbd>
 
 ## 3. [[Launch Task]]
