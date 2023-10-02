@@ -31,7 +31,7 @@ Process the Launch Task steps and select MICAPIPE tool:
 
 ## 4. Task parameters
 
-Set up the task parameters according to your interest
+Set up the task parameters according to your analysis
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/708f77b3-8489-4a44-a84f-86dcaec8c155)</kbd>
 
