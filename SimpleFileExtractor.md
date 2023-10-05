@@ -3,9 +3,14 @@ CBRAIN now offers a new way to mass-extract files out of existing datasets. The 
 
 You use it by selecting the set of files (or rather, FileCollections) you want to extract from, and then providing a list of patterns to match to the files inside. The result will be a new FileCollection containing the extracted files.
 
+### 1. Select file(s)
+
+![image](https://github.com/aces/cbrain/assets/115739667/37471e11-47e0-4cd7-8b98-701d56f05bcd)
+
+### 2. Launcge 
 Here is an example.
 
-Let say you have 20 CivetOuputs and you are interested in some of the thickness and surface files, deep in them. You select those 20 CivetOuputs and launch the SimpleFileExtractor tool. Then you provide your file patterns:
+For example, you have many CivetOutputs and you are interested in some of the thickness and surface files, deep in them. You select those 20 CivetOuputs and launch the SimpleFileExtractor tool. Then you provide your file patterns:
 
 `*/thickness/*_30mm.txt`
 `*/surfaces/_30mm.txt`
