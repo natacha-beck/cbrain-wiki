@@ -23,16 +23,16 @@ There is one limitation you must be aware of: in order to avoid having to copy t
 * Use GrahamPlatform for files stored on: Local-GrahamPlatform
 
 * Use Converter-1 or Converter-2 for files stored on:
-  **MainStore
-  ** NeuroHubStore
-  ** SFTP-1
-  ** SFTP-2
-  ** NeuroHub-UKBB-Civet
-  ** CONP-VisualWorkingMemory
-CONP-OpenPreventAD
-CONP-OpenPreventAD-BIDS-Subjects
-CONP-BigBrain-3DClassifiedVolumes
-CONP-BigBrain-3DSurfaces
-CONP-BigBrain
+  * MainStore
+  * NeuroHubStore
+  * SFTP-1
+  * SFTP-2
+  * NeuroHub-UKBB-Civet
+  * CONP-VisualWorkingMemory
+  * CONP-OpenPreventAD
+  * CONP-OpenPreventAD-BIDS-Subjects
+  * CONP-BigBrain-3DClassifiedVolumes
+  * CONP-BigBrain-3DSurfaces
+  * CONP-BigBrain
 
 Because of some internal limitations in the size of operands inside CBRAIN, you can’t run the tool on more than about 5000 input file collections. Just run it multiple times on different subsets of 5000 inputs if you have larger input sets.
