@@ -23,7 +23,7 @@ There is one limitation you must be aware of: in order to avoid having to copy t
 * Use GrahamPlatform for files stored on: Local-GrahamPlatform
 
 * Use Converter-1 or Converter-2 for files stored on:
-  ** MainStore
+  **MainStore
   ** NeuroHubStore
   ** SFTP-1
   ** SFTP-2
