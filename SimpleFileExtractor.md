@@ -19,13 +19,13 @@ In the task parameters, you provide the file patterns of your interest:
 
 ### 3. The output
 
-All the files matching these patterns will be extracted (copied) into a new FileCollection.
+   * All the files matching these patterns will be extracted (copied) into a new FileCollection.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/15b4a660-7bb1-47fd-bf53-ff3bfdf99b97)</kbd>
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/18a9cc2a-1c48-4fc7-ba85-3aef9c9672a6)</kbd>
 
-### 4. Note 
+### 4. <img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">**Note**: 
 
 In order to avoid having to copy the entirety of the original (source) files, the tool will only run if the input data is stored locally. That means that you must select a version of SimpleFileExtractor that runs on a particular server, depending on the location of your inputs. The mapping is as follows:
 
@@ -50,4 +50,4 @@ In order to avoid having to copy the entirety of the original (source) files, th
   * CONP-BigBrain-3DSurfaces
   * CONP-BigBrain
 
-**Note**: you can’t run the tool on more than about 5000 input file collections. Just run it multiple times on different subsets of 5000 inputs if you have larger input sets.
+      * You **can not** run the tool on more than about 5000 input file collections. Just run it multiple times on different subsets of 5000 inputs if you have larger input sets.
