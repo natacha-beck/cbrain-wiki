@@ -49,7 +49,7 @@ Once the tool is launched with the proper version, in the **task parameters**, y
 
 ### 3. The output
 
-   * All the files matching these patterns will be extracted (copied) into a new FileCollection.
+All the files matching these patterns will be extracted (copied) into a new FileCollection.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/15b4a660-7bb1-47fd-bf53-ff3bfdf99b97)</kbd>
 
