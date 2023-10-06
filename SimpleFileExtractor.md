@@ -27,7 +27,8 @@ In the task parameters, you provide the file patterns of your interest:
 
 <img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">**Note**: 
 
-##### * In order to avoid having to copy the entirety of the original (source) files, the tool will only run if the input data is stored locally. That means that you must select a version of SimpleFileExtractor that runs on a particular server, depending on the location of your inputs. The mapping is as follows:
+### To avoid having to copy the entirety of the original (source) files, the tool will only run if the input data is **stored locally.** 
+You need to select a version that runs on a particular server, depending on the location of your inputs. The mapping is as follows:
 
 * Use Beluga for files stored on: Local-Beluga
 
