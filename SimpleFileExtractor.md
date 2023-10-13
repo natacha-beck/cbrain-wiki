@@ -1,5 +1,5 @@
 
-CBRAIN  offers a way to mass-extract files out of existing datasets. The tool is called SimpleFileExtractor and is installed on most supercomputers.
+CBRAIN offers a way to mass-extract files out of existing datasets by using the tool SimpleFileExtractor. 
 
 You use it by selecting the set of files (or rather, FileCollections) you want to extract from, then providing a list of patterns to match the files inside. The result will be a new FileCollection containing the extracted files.
 
