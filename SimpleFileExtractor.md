@@ -22,15 +22,15 @@ You **can not** run the tool on more than about 5,000 input file collections. Pl
 To avoid having to copy the entirety of the original (source) files, the tool will only run if the input data is **stored locally.** 
 You need to select a version that runs on a particular server, depending on the location of your inputs. The mapping is as follows:
 
-* Use Beluga for files stored on: Local-Beluga
+* Use **Beluga **for files stored on: Local-Beluga
 
-* Use Cedar for files stored on: Local-Beluga
+* Use **Cedar** for files stored on: Local-Beluga
 
-* Use Graham for files stored on: Local-Graham
+* Use **Graham** for files stored on: Local-Graham
 
-* Use GrahamPlatform for files stored on: Local-GrahamPlatform
+* Use **GrahamPlatform** for files stored on: Local-GrahamPlatform
 
-* Use Converter-1 or Converter-2 for files stored on:
+* Use **Converter-1** or **Converter-2** for files stored on:
   * MainStore
   * NeuroHubStore
   * SFTP-1
