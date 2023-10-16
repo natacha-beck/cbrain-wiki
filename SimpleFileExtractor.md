@@ -43,7 +43,7 @@ You need to select a version that runs on a particular server, depending on the 
   * CONP-BigBrain-3DSurfaces
   * CONP-BigBrain
 
-Once the tool is launched with the proper version, in the **task parameters**, you provide the file patterns of your interest:
+Once the tool is launched with the proper version, in the **task parameters** you can provide the file patterns of your interest:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/2f9a31a6-3496-4734-8111-eb6db33339c9)</kbd>
 
