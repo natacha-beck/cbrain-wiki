@@ -5,7 +5,7 @@ You use it by selecting the set of files (FileCollections) you want to extract f
 
 ### 1. Select file(s)
 
-For example, you have different CivetOutputs but are interested only in some of the thickness and surface files. To avoid having to download all the files, you can select those CivetOuputs files and launch the SimpleFileExtractor tool.
+For example, you have different CivetOutputs but are interested only in some of the thickness and surface files. To avoid having to download everything, you can select those CivetOuputs files and launch the SimpleFileExtractor tool.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/cb6f091c-832c-47a0-a551-b1150d12f1e5)</kbd>
 
