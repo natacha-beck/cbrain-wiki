@@ -11,7 +11,7 @@ For example, you have different CivetOutputs but are interested only in some of 
 
 <img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">**Note**: 
 
-You **can not** run the tool on more than about 5000 input file collections. Just run it multiple times on different subsets of 5000 inputs if you have larger input sets.
+You **can not** run the tool on more than about 5,000 input file collections. Please run it multiple times on different subsets of 5,000 inputs if you have larger input sets.
 
 ### 2. Launch task 
 
