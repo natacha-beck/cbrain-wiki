@@ -31,7 +31,7 @@ Tools have been integrated via 3 different methods:
     - See step 1 here: https://nbviewer.org/github/boutiques/tutorial/blob/master/notebooks/boutiques-tutorial.ipynb
     - Use the command line tool 'bosh validate' to validate your descriptor.
 
-3. Test your descriptor in CBRAIN with the **BoutiquesDescriptorMakerTool**. This tool is a fake interface generator that takes a descriptor and previews what a final integration would look like.
+3. Test your descriptor in CBRAIN with the **BoutiquesDescriptorMaker** tool. This tool is a fake interface generator that takes a descriptor and previews what a final integration would look like.
 
 4. You can also override some methods in CBRAIN by writing special Ruby modules (For Example --> https://github.com/aces/cbrain/blob/master/BrainPortal/lib/boutiques_file_name_matcher.rb).
 
