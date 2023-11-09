@@ -40,6 +40,7 @@ Once the task is launched, you can monitor the _current status_.
 As the task is completed, you will be able to go to the Output files and start your analysis:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/ad7e5719-a58c-4d69-8d8a-f4fc949d9b9b)</kbd>
+
 All the outputs are BIDS conform and stored under their correspondent directory.
 
 You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
