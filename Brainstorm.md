@@ -37,11 +37,12 @@ Once the task is launched, you can monitor the _current status_.
 
 ## 5. Output 
 
-All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
-
-You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
+As the task is completed, you will be able to go to the Output file and start your analysis:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/ad7e5719-a58c-4d69-8d8a-f4fc949d9b9b)</kbd>
+All the outputs are BIDS conformed and stored under their correspondent directory.
+
+You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/e6d9d309-fef7-44e0-87df-8d1d9090c120)</kbd>
 
