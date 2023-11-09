@@ -7,4 +7,4 @@ In this section, we will find a tutorial for a selection of CBRAIN Tools to guid
 * [[Oxford ASL]]
 * [[SimpleFileExtractor]]
 * [[TAPAS PhysIO]] 
-* [[MICAPE]] 
+* [[MICAPIPE]] 
