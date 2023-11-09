@@ -43,5 +43,6 @@ You can navigate in the tree directory by expanding each folder and visualize fi
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/ad7e5719-a58c-4d69-8d8a-f4fc949d9b9b)</kbd>
 
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/e6d9d309-fef7-44e0-87df-8d1d9090c120)</kbd>
 
 
