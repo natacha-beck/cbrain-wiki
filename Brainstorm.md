@@ -19,7 +19,7 @@ Select your required file and launch it within your project:
 
 ## 3. [[Launch Task]]
 
-Process the Launch Task steps and select Brainstorm tool:
+Process the Launch Task steps and select Brainstorm tool and the execution server of your choice:
  
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/3d0a9916-95fb-4f1d-81fb-d575585af3e2)</kbd>
 
