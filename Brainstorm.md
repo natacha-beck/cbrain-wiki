@@ -19,17 +19,19 @@ Select your required file and launch it within your project:
 
 ## 3. [[Launch Task]]
 
-Process the Launch Task steps and select Brainstorm tool and the execution server of your choice:
+Process the Launch Task steps and select _Brainstorm_ tool and the execution server of your choice:
  
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/3d0a9916-95fb-4f1d-81fb-d575585af3e2)</kbd>
 
 ## 4. Task parameters
 
-Set up the task parameters according to your analysis
+* Select where you want to save your output 
+* Set up the task parameters according to your analysis
+* Start the task 
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/3a29cde2-d998-4344-ab50-b5d6d6628d47)</kbd>
 
-Once the task is launched, you can monitor it and see the current status.
+Once the task is launched, you can monitor the _current status_.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/dc4bd8e7-4369-4cca-afcc-c5193492dc9d)</kbd>
 
