@@ -9,7 +9,7 @@ You can easily run Brainstorm in CBRAIN by following the steps:
 ## 2. [[Upload files]]
 
 #### Select your input files
-Please note the following prerequisites:
+Please note the following prerequisites to run a successful task:
 1. BIDS dataset format
 2. Pipeline file
 
