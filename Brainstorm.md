@@ -1,4 +1,4 @@
-The objective of Brainstorm tool is to provide the user an easy way to create, manipulate and run pipelines to perform EEG/MEG data analysis.
+The objective of the Brainstorm tool is to provide the user with an easy way to create, manipulate and run pipelines to perform EEG/MEG data analysis.
 
 You can easily run Brainstorm in CBRAIN by following the steps:
 
