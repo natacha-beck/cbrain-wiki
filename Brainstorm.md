@@ -46,6 +46,7 @@ All the outputs are BIDS conform and stored under their correspondent directory.
 You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/e6d9d309-fef7-44e0-87df-8d1d9090c120)</kbd>
+
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/73164408-6615-4eaa-a3c0-01f6d67fa49d)</kbd>
 
 
