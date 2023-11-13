@@ -46,6 +46,7 @@ CBRAIN is a simple user interface with no computer programming expertise require
 #### 11. [[Help and User Support]]
 
 #### 12. [[Tool inventory]] 
+   * [[Brainstorm]]
    * [[BraTSPipeline]]
    * [[CELLRANGER COUNT]]
    * [[fMRI prep]]
