@@ -23,7 +23,8 @@ Tools have been integrated via 3 different methods:
 
 1. Containerize your tool, with Docker or Singularity.
     - For Docker see [HERE]( https://docker-curriculum.com/#dockerfile)
-    - For Singularity/Apptainer see [HERE](https://sylabs.io/guides/3.0/user-guide/), https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes) 
+    - For Singularity see [HERE](https://sylabs.io/guides/3.0/user-guide/), 
+    - For Apptainer see [HERE](https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes) 
 
 2. Write a boutique descriptor for your tool. See here:
     - Install Boutiques: https://github.com/boutiques/boutiques
