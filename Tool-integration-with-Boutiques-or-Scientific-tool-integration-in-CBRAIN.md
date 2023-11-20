@@ -30,7 +30,7 @@ Tools have been integrated via 3 different methods:
     - [Install Boutiques](https://github.com/boutiques/boutiques)
     - Write a Boutiques descriptor for your tool. Boutiques allow you to describe your tool in a JSON file.
     - See step 1 [here](https://nbviewer.org/github/boutiques/tutorial/blob/master/notebooks/boutiques-tutorial.ipynb)
-    - Use the command line tool 'bosh validate' to validate your descriptor.
+    - Use the command line tool '`bosh validate`' to validate your descriptor.
 
 3. Test your descriptor in CBRAIN with the **BoutiquesDescriptorMaker** tool. This tool is a fake interface generator that takes a descriptor and previews what a final integration would look like.
 
