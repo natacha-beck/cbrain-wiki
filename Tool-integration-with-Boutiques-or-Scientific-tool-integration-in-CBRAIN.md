@@ -22,14 +22,14 @@ Tools have been integrated via 3 different methods:
 ## How to integrate a tool in CBRAIN with Boutiques
 
 1. Containerize your tool, with Docker or Singularity.
-    - For Docker see [HERE]( https://docker-curriculum.com/#dockerfile)
-    - For Singularity see [HERE](https://sylabs.io/guides/3.0/user-guide/) 
-    - For Apptainer see [HERE](https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes) 
+    - For [Docker]( https://docker-curriculum.com/#dockerfile)
+    - For [Singularity](https://sylabs.io/guides/3.0/user-guide/) 
+    - For [Apptainer](https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes) 
 
 2. Write a boutique descriptor for your tool. See here:
-    - Install Boutiques: https://github.com/boutiques/boutiques
+    - [Install Boutiques](https://github.com/boutiques/boutiques)
     - Write a Boutiques descriptor for your tool. Boutiques allow you to describe your tool in a JSON file.
-    - See step 1 here: https://nbviewer.org/github/boutiques/tutorial/blob/master/notebooks/boutiques-tutorial.ipynb
+    - See step 1 [here](https://nbviewer.org/github/boutiques/tutorial/blob/master/notebooks/boutiques-tutorial.ipynb)
     - Use the command line tool 'bosh validate' to validate your descriptor.
 
 3. Test your descriptor in CBRAIN with the **BoutiquesDescriptorMaker** tool. This tool is a fake interface generator that takes a descriptor and previews what a final integration would look like.
