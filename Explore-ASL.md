@@ -22,7 +22,7 @@ Once your file(s) is uploaded, please select from the Files list:
 
 ## 3. [[Launch Task]]
 
-Process the Launch Task steps and select Explore ASL tool:
+Process the Launch Task steps and select ExploreASL tool:
  
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/0c634375-9843-4c70-97cd-fb9de0cb3f4e)</kbd>
 
