@@ -28,8 +28,8 @@ Process the Launch Task steps and select ExploreASL tool:
 
 ## 4. Task parameters
 
-Select where you want to _Save results to_ and to which _Project_
-Set up the task parameters according to your analysis.
+* Select where you want to _Save results to_ and to which _Project_
+* Set up the task parameters according to your analysis.
 Note: 
 * You will have to select an input folder. 
 * Study parameters are available: you can specify sessions name, sessions options but when the subject datais in BIDS format, you don't need them.
