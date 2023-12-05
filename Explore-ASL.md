@@ -1,4 +1,5 @@
-ExploreASL is a pipeline and toolbox for image processing and statistics of arterial spin labeling perfusion MR images. It is designed as a multi-OS, open source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators.
+ExploreASL is a pipeline and toolbox for image processing and statistics of arterial spin labeling perfusion MR images. 
+It is designed as a multi-OS, open source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators.
 
 The pipeline allows minimum manual intervention and increases the reproducibility of studies.
 More information can be found [HERE](https://exploreasl.github.io/Documentation/1.9.0/).
@@ -10,8 +11,10 @@ To run your analysis in CBRAIN, please follow the steps:
 ## 2. [[Upload files]]
 
 #### Select your input file(s)
+
 Please note the following prerequisites:
-1. Input format:BIDS dataset. For more information about the BIDS data requirements can be found [HERE](https://sites.google.com/view/exploreasl/tutorials/how-to-start-exploreasl)
+1. Input format:BIDS dataset. 
+More information about the BIDS data requirements can be found [HERE](https://sites.google.com/view/exploreasl/tutorials/how-to-start-exploreasl)
 
 Once your file(s) is uploaded, please select from the Files list:
 
