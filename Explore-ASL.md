@@ -44,9 +44,15 @@ Note:
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
+You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link. Once the image is loaded, you will be able to change the settings like the color map or the threshold for example.
 
-<kbd>![image](https://github.com/aces/cbrain/assets/115739667/07126e4f-4b5a-439c-8a27-562537aa4e7d)</kbd>
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/4dfa5f29-df19-463a-9da8-02b10e5a4934)</kbd>
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/5aa0e58d-d758-47cd-a0c2-57b0fb587116)</kbd>
+
+## WARMING NOTE:
+
+The status of your task might be COMPLETED, however you might not have any results. It usually due to the input file. If you have any issue please don't hesitate to contact us at support@neurohub.ca .
 
 
 
