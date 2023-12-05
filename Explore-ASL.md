@@ -45,3 +45,8 @@ Note:
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
 You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link.
+
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/07126e4f-4b5a-439c-8a27-562537aa4e7d)</kbd>
+
+
+
