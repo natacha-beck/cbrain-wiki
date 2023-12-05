@@ -13,7 +13,7 @@ To run your analysis in CBRAIN, please follow the steps:
 #### Select your input file(s)
 
 Please note the following prerequisites:
-1. Input format:BIDS dataset. 
+1. Input format: **BIDS dataset**. 
 More information about the BIDS data requirements can be found [HERE](https://sites.google.com/view/exploreasl/tutorials/how-to-start-exploreasl)
 
 Once your file(s) is uploaded, please select from the Files list:
