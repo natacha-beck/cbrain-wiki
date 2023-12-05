@@ -52,7 +52,12 @@ You can navigate in the tree directory by expanding each folder and visualize fi
 
 ## WARMING NOTE:
 
-The status of your task might be COMPLETED, however you might not have any results. It usually due to the input file. If you have any issue please don't hesitate to contact us at support@neurohub.ca .
+The status of your task might be `Completed`, however you might not have any results. It usually due to the input file.
+For example:
+<kbd>![image](https://github.com/aces/cbrain/assets/115739667/b021d0fe-1f66-4a9e-90c5-efa414a0de34)</kbd>
+
+
+If you have any issue or questions,  please don't hesitate to contact us @support@neurohub.ca
 
 
 
