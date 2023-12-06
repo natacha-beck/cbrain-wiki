@@ -31,8 +31,8 @@ Process the Launch Task steps and select ExploreASL tool, the server where you w
 * Select where you want to _Save results to_ and to which _Project_
 * Set up the task parameters according to your analysis.
 
-Note: 
-* You will have to select an input folder. 
+**Note**: 
+* Any field marked with an * is mandatory, like _Input folder_. 
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/832009be-b4b5-4008-90be-0a605e80b0fb)</kbd>
 
