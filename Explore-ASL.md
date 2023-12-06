@@ -36,7 +36,7 @@ Note:
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/832009be-b4b5-4008-90be-0a605e80b0fb)</kbd>
 
-* Study parameters are available: you can specify sessions name, sessions options but when the subject datais in BIDS format, you don't need them.
+* Study parameters are available and optional: you can specify sessions name, sessions options but when the subject datais in BIDS format, you don't need them.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/df39bffe-5a28-4a67-8847-9d0c2d286f10)</kbd>
 
