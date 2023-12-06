@@ -45,7 +45,7 @@ However, when the subject data is in BIDS format, you don't need them.
 
 All the outputs are BIDS conform and stored under their correspondent directory (e.g. anat, func dwi..). 
 
-You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link. Once the image is loaded, you will be able to change the settings like the color map or the threshold for example.
+You can navigate in the tree directory by expanding each folder and visualize files without the need to download them by simply clicking on the link. Once the image is loaded, you will be able to change the settings such as the color map or the threshold for examples.
 
 <kbd>![image](https://github.com/aces/cbrain/assets/115739667/4dfa5f29-df19-463a-9da8-02b10e5a4934)</kbd>
 
@@ -53,7 +53,7 @@ You can navigate in the tree directory by expanding each folder and visualize fi
 
 ## <img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">WARMING NOTE:
 
-The status of your task might be `Completed`, however you might not have any results. It usually due to the input file.
+The status of your task might be `Completed`, however you might not have any results. It usually caused by the input file.
 
 For example of an ouput file that actually was `not Completed`:
 
