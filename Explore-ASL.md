@@ -53,7 +53,7 @@ You can navigate in the tree directory by expanding each folder and visualize fi
 
 ## <img src= "https://user-images.githubusercontent.com/115739667/223515025-f546da2a-831c-4478-abec-4ae7f2db6942.png" width="50">WARMING NOTE:
 
-The status of your task might be `Completed`, however you might not have any results.It usually due to the input file.
+The status of your task might be `Completed`, however you might not have any results. It usually due to the input file.
 
 For example of an ouput file that actually was `not Completed`:
 
