@@ -29,7 +29,7 @@ There are four ways to Transfer data in and out of CBRAIN:
 * Transfer files [one by one](Upload-files-one-by-one) using the Web browser (works only for small files)
 * Upload or download files using a [SFTP](Upload-files-all-at-once-with-SFTP-server) client to a special Data Provider
 * Ask the CBRAIN admins to configure one or several Data Providers directly on a user's machine or at a user's lab.
-* [[Configure a personal data provider]]
+* [[Configure a personal Data Provider (CBRAIN)]]
 
 ## 3. Launch Cellranger count task
 
