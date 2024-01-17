@@ -21,9 +21,8 @@ Tools have been integrated via 3 different methods:
 
 ## How to integrate a tool in CBRAIN with Boutiques
 
-1. Containerize your tool, with Docker or Singularity/Apptainer.
+1. Containerize your tool, with Docker or Apptainer (formerly known as Singularity).
     - For [Docker]( https://docker-curriculum.com/#dockerfile)
-    - For [Singularity](https://sylabs.io/guides/3.0/user-guide/) 
     - For [Apptainer](https://apptainer.org/user-docs/master/definition_files.html#best-practices-for-build-recipes) 
 
 2. Write a boutique descriptor for your tool. See here:
