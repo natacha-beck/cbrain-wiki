@@ -12,7 +12,7 @@ web interface and how to use it. It is divided into two main parts:
    reports available in CBRAIN and how to monitor its resources.
    Finally, it describes the built-in custom licenses mechanism.
 
-2. [User Guide]
+2. [[User Guide]]
 
    it is an overview of the usage of CBRAIN. It will describe an
    example of a typical data work flow, starting with the registration
