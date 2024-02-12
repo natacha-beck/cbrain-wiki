@@ -55,7 +55,7 @@ This wiki has three main sections.
 * [[Setup Guide]]
 * [[Interface Guides]]
   * [[Administrator Guides]]
-  * [[User Guides]]
+  * [[User Guide]]
 * [[Programmer Guides]]
 
 There are more detailed guides and documents under each of these sections.
