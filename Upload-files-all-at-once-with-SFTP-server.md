@@ -9,7 +9,7 @@ If you are using Mac, Windows or Linux/Unix Operating systems, we recommend that
   * Select "File" menu, then click on "Site Manager"
   * Select "New Site"
   * Under "General Tab" in "Site Manager"
-    * Enter hostname: ace-cbrain-1.cbrain.mcoill.ca
+    * Enter hostname: ace-cbrain-1.cbrain.mcgill.ca
     * Enter port number: 7500
     * Select Server Type: SFTP - SSH File Transfer protocol
     * Select Logon Type: NORMAL
