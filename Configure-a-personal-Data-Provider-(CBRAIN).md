@@ -3,8 +3,11 @@ The final option is to configure a personal data provider.
 Creating a personal data provider will have great advantages such as connecting storage on systems like lab-based systems. However, the configuration will only work for systems that **don't** require 2-factor authentification.
 
 <img src= "https://github.com/aces/cbrain/assets/115739667/4c6d6f42-19ed-423e-9783-55a0fbf541c0.png" width="50">
-Given the Alliance now requires 2-Factor authentication to connect to their supercomputers, the use of personal
-Data Provider is no longer supportable by CBRAIN for the Alliance systems and will no longer function.
+Given the Alliance now requires 2-Factor authentication to connect to their supercomputers, the use of personal Data Provider is no longer supportable by CBRAIN for the Alliance systems and will no longer function.
+Although the personal Data Providers in CBRAIN no longer function for the Alliance systems, there are alternative ways to transfer 
+files to the Alliance.  Please contact us for assistance in this regard at cbrain-support.mni@mcgill.ca.
+
+To configure a personal Data provider, please follow the subsequent steps:
 
 #### 1. Go to [CBRAIN Data providers](https://portal.neurohub.ca/data_providers) 
  
