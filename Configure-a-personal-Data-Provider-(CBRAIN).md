@@ -1,6 +1,6 @@
 The final option is to configure a personal data provider. 
 
-<img src="https://github.com/aces/cbrain/assets/115739667/4c6d6f42-19ed-423e-9783-55a0fbf541c0.png"width="900"height="400">
+<img src="https://github.com/aces/cbrain/assets/115739667/4c6d6f42-19ed-423e-9783-55a0fbf541c0.png"width="50">
 Given the Alliance now requires 2-Factor authentication to connect to their supercomputers, the use of personal
 Data Provider is no longer supportable by CBRAIN for the Alliance systems and will no longer function
 
