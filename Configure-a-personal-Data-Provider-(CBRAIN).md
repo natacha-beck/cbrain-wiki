@@ -1,6 +1,6 @@
 The final option is to configure a personal data provider. 
 
-<img src=![AdobeStock_420034503](https://github.com/aces/cbrain/assets/115739667/32938790-20ca-46eb-a590-b7b4466922f7)width="50">
+<img src="https://github.com/aces/cbrain/assets/115739667/32938790-20ca-46eb-a590-b7b4466922f7.png"width="50">
 
 
 
