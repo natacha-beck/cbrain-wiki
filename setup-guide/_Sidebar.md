@@ -4,6 +4,7 @@
   * [[Common Setup]]
   * [[BrainPortal Setup]]
   * [[Bourreau Setup]]
+  * [[Setup Rocky Linux]]
 * [[Development Hints]]
 * [[Production Hints]]
 * [[Communications]]
